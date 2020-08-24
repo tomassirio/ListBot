@@ -60,6 +60,11 @@ function addToMap(channel, listling){
 }
 
 function listMap(channel){
+    if(map.get(channel) == null){
+        var set = new Set()
+        map.set(channel, set)
+    }
+
     var set = map.get(channel)
     var message = ""
     var i = 0
@@ -77,6 +82,11 @@ function listMap(channel){
 }
 
 function removeFromMap(channel, listling){
+    if(map.get(channel) == null){
+        var set = new Set()
+        map.set(channel, set)
+    }
+
     var list = map.get(channel)
     list.delete(listling)
     console.log(list)
@@ -103,6 +113,11 @@ function helpMessage(channel){
 }
 
 function randomEntry(channel){
+    if(map.get(channel) == null){
+        var set = new Set()
+        map.set(channel, set)
+    }
+    
     var set = map.get(channel)
     var setValues = Array.from(set)
     var randomItem = setValues[Math.floor(Math.random()*setValues.length)];
