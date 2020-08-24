@@ -25,25 +25,13 @@ client.on("message", msg => {
     if (msg.content.startsWith(REMOVE_COMMAND)){
         removeFromMap(msg.channel, msg.content.substring(7))
     }
-    if (msg.content.startsWith(HELP_COMMAND)){
-        helpMessage(msg.channel)
-    }
     if (msg.content.startsWith(RANDOM_COMMAND)){
         randomEntry(msg.channel)
     }
+    if (msg.content.startsWith(HELP_COMMAND)){
+        helpMessage(msg.channel)
+    }
 })
-
-// client.on("message", msg => {
-//     if (msg.content.startsWith("-p")) {
-//         var printableList = map.get(msg.channel)
-//         const embed = new MessageEmbed()
-//             .setTitle(msg.channel.name + " list")
-//             .setColor(0xff0000)
-//             .setDescription(printableList);
-
-//         msg.channel.send(embed);
-//     }
-// })
 
 client.login(process.env.BOT_TOKEN)
 
@@ -57,6 +45,11 @@ function addToMap(channel, listling){
         set.add(listling)
         map.set(channel, set)
     }
+    const embed = new MessageEmbed()
+        .setTitle("Succesfully added")
+        .setColor(0xff0000)
+        .setDescription(listling);
+    channel.send(embed);
 
     var printableList = map.get(channel)
     console.log(printableList)
@@ -81,12 +74,18 @@ function removeFromMap(channel, listling){
     var list = map.get(channel)
     list.delete(listling)
     console.log(list)
+    const embed = new MessageEmbed()
+        .setTitle("Succesfully removed")
+        .setColor(0xff0000)
+        .setDescription(listling);
+    channel.send(embed);
 }
 
 function helpMessage(channel){
     var message = "**!add {element}** - to add an element to the list\n"
     message     += "**!remove {element}** - to remove an element from the list\n"
     message     += "**!list** - to list every element on the list\n"
+    message     += "**!random** - gets a random element from the list\n"
     message     += "**!help** - to see this message"
 
     const embed = new MessageEmbed()
@@ -98,8 +97,13 @@ function helpMessage(channel){
 }
 
 function randomEntry(channel){
-    var list = map.get(channel)
-    var randomItem = list[Math.floor(Math.random()*list.length)];
+    var set = map.get(channel)
+    var setValues = Array.from(set)
+    var randomItem = setValues[Math.floor(Math.random()*setValues.length)];
+    const embed = new MessageEmbed()
+        .setTitle("The random entry of the list is")
+        .setColor(0xff0000)
+        .setDescription(randomItem);
     console.log(randomItem)
-    channel.send(randomItem)
+    channel.send(embed)
 }
