@@ -117,7 +117,7 @@ function randomEntry(channel){
         var set = new Set()
         map.set(channel, set)
     }
-    
+
     var set = map.get(channel)
     var setValues = Array.from(set)
     var randomItem = setValues[Math.floor(Math.random()*setValues.length)];
@@ -136,6 +136,6 @@ function logFunction(){
     const embed = new MessageEmbed()
         .setTitle("Log version")
         .setColor(0xff0000)
-        .setDescription(randomItem);
+        .setDescription(message);
     channel.send(embed)
 }
