@@ -8,6 +8,7 @@ const LIST_COMMAND = "!list"
 const REMOVE_COMMAND = "!remove"
 const HELP_COMMAND = "!help"
 const RANDOM_COMMAND = "!random"
+const LOG_COMMAND = "!log"
 
 var map = new Map()
 
@@ -30,6 +31,9 @@ client.on("message", msg => {
     }
     if (msg.content.startsWith(HELP_COMMAND)){
         helpMessage(msg.channel)
+    }
+    if (msg.content.startsWith(LOG_COMMAND)){
+        logFunction()
     }
 })
 
@@ -59,10 +63,12 @@ function listMap(channel){
     var set = map.get(channel)
     var message = ""
     var i = 0
-    for (let listling of set) {
-        message += "[" + i + "] " + listling + "\n"
+
+    for (let item of set.values()) {
+        message += "[" + i + "] " + item + "\n"
         i++
-      }
+    }
+
     const embed = new MessageEmbed()
         .setTitle(channel.name + " list")
         .setColor(0xff0000)
@@ -105,5 +111,16 @@ function randomEntry(channel){
         .setColor(0xff0000)
         .setDescription(randomItem);
     console.log(randomItem)
+    channel.send(embed)
+}
+
+function logFunction(){
+    var message = ""
+    message += "1.0.0 - First version - Add, Remove, List, Help functions added\n"
+    message += "1.0.1 - Added a random function. Added a confirmation on the Add and Remove Function\n"
+    const embed = new MessageEmbed()
+        .setTitle("Log version")
+        .setColor(0xff0000)
+        .setDescription(randomItem);
     channel.send(embed)
 }
