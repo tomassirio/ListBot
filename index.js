@@ -7,6 +7,7 @@ const ADD_COMMAND = "!add"
 const LIST_COMMAND = "!list"
 const REMOVE_COMMAND = "!remove"
 const HELP_COMMAND = "!help"
+const RANDOM_COMMAND = "!random"
 
 var map = new Map()
 
@@ -26,6 +27,9 @@ client.on("message", msg => {
     }
     if (msg.content.startsWith(HELP_COMMAND)){
         helpMessage(msg.channel)
+    }
+    if (msg.content.startsWith(RANDOM_COMMAND)){
+        randomEntry(msg.channel)
     }
 })
 
@@ -91,4 +95,11 @@ function helpMessage(channel){
         .setDescription(message);
 
     channel.send(embed);
+}
+
+function randomEntry(channel){
+    var list = map.get(channel)
+    var randomItem = list[Math.floor(Math.random()*list.length)];
+    console.log(randomItem)
+    channel.send(randomItem)
 }
