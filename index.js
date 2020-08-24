@@ -33,7 +33,7 @@ client.on("message", msg => {
         helpMessage(msg.channel)
     }
     if (msg.content.startsWith(LOG_COMMAND)){
-        logFunction()
+        logFunction(msg.channel)
     }
 })
 
@@ -129,7 +129,7 @@ function randomEntry(channel){
     channel.send(embed)
 }
 
-function logFunction(){
+function logFunction(channel){
     var message = ""
     message += "1.0.0 - First version - Add, Remove, List, Help functions added\n"
     message += "1.0.1 - Added a random function. Added a confirmation on the Add and Remove Function\n"
