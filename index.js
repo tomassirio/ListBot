@@ -147,6 +147,11 @@ function logFunction(channel){
 }
 
 function poll(channel, msg, time){
+    if(map.get(channel) == null){
+        var set = new Set()
+        map.set(channel, set)
+    }
+    
     var emojiList = ['1⃣','2⃣','3⃣','4⃣','5⃣'];
 
     var set = map.get(channel, msg)
