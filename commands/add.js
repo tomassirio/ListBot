@@ -6,7 +6,10 @@ module.exports = {
     name: 'add',
     description: 'Add an element to the list',
     execute: async (message, args) => {
-        var item = args [0]
+        var item = ""
+        for(var i = 0; i < args.length; i++){
+            item += args[i] + " "
+        }
         var channel = message.channel
 
         const newItem = new Item({
