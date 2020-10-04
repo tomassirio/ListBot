@@ -12,8 +12,12 @@ module.exports = {
             connectTimeoutMS: 10000,
             family: 4
         }
-        
-        mongoose.connect('mongodb+srv://'+ process.env.MONGO_USER + ':' + process.env.MONGO_PASS + '@cluster0.mhoa7.mongodb.net/' + process.env.DB_MONGO + '?retryWrites=true&w=majority', dbOptions)
+
+        if (process.env.USE_DOCKER_FOR_DEVELOP) {
+            mongoose.connect('mongodb://db:27017/' + process.env.DB_MONGO + '?retryWrites=true&w=majority', dbOptions)
+        } else {
+            mongoose.connect('mongodb+srv://'+ process.env.MONGO_USER + ':' + process.env.MONGO_PASS + '@cluster0.mhoa7.mongodb.net/' + process.env.DB_MONGO + '?retryWrites=true&w=majority', dbOptions)
+        }
         mongoose.set('useFindAndModify', false)
         mongoose.Promise = global.Promise
 
