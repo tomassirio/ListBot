@@ -1,0 +1,8 @@
+# Project entries
+.env
+
+# Database entries
+data
+
+# IDE entries
+.idea

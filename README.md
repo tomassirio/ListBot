@@ -31,7 +31,7 @@ To get started locally, follow these instructions:
 1.  Clone to your local computer using `git`.
 2.  Make sure you have Node installed; see instructions [here](https://nodejs.org/en/download/).
 3.  Make also sure that you have MongoDB installed; see instructions [here](https://docs.mongodb.com/manual/installation/).
-4.  On the `.env` file, you should complete with your bot token and MongoDB credentials
+4.  Create a copy of the `.env.example` file named `.env` and replace the placeholders with your bot token and MongoDB credentials
 5.  Run `npm run` to install dependencies.
 
 ## Usage
