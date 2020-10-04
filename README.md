@@ -7,7 +7,7 @@
 ![stars](https://img.shields.io/github/stars/tomassirio/ListBot)
 ![Hacktoberfest](https://img.shields.io/badge/Hack-toberfest-red)
 
-A simple Discord Bot written in Javascript to create Lists in every channel
+A simple Discord Bot, written in Javascript to create Lists in every channel
 
 Let's add everything we need on a community list!
 
@@ -30,8 +30,8 @@ To get started locally, follow these instructions:
 
 1.  Clone to your local computer using `git`.
 2.  Make sure you have Node installed; see instructions [here](https://nodejs.org/en/download/).
-3.  Make also sure that you have MongoDb installed; see instructions [here](https://docs.mongodb.com/manual/installation/).
-4.  On the `.env` file you should complete with your bot token and mongodb credentials
+3.  Make also sure that you have MongoDB installed; see instructions [here](https://docs.mongodb.com/manual/installation/).
+4.  On the `.env` file, you should complete with your bot token and MongoDB credentials
 5.  Run `npm run` to install dependencies.
 
 ## Usage
@@ -60,3 +60,11 @@ Where `db` is the name of the service and `27017` is the port, all defined in do
 - Run `docker-composer up -d`. This will build all containers on the first run and will be in placed in background.
 - If you want to see the logs, just type `docker-compose logs -f`
 - If you want to stop, run `docker-compose down`
+
+## Contribution Guidelines:
+
+ -  ***fork*** and ***clone*** this repository
+ - Make a new branch using `git checkout -b change/username`
+ - Commit the desired changes to that branch
+ - Sign off your commits using `git commit -s -m w/signoff`
+ - Push your changes to the branch and open a pull request.

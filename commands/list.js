@@ -1,11 +1,11 @@
-var Util = require("../utils/utils.js");
+let Util = require("../utils/utils.js");
 const Channel = require("../models/Channel")
 
 module.exports = {
     name: 'list',
     description: 'Lists all the elements of the list',
     execute: async (message, args) => {
-        var channel = message.channel
+        let channel = message.channel
             
         let msg = ""
 
@@ -23,7 +23,7 @@ module.exports = {
                 .then(result => console.log(result))
                 .catch(err => console.error(err))
             }
-            var i = 0
+            let i = 0
             for (let item of foundChannel.items) {
                 msg += "[" + i + "]\t" + item.content + "\t\t" + item.author + "\n"
                 i++
@@ -31,7 +31,7 @@ module.exports = {
         })
 
         console.log(msg)
-        var embededMessage = Util.embedMessage(channel.name + " list", "0xffff00", msg)
+        let embededMessage = Util.embedMessage(channel.name + " list", "0xffff00", msg)
         channel.send(embededMessage);
     },
 };
