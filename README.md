@@ -1,7 +1,7 @@
 ## LISTBOT
 
 ![build](https://travis-ci.org/pyymenta/spacecraft-cli.svg?branch=master)
-![contributors](https://img.shields.io/github/contributors/tomassirio/ListBot)
+![contributors](https://img.shields.io/github/contributors-anon/tomassirio/ListBot)
 ![issues](https://img.shields.io/github/issues/tomassirio/ListBot)
 ![forks](https://img.shields.io/github/forks/tomassirio/ListBot)
 ![stars](https://img.shields.io/github/stars/tomassirio/ListBot)
