@@ -7,7 +7,7 @@ module.exports = {
     execute: async (message, args) => {
         let channel = message.channel
             
-        let msg = ""
+        let fields = []
 
         const settings = await Channel.findOne({
             channelId: channel.id
@@ -25,13 +25,15 @@ module.exports = {
             }
             let i = 0
             for (let item of foundChannel.items) {
-                msg += "[" + i + "]\t" + item.content + "\t\t" + item.author + "\n"
+                fields.push({ 
+                    name: `${i} - ${item.author}`,
+                    value: item.content
+                })
                 i++
             }
         })
 
-        console.log(msg)
-        let embededMessage = Util.embedMessage(channel.name + " list", "0xffff00", msg)
+        let embededMessage = Util.generateListEmbed(channel.name + " list", "0xffff00", fields, `Requested by ${message.author.username}`)
         channel.send(embededMessage);
     },
 };
