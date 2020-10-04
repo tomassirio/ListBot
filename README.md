@@ -7,7 +7,7 @@
 ![stars](https://img.shields.io/github/stars/tomassirio/ListBot)
 ![Hacktoberfest](https://img.shields.io/badge/Hack-toberfest-red)
 
-A simple Discord Bot written in Javascript to create Lists in every channel
+A simple Discord Bot, written in Javascript to create Lists in every channel
 
 Let's add everything we need on a community list!
 
@@ -30,8 +30,8 @@ To get started locally, follow these instructions:
 
 1.  Clone to your local computer using `git`.
 2.  Make sure you have Node installed; see instructions [here](https://nodejs.org/en/download/).
-3.  Make also sure that you have MongoDb installed; see instructions [here](https://docs.mongodb.com/manual/installation/).
-4.  On the `.env` file you should complete with your bot token and mongodb credentials
+3.  Make also sure that you have MongoDB installed; see instructions [here](https://docs.mongodb.com/manual/installation/).
+4.  On the `.env` file, you should complete with your bot token and MongoDB credentials
 5.  Run `npm run` to install dependencies.
 
 ## Usage
