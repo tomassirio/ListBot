@@ -49,3 +49,10 @@ you can use the following commands
     * remove <component>: removes the desired component
 ```
 
+## Contribution Guidelines:
+
+ -  ***fork*** and ***clone*** this repository
+ - Make a new branch using `git checkout -b change/username`
+ - Commit the desired changes to that branch
+ - Sign off your commits using `git commit -s -m w/signoff`
+ - Push your changes to he branch and open a pull request.
