@@ -1,11 +1,11 @@
 ## LISTBOT
 
 ![build](https://travis-ci.org/pyymenta/spacecraft-cli.svg?branch=master)
-![contributors](https://img.shields.io/github/contributors-anon/tomassirio/ListBot)
-![issues](https://img.shields.io/github/issues/tomassirio/ListBot)
-![forks](https://img.shields.io/github/forks/tomassirio/ListBot)
+[<img src="https://img.shields.io/github/contributors-anon/tomassirio/ListBot"/>](https://github.com/tomassirio/ListBot/graphs/contributors)
+[<img src="https://img.shields.io/github/issues/tomassirio/ListBot"/>](https://github.com/tomassirio/ListBot/issues)
+[<img src="https://img.shields.io/github/forks/tomassirio/ListBot"/>](https://github.com/tomassirio/ListBot/network/members)
 ![stars](https://img.shields.io/github/stars/tomassirio/ListBot)
-![Hacktoberfest](https://img.shields.io/badge/Hack-toberfest-red)
+![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-red)
 
 A simple Discord Bot, written in Javascript to create Lists in every channel
 
