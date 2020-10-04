@@ -1,6 +1,6 @@
 require("dotenv").config()
 
-const mongoose = require('mongoose')
+const mongoose = require('src/utils/mongoose')
 
 module.exports = {
     init: () => {
