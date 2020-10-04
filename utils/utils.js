@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 
-var Utils = {
+let Utils = {
     embedMessage: function (message, color, item) {
         const embed = new Discord.MessageEmbed()
         .setTitle(message)
@@ -9,7 +9,7 @@ var Utils = {
         return embed
     },
     createSet: function (channel, map){
-        var set = new Set()
+        let set = new Set()
         map.set(channel, set)
     }
 }

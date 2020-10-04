@@ -5,12 +5,12 @@ module.exports = {
     name: 'poll',
     description: 'Generates a Poll from 5 random elements on the list',
     execute: async (message, args) => {
-        var channel = message.channel
-        var time = args[0]
+        let channel = message.channel
+        let time = args[0]
         
-        var emojiList = ['1⃣','2⃣','3⃣','4⃣','5⃣'];
+        let emojiList = ['1⃣','2⃣','3⃣','4⃣','5⃣'];
 
-        var shuffled
+        let shuffled
 
         const settings = await Channel.findOne({
             channelId: channel.id
@@ -26,7 +26,7 @@ module.exports = {
                 .then(result => console.log(result))
                 .catch(err => console.error(err))
             }
-            var items = foundChannel.items
+            let items = foundChannel.items
             // Shuffle array
             shuffled = Array.from(items).sort(() => 0.5 - Math.random());
             console.log(shuffled)
@@ -36,12 +36,12 @@ module.exports = {
         // Get sub-array of first n elements after shuffled
         let selected = shuffled.slice(0, 5);    
     
-        var optionsText = "";
-        for (var i = 0; i < selected.length; i++) { 
+        let optionsText = "";
+        for (let i = 0; i < selected.length; i++) { 
             optionsText += emojiList[i] + " " + selected[i].content + "\n";
         }
         
-        var embed = new Discord.MessageEmbed()
+        let embed = new Discord.MessageEmbed()
             .setTitle("Poll for " + channel.name)
             .setDescription(optionsText)
             .setAuthor(message.author.username, message.author.displayAvatarURL)
@@ -58,8 +58,8 @@ module.exports = {
     
         channel.send(embed) // Definitely use a 2d array here..
             .then(async function (message) {
-                var reactionArray = [];
-                for (var i = 0; i < selected.length; i++) { 
+                let reactionArray = [];
+                for (let i = 0; i < selected.length; i++) { 
                     reactionArray[i] = await message.react(emojiList[i]);
                 }
                 
@@ -68,24 +68,24 @@ module.exports = {
                         // Re-fetch the message and get reaction counts
                         message.channel.fetch(message.id)
                             .then(async function (message) {
-                                var reactionCountsArray = [];
-                                for (var i = 0; i < selected.length; i++) {
+                                let reactionCountsArray = [];
+                                for (let i = 0; i < selected.length; i++) {
                                     reactionCountsArray[i] = message.reactions.resolve(emojiList[i]).count-1;
                                 }
     
                                 // Find winner(s)
-                                var max = -Infinity, indexMax = [];
-                                for(var i = 0; i < reactionCountsArray.length; ++i)
+                                let max = -Infinity, indexMax = [];
+                                for(let i = 0; i < reactionCountsArray.length; ++i)
                                     if(reactionCountsArray[i] > max) max = reactionCountsArray[i], indexMax = [i];
                                     else if(reactionCountsArray[i] === max) indexMax.push(i);
                         
                                 // Display winner(s)
                                 console.log(reactionCountsArray); // Debugging votes
-                                var winnersText = "";
+                                let winnersText = "";
                                 if (reactionCountsArray[indexMax[0]] == 0) {
                                     winnersText = "No one voted!"
                                 } else {
-                                    for (var i = 0; i < indexMax.length; i++) {
+                                    for (let i = 0; i < indexMax.length; i++) {
                                         winnersText += 
                                             emojiList[indexMax[i]] + " " + selected[indexMax[i]] + 
                                             " (" + reactionCountsArray[indexMax[i]] + " vote(s))\n";

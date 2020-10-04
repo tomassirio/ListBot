@@ -6,11 +6,11 @@ module.exports = {
     name: 'add',
     description: 'Add an element to the list',
     execute: async (message, args) => {
-        var item = ""
-        for(var i = 0; i < args.length; i++){
+        let item = ""
+        for(let i = 0; i < args.length; i++){
             item += args[i] + " "
         }
-        var channel = message.channel
+        let channel = message.channel
 
         const newItem = new Item({
             content: item,
@@ -40,7 +40,7 @@ module.exports = {
             }
         })
 
-        var embededMessage = Util.embedMessage("Succesfully added", "0xffff00", item)
+        let embededMessage = Util.embedMessage("Succesfully added", "0xffff00", item)
         channel.send(embededMessage);
     
     },
