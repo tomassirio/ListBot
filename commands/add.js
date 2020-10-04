@@ -1,6 +1,6 @@
 const Util = require("../utils/utils.js");
 const Item = require("../models/Item.js")
-const Channel = require("../models/Channel")
+const ChannelRepository = require("../repositories/channel-repository")
 
 module.exports = {
     name: 'add',
@@ -17,31 +17,12 @@ module.exports = {
             author: message.author.username,
         })
 
-        const settings = await Channel.findOne({
-            channelId: channel.id
-        }, (err, foundChannel) => {
-            if(foundChannel){
-                foundChannel.items.push(newItem)
-                foundChannel.save()
-                .then(result => console.log(result))
-                .catch(err => console.error(err))
-            }
-            else{
-                const newChannel = new Channel({
-                    channelId: channel.id,
-                    server: channel.guild.name,
-                    name: channel.name,
-                    items: []
-                })
-                newChannel.items.push(newItem)
-                newChannel.save()
-                .then(result => console.log(result))
-                .catch(err => console.error(err))
-            }
-        })
+        const dbChannel = await ChannelRepository.findOrCreate(channel)
+        dbChannel.items.push(newItem)
+        dbChannel.save()
 
         let embededMessage = Util.embedMessage("Succesfully added", "0xffff00", item)
         channel.send(embededMessage);
-    
+
     },
 };
