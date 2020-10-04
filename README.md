@@ -52,11 +52,7 @@ you can use the following commands
 
 You can run ListBot using Docker and Docker Compose following this steps below:
 - Adjust `.env` with yout bot token.
-- Adjust the connection in `utils/mongoose.js` with:
-```js
-mongoose.connect('mongodb://db:27017/' + process.env.DB_MONGO + '?retryWrites=true&w=majority', dbOptions)
-```
-Where `db` is the name of the service and `27017` is the port, all defined in docker-compose.yaml, you can change this if you like, just remember to fill the new information on conection configuration file.
+- Adjust `.env` by set the `USE_DOCKER_FOR_DEVELOP=true` config.
 - Run `docker-composer up -d`. This will build all containers on the first run and will be in placed in background.
 - If you want to see the logs, just type `docker-compose logs -f`
 - If you want to stop, run `docker-compose down`
