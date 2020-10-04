@@ -5,9 +5,9 @@ module.exports = {
     name: 'help',
     description: 'Gets the bot commands',
     execute(message, args){
-        var channel = message.channel
+        let channel = message.channel
 
-        var msg = "**"+process.env.PREFIX+"add {element}** - to add an element to the list\n"
+        let msg = "**"+process.env.PREFIX+"add {element}** - to add an element to the list\n"
         msg    += "**"+process.env.PREFIX+"remove {element}** - to remove an element from the list\n"
         msg    += "**"+process.env.PREFIX+"list** - to list every element on the list\n"
         msg    += "**"+process.env.PREFIX+"random** - gets a random element from the list\n"
@@ -15,7 +15,7 @@ module.exports = {
         msg    += "**"+process.env.PREFIX+"log** - gets the bot's log\n"
         msg    += "**"+process.env.PREFIX+"help** - to see this message\n"
 
-        var embededMessage = Util.embedMessage("List Bot Help Message", "0xffff00", msg)
+        let embededMessage = Util.embedMessage("List Bot Help Message", "0xffff00", msg)
         channel.send(embededMessage);
     },
 };

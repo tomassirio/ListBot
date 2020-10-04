@@ -3,7 +3,7 @@ require("dotenv").config()
 module.exports = async (client, message) => {
 	if (!message.content.startsWith(process.env.PREFIX) || message.author.bot) return;
 
-	var args = message.content.slice(process.env.PREFIX.length).trim().split(/ +/);
+	let args = message.content.slice(process.env.PREFIX.length).trim().split(/ +/);
     const command = args.shift().toLowerCase();
 
 	if (!client.commands.has(command)) return;

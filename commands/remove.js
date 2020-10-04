@@ -5,8 +5,8 @@ module.exports = {
     name: 'remove',
     description: 'Removes an element from the list',
     execute: async (message, args) => {
-        var channel = message.channel
-        var itemToRemove = args[0]    
+        let channel = message.channel
+        let itemToRemove = args[0]    
 
         const settings = await Channel.findOne({
             channelId: channel.id
@@ -25,7 +25,7 @@ module.exports = {
             Channel.updateOne( {channelId: channel.id}, { $pullAll: {content: [itemToRemove] } } )
         })
 
-        var embededMessage = Util.embedMessage("There was no such an item", "0xff0000", "The solicited item: " + itemToRemove + " was not on the list")
+        let embededMessage = Util.embedMessage("There was no such an item", "0xff0000", "The solicited item: " + itemToRemove + " was not on the list")
         channel.send(embededMessage);
     },
 };

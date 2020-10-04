@@ -6,9 +6,9 @@ module.exports = {
     name: 'random',
     description: 'Gets a random element from the list',
     execute: async (message, args) => {
-        var channel = message.channel
+        let channel = message.channel
     
-        var randomItem
+        let randomItem
 
         const settings = await Channel.findOne({
             channelId: channel.id
@@ -24,13 +24,13 @@ module.exports = {
                 .then(result => console.log(result))
                 .catch(err => console.error(err))
             }
-            var items = foundChannel.items
+            let items = foundChannel.items
             randomItem = items[Math.floor(Math.random()*items.length)];
             console.log(randomItem.content)
         })
 
 
-        var embededMessage = Util.embedMessage("The random entry of the list is", "0xff0000", randomItem.content)
+        let embededMessage = Util.embedMessage("The random entry of the list is", "0xff0000", randomItem.content)
         channel.send(embededMessage)
     },
 };
