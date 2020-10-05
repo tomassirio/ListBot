@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "babel src -d build && node build/index.js",
+    "start": "babel src -d build && NODE_ENV=production node build/index.js",
     "dev": "nodemon --exec babel-node src/index.js"
   },
   "keywords": [],
