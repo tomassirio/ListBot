@@ -1,6 +1,7 @@
 # Project entries
 .env
 node_modules/
+build/
 
 # Database entries
 data
