@@ -95,4 +95,5 @@ To connect on:
  - [thelovekesh](https://github.com/thelovekesh)
  - [heyimalaap](https://github.com/heyimalaap)
  - [arthur-merlin](https://github.com/arthur-merlin)
+ - [joy98](https://github.com/joy98)
  - [Add yours!](./CONTRIBUTING.md)
