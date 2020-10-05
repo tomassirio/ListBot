@@ -1,15 +1,17 @@
 FROM node:lts-buster-slim
 
-WORKDIR /node-app
+ENV NODE_ENV="development"
 
-COPY package.json .
+WORKDIR /listbot
+
+COPY package*.json ./
 
 RUN npm install --quiet
 
 RUN npm install nodemon -g --quiet
 
-COPY . . 
+COPY ./src . 
 
-EXPOSE 9000
+EXPOSE 3000
 
 CMD nodemon -L --watch . index.js
