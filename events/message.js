@@ -4,8 +4,8 @@ module.exports = async (client, message) => {
 	if (!message.content.startsWith(process.env.PREFIX) || message.author.bot) return;
 
 	let args = message.content.slice(process.env.PREFIX.length).trim().split(/ +/);
-    const command = args.shift().toLowerCase();
-
+	const command = args.shift().toLowerCase();
+	
 	if (!client.commands.has(command)) return;
 
 	try {

@@ -12,7 +12,7 @@ module.exports = {
         if (! dbChannel.items || dbChannel.items.length === 0) {
             msg = "No items found, please use the 'add {element}' command to put your first item."
         } else {
-            let i = 0
+            let i = 1;
             for (let item of dbChannel.items) {
                 fields.push({
                     name: `${i} - ${item.author}`,
