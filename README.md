@@ -26,6 +26,9 @@ so I created ListBot to do that
 
 ## Installation
 
+Learn how create a Discord bot and get a valid token [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
+
+
 To get started locally, follow these instructions:
 
 1.  Clone to your local computer using `git`.
@@ -34,27 +37,42 @@ To get started locally, follow these instructions:
 4.  Create a copy of the `.env.example` file named `.env` and replace the placeholders with your bot token and MongoDB credentials
 5.  Run `npm run` to install dependencies.
 
+
 ## Usage
 
 Once the bot is running and connected to your discord channel and database
 you can use the following commands
 
 ```sh
-    * add <component>: adds a component to the list
-    * help: shows you a message with the commands
-    * list: lists all the components in the channel's list
-    * log: a log of the versions
-    * poll: creates a poll on all the lists components
-    * random: gives you a random component
-    * remove <component>: removes the desired component
+    * $add <component>: adds a component to the list
+    * $help: shows you a message with the commands
+    * $list: lists all the components in the channel's list
+    * $log: a log of the versions
+    * $poll: creates a poll on all the lists components
+    * $random: gives you a random component
+    * $remove <component>: removes the desired component
 ```
+
+
 ## Docker
 
-You can run ListBot using Docker and Docker Compose following this steps below:
+For development, you can run ListBot using Docker and Docker Compose following this steps below:
 - Adjust `.env` with yout bot token.
 - Run `docker-composer up -d`. This will build all containers on the first run and will be in placed in background.
-- If you want to see the logs, just type `docker-compose logs -f`
+- If you want to see the logs, just type `docker-compose logs -f` or read all in **Portainer**
 - If you want to stop, run `docker-compose down`
+
+The docker-compose.yml file contain:
+- **Mongo-express**: *For database manager.**
+- **Mongo**: *The database itself*
+- **Server**: *ListBot*
+- **Portainer**: *To monitoring your container services, such as logs, restart and more.*
+    - *You need to create a local user and password.*
+    - *Next page you need to choose docker local environment and after that click connect.*
+
+To connect on:
+- Portainer: ***localhost:9000***
+- Mongo-express: ***localhost: 8081***
 
 ## Contribution Guidelines:
 
@@ -63,3 +81,19 @@ You can run ListBot using Docker and Docker Compose following this steps below:
  - Commit the desired changes to that branch
  - Sign off your commits using `git commit -s -m w/signoff`
  - Push your changes to the branch and open a pull request.
+
+## Contributors Hacktoberfest 2020:
+
+ - [jledezma-mt](https://github.com/jledezma-mt)
+ - [Fedelaus](https://github.com/Fedelaus)
+ - [simonardejr](https://github.com/simonardejr)
+ - [jsilvaigor](https://github.com/jsilvaigor)
+ - [manishkrjha](https://github.com/manishkrjha)
+ - [hpbonfim](https://github.com/hpbonfim)
+ - [Akshansh99](https://github.com/Akshansh99)
+ - [Aditya-ds-1806](https://github.com/Aditya-ds-1806)
+ - [thelovekesh](https://github.com/thelovekesh)
+ - [heyimalaap](https://github.com/heyimalaap)
+ - [arthur-merlin](https://github.com/arthur-merlin)
+ - [joy98](https://github.com/joy98)
+ - [Add yours!](./CONTRIBUTING.md)

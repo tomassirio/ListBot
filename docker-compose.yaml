@@ -1,27 +1,63 @@
-version: '3'
+version: "3.8"
 
 services:
+  portainer:
+    image: portainer/portainer-ce:alpine
+    restart: always
+    container_name: portainer
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainerdata:/data
+    networks:
+      - intranet
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${LOCAL_DB_USER}
+      MONGO_INITDB_ROOT_PASSWORD: ${LOCAL_DB_PASSWORD}
+    ports:
+      - "27017:27017"
+    volumes:
+      - database:/data/db
+    networks:
+      - intranet
+
+  mongo-express:
+    image: mongo-express
+    container_name: mongo-express
+    restart: always
+    ports:
+      - "8081:8081"
+    environment:
+      ME_CONFIG_BASICAUTH_USERNAME: ${MONGO_EXPRESS_USER}
+      ME_CONFIG_BASICAUTH_PASSWORD: ${MONGO_EXPRESS_KEY}
+      ME_CONFIG_MONGODB_ADMINUSERNAME: ${LOCAL_DB_USER}
+      ME_CONFIG_MONGODB_ADMINPASSWORD: ${LOCAL_DB_PASSWORD}
+    depends_on:
+      - mongo
+    networks:
+      - intranet
+
   server:
     container_name: ListBotContainer
-    build: '.'
-    volumes:
-      - ./:/node-app
-      - ./node_modules:/node-app/node_modules
-    environment:
-      NODE_ENV: development
+    build: .
+    env_file:
+      - .env
     depends_on:
-      - db
-    links:
-      - db
+      - mongo
     ports:
-      - '9000:9000'
+      - "3000:3000"
+    networks:
+      - intranet
+    
 
-  db:
-    image: 'mongo'
-    container_name: MongoContainer
-    environment:
-      MONGO_INITDB_DATABASE: botlist
-    ports:
-      - '27017:27017'
-    volumes:
-      - ./data/db:/data/db
+networks:
+  intranet:
+
+volumes:
+  database:
+  portainerdata:

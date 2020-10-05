@@ -14,6 +14,7 @@ module.exports = {
         msg    += "**"+process.env.PREFIX+"list** - to list every element on the list\n"
         msg    += "**"+process.env.PREFIX+"random** - gets a random element from the list\n"
         msg    += "**"+process.env.PREFIX+"poll** - creates a poll on the channel for 5 random elements. WIP\n"
+        msg    += "**"+process.env.PREFIX+"clear** - Removes all the elements of the list\n"
         msg    += "**"+process.env.PREFIX+"log** - gets the bot's log\n"
         msg    += "**"+process.env.PREFIX+"help** - to see this message\n"
 
