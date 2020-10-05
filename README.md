@@ -81,3 +81,18 @@ To connect on:
  - Commit the desired changes to that branch
  - Sign off your commits using `git commit -s -m w/signoff`
  - Push your changes to the branch and open a pull request.
+
+## Contributors Hacktoberfest 2020:
+
+ - [jledezma-mt](https://github.com/jledezma-mt)
+ - [Fedelaus](https://github.com/Fedelaus)
+ - [simonardejr](https://github.com/simonardejr)
+ - [jsilvaigor](https://github.com/jsilvaigor)
+ - [manishkrjha](https://github.com/manishkrjha)
+ - [hpbonfim](https://github.com/hpbonfim)
+ - [Akshansh99](https://github.com/Akshansh99)
+ - [Aditya-ds-1806](https://github.com/Aditya-ds-1806)
+ - [thelovekesh](https://github.com/thelovekesh)
+ - [heyimalaap](https://github.com/heyimalaap)
+ - [arthur-merlin](https://github.com/arthur-merlin)
+ - [Add yours!](./CONTRIBUTING.md)
