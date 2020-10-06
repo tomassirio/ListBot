@@ -3,7 +3,7 @@ const ChannelRepository = require("../repositories/channel-repository")
 
 module.exports = {
   name: 'clear',
-  description: 'Add an element to the list',
+  description: 'Remove all element in the list for the specific channel.',
   execute: async (message) => {
     const { channel } = message
 
@@ -11,7 +11,7 @@ module.exports = {
     dbChannel.items = []
     dbChannel.save()
 
-    const messageWithFormat = Util.embedMessage("Successfully cleared", "0xffff00", 'The list is now empty.')
+    const messageWithFormat = Util.embedMessage("Successfully cleared", message.author.tag ,"0xffff00", 'The list is now empty.')
     channel.send(messageWithFormat)
   },
 };

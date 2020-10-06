@@ -53,12 +53,14 @@ you can use the following commands
 
 ```sh
     * $add <component>: adds a component to the list
+    * $multi-add <element> <element> - adds mutiple elements in a list
     * $help: shows you a message with the commands
     * $list: lists all the components in the channel's list
     * $log: a log of the versions
     * $poll: creates a poll on all the lists components
     * $random: gives you a random component
     * $remove <component>: removes the desired component
+    * $multi-remove <element> <element> - remove mutiple elements in a list
 ```
 
 ### :ship: Docker

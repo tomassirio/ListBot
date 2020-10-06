@@ -30,7 +30,7 @@ module.exports = {
         
         dbChannel.save();
 
-        let embededMessage = Util.embedMessage("Succesfully added", "0xffff00", item)
+        let embededMessage = Util.embedMessage("Successfully added", message.author.tag , "0xffff00", item)
         channel.send(embededMessage);
 
     },

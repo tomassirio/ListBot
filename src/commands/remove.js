@@ -27,7 +27,7 @@ module.exports = {
         }
 
         // send embeded message
-        let embededMessage = Util.embedMessage(embedMessage, embedColor, "")
+        let embededMessage = Util.embedMessage(embedMessage, message.author.id , embedColor, "")
         channel.send(embededMessage);
     },
 };
