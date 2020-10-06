@@ -21,7 +21,7 @@ module.exports = {
         dbChannel.items.push(newItem)
         dbChannel.save()
 
-        let embededMessage = Util.embedMessage("Succesfully added", "0xffff00", item)
+        let embededMessage = Util.embedMessage("Successfully added", "0xffff00", item)
         channel.send(embededMessage);
 
     },

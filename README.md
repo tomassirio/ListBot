@@ -29,7 +29,7 @@ so I created ListBot to do that
 Learn how create a Discord bot and get a valid token [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
 
 
-To get started locally, follow these instructions:
+## To get started locally, follow these instructions:
 
 1.  Clone to your local computer using `git`.
 2.  Make sure you have Node installed; see instructions [here](https://nodejs.org/en/download/).
@@ -98,4 +98,9 @@ To connect on:
  - [joy98](https://github.com/joy98)
  - [khai93](https://github.com/khai93)
  - [AkiaCode](https://github.com/AkiaCode)
+ - [kojiadrianojr](https://github.com/kojiadrianojr)
+ - [TheRealLunatite](https://github.com/TheRealLunatite)
+ - [phamducquanptit](https://github.com/phamducquanptit)
+ - [Carolini28](https://github.com/Carolini28)
+ - [diogenesdauster](https://github.com/diogenesdauster)
  - [Add yours!](./CONTRIBUTING.md)
