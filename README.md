@@ -263,7 +263,7 @@ To connect on:
             <br />
             <sub><b>Jonathan VanHaaften</b></sub>
         </a>
-    <td></tr>
+    </td></tr>
 </table>
 <!-- readme: contributors -end -->
  
