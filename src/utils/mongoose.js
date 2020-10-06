@@ -27,7 +27,7 @@ module.exports = {
             family: 4
         }
 
-        if(process.env.NODE_ENV.trim() === "development"){
+        if(process.env.NODE_ENV === "development"){
             await mongoose.connect(devMongoUrl, dbOptions)
         } else {
             await mongoose.connect(productionMongoURL, dbOptions)

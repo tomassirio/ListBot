@@ -1,11 +1,13 @@
 const Discord = require("discord.js")
 
 let Utils = {
-    embedMessage: function (message, color, item) {
+    embedMessage: function (message, author , color, item) {
         const embed = new Discord.MessageEmbed()
         .setTitle(message)
         .setColor(color)
-        .setDescription(item);
+        .setDescription(item)
+        .setFooter(author)
+        .setTimestamp();
         return embed
     },
     generateListEmbed: function (title, color, fields, footer){

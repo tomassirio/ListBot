@@ -10,10 +10,8 @@ module.exports = {
         let dbChannel = await ChannelRepository.findOrCreate(channel)
 
         if (! dbChannel.items || dbChannel.items.length === 0) {
-            const emptyMessage = Util.embedMessage('Warning', '0xffff00', "No items found, please use the 'add {element}' command to put your first item.")
-            channel.send(emptyMessage)
-
-            return
+            const emptyMessage = Util.embedMessage('Warning', '0xffff00' , message.author.tag , "No items found, please use the 'add {element}' command to put your first item.")
+            return channel.send(emptyMessage)
         }
 
         let i = 1
@@ -25,7 +23,10 @@ module.exports = {
             i++
         }
 
-        let embededMessage = Util.generateListEmbed(channel.name + " list", "0xffff00", fields, `Requested by ${message.author.username}`)
+        let channelName = channel.name;
+        channelName = channelName.charAt(0).toUpperCase() + channelName.slice(1) // Capitalize the first letter in the channel name.
+
+        let embededMessage = Util.generateListEmbed(channelName + " List", "0xffff00", fields, `Requested by ${message.author.tag}`)
         channel.send(embededMessage);
     },
 };

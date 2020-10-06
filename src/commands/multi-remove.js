@@ -26,7 +26,7 @@ module.exports = {
             embedMessage = `Successfully deleted items from index ${indexFrom + 1} to ${indexTo + 1}`;
         }
 
-        let embededMessage = Util.embedMessage(embedMessage, embedColor, "");
+        let embededMessage = Util.embedMessage(embedMessage, message.author.tag ,embedColor, "");
         channel.send(embededMessage);
     },
 };

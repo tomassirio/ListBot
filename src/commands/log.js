@@ -12,7 +12,7 @@ module.exports = {
         msg += "1.1.0 - Added the Poll function. WIP\n"
         msg += "2.0   - Bot was completely revamped. Database now functioning\n"
 
-        let embededMessage = Util.embedMessage("Log version", "0xff0000", msg)
+        let embededMessage = Util.embedMessage("Log version" , message.author.tag , "0xff0000", msg)
         channel.send(embededMessage)
     },
 };
