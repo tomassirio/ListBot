@@ -98,4 +98,5 @@ To connect on:
  - [joy98](https://github.com/joy98)
  - [khai93](https://github.com/khai93)
  - [Carolini28](https://github.com/Carolini28)
+ - [diogenesdauster](https://github.com/diogenesdauster)
  - [Add yours!](./CONTRIBUTING.md)
