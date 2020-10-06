@@ -110,6 +110,13 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/TheRealLunatite">
+            <img src="https://avatars2.githubusercontent.com/u/50427871?v=4" width="100;" alt="TheRealLunatite"/>
+            <br />
+            <sub><b>Luna</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/JDOG787">
             <img src="https://avatars1.githubusercontent.com/u/64325143?v=4" width="100;" alt="JDOG787"/>
             <br />
@@ -129,20 +136,13 @@ To connect on:
             <br />
             <sub><b>Abhijay Jain</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/AkiaCode">
             <img src="https://avatars0.githubusercontent.com/u/71239005?v=4" width="100;" alt="AkiaCode"/>
             <br />
             <sub><b>AkiaCode</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/TheRealLunatite">
-            <img src="https://avatars2.githubusercontent.com/u/50427871?v=4" width="100;" alt="TheRealLunatite"/>
-            <br />
-            <sub><b>Luna</b></sub>
         </a>
     </td>
     <td align="center">
