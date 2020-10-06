@@ -16,26 +16,23 @@ Let's add everything we need on a community list!
 
 ![image](https://miro.medium.com/max/8512/0*1YAdWi5ruRiSQDas)
 
-
 ### :tada: Inspiration
 
 ![image](https://greatpeopleinside.com/wp-content/uploads/2017/09/inspiration-at-work.jpeg)
 
-A couple of friends and me wanted to keep track of the movies 
-we wanted to watch on our discord server, 
+A couple of friends and me wanted to keep track of the movies
+we wanted to watch on our discord server,
 so I created ListBot to do that
 
 ### :white_check_mark: Add ListBot to your Discord Server
 
 By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot) you can authorize ListBot to be used in your server
 
-
 ## :star: Getting started
 
 ### :computer: Installation
 
 Learn how create a Discord bot and get a valid token [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
-
 
 ### :floppy_disk: To get started locally, follow these instructions:
 
@@ -44,7 +41,6 @@ Learn how create a Discord bot and get a valid token [here](https://github.com/r
 3.  Make also sure that you have MongoDB installed; see instructions [here](https://docs.mongodb.com/manual/installation/).
 4.  Create a copy of the `.env.example` file named `.env` and replace the placeholders with your bot token and MongoDB credentials
 5.  Run `npm run` to install dependencies.
-
 
 ### :battery: Usage
 
@@ -64,36 +60,37 @@ you can use the following commands
 ### :ship: Docker
 
 For development, you can run ListBot using Docker and Docker Compose following this steps below:
+
 - Adjust `.env` with yout bot token.
 - Run `docker-composer up -d`. This will build all containers on the first run and will be in placed in background.
 - If you want to see the logs, just type `docker-compose logs -f` or read all in **Portainer**
 - If you want to stop, run `docker-compose down`
 
 The docker-compose.yml file contain:
-- **Mongo-express**: *For database manager.**
-- **Mongo**: *The database itself*
-- **Server**: *ListBot*
-- **Portainer**: *To monitoring your container services, such as logs, restart and more.*
-    - *You need to create a local user and password.*
-    - *Next page you need to choose docker local environment and after that click connect.*
+
+- **Mongo-express**: \*For database manager.\*\*
+- **Mongo**: _The database itself_
+- **Server**: _ListBot_
+- **Portainer**: _To monitoring your container services, such as logs, restart and more._
+  - _You need to create a local user and password._
+  - _Next page you need to choose docker local environment and after that click connect._
 
 To connect on:
-- Portainer: ***localhost:9000***
-- Mongo-express: ***localhost: 8081***
 
+- Portainer: **_localhost:9000_**
+- Mongo-express: **_localhost: 8081_**
 
 ### :building_construction: Contribution Guidelines:
 
- -  ***fork*** and ***clone*** this repository
- - Make a new branch using `git checkout -b change/username`
- - Commit the desired changes to that branch
- - Sign off your commits using `git commit -s -m w/signoff`
- - Push your changes to the branch and open a pull request.
-
+- **_fork_** and **_clone_** this repository
+- Make a new branch using `git checkout -b change/username`
+- Commit the desired changes to that branch
+- Sign off your commits using `git commit -s -m w/signoff`
+- Push your changes to the branch and open a pull request.
 
 ### :jack_o_lantern: Contributors Hacktoberfest 2020:
- 
-<!-- readme: contributors -start --> 
+
+<!-- readme: contributors -start -->
 <table>
 <tr>
     <td align="center">
@@ -258,6 +255,13 @@ To connect on:
             <img src="https://avatars1.githubusercontent.com/u/43143132?v=4" width="100;" alt="kojiadrianojr"/>
             <br />
             <sub><b>Koji Adriano Jr.</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/jonathanvanhaaften">
+            <img src="https://avatars1.githubusercontent.com/u/40076195?v=4" width="100;" alt="jonathanvanhaaften"/> 
+            <br />
+            <sub><b>Jonathan VanHaaften</b></sub>
         </a>
     </td></tr>
 </table>
