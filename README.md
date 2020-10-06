@@ -92,30 +92,7 @@ To connect on:
 
 
 ### :jack_o_lantern: Contributors Hacktoberfest 2020:
-
- - [jledezma-mt](https://github.com/jledezma-mt)
- - [Fedelaus](https://github.com/Fedelaus)
- - [simonardejr](https://github.com/simonardejr)
- - [jsilvaigor](https://github.com/jsilvaigor)
- - [manishkrjha](https://github.com/manishkrjha)
- - [hpbonfim](https://github.com/hpbonfim)
- - [Akshansh99](https://github.com/Akshansh99)
- - [Aditya-ds-1806](https://github.com/Aditya-ds-1806)
- - [thelovekesh](https://github.com/thelovekesh)
- - [heyimalaap](https://github.com/heyimalaap)
- - [arthur-merlin](https://github.com/arthur-merlin)
- - [joy98](https://github.com/joy98)
- - [khai93](https://github.com/khai93)
- - [AkiaCode](https://github.com/AkiaCode)
- - [kojiadrianojr](https://github.com/kojiadrianojr)
- - [TheRealLunatite](https://github.com/TheRealLunatite)
- - [phamducquanptit](https://github.com/phamducquanptit)
- - [Carolini28](https://github.com/Carolini28)
- - [diogenesdauster](https://github.com/diogenesdauster)
- - [divn](https://github.com/divn)
- - [Add yours!](./CONTRIBUTING.md)
  
- ##Contributors
 <!-- readme: contributors -start --> 
 <table>
 <tr>
@@ -292,6 +269,8 @@ To connect on:
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
+ 
+[Add yours!](./CONTRIBUTING.md)
  
  ## :bust_in_silhouette: Who Am I?
  Tomas Sirio
