@@ -25,19 +25,19 @@ A couple of friends and me wanted to keep track of the movies
 we wanted to watch on our discord server, 
 so I created ListBot to do that
 
-### Add ListBot to your Discord Server
+### :white_check_mark: Add ListBot to your Discord Server
 
 By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot) you can authorize ListBot to be used in your server
 
 
-## Getting started
+## :star: Getting started
 
-### Installation
+### :computer: Installation
 
 Learn how create a Discord bot and get a valid token [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
 
 
-### To get started locally, follow these instructions:
+### :floppy_disk: To get started locally, follow these instructions:
 
 1.  Clone to your local computer using `git`.
 2.  Make sure you have Node installed; see instructions [here](https://nodejs.org/en/download/).
@@ -46,7 +46,7 @@ Learn how create a Discord bot and get a valid token [here](https://github.com/r
 5.  Run `npm run` to install dependencies.
 
 
-### Usage
+### :battery: Usage
 
 Once the bot is running and connected to your discord channel and database
 you can use the following commands
@@ -61,7 +61,7 @@ you can use the following commands
     * $remove <component>: removes the desired component
 ```
 
-### Docker
+### :ship: Docker
 
 For development, you can run ListBot using Docker and Docker Compose following this steps below:
 - Adjust `.env` with yout bot token.
@@ -82,7 +82,7 @@ To connect on:
 - Mongo-express: ***localhost: 8081***
 
 
-### Contribution Guidelines:
+### :building_construction: Contribution Guidelines:
 
  -  ***fork*** and ***clone*** this repository
  - Make a new branch using `git checkout -b change/username`
@@ -91,7 +91,7 @@ To connect on:
  - Push your changes to the branch and open a pull request.
 
 
-### Contributors Hacktoberfest 2020:
+### :jack_o_lantern: Contributors Hacktoberfest 2020:
 
  - [jledezma-mt](https://github.com/jledezma-mt)
  - [Fedelaus](https://github.com/Fedelaus)
@@ -115,7 +115,7 @@ To connect on:
  - [Add yours!](./CONTRIBUTING.md)
  
  
- ## Who Am I?
+ ## :bust_in_silhouette: Who Am I?
  Tomas Sirio
  
  Backend Dev at Ualá
