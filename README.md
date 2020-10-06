@@ -112,6 +112,7 @@ To connect on:
  - [phamducquanptit](https://github.com/phamducquanptit)
  - [Carolini28](https://github.com/Carolini28)
  - [diogenesdauster](https://github.com/diogenesdauster)
+ - [divn](https://github.com/divn)
  - [Add yours!](./CONTRIBUTING.md)
  
  
