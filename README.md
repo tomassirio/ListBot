@@ -274,7 +274,7 @@ To connect on:
  ## :bust_in_silhouette: Who Am I?
  Tomas Sirio
  
- Backend Dev at UalC!
+ Backend Dev at Uala
  
  Buenos Aires, Arg
  
