@@ -1,11 +1,14 @@
-# LISTBOT
+<p align="center"><img src="https://cdn.pixabay.com/photo/2019/11/07/20/24/check-list-4609829_960_720.png" width="100" height="100" /></p>
 
-![build](https://travis-ci.org/pyymenta/spacecraft-cli.svg?branch=master)
-[<img src="https://img.shields.io/github/contributors-anon/tomassirio/ListBot"/>](https://github.com/tomassirio/ListBot/graphs/contributors)
-[<img src="https://img.shields.io/github/issues/tomassirio/ListBot"/>](https://github.com/tomassirio/ListBot/issues)
-[<img src="https://img.shields.io/github/forks/tomassirio/ListBot"/>](https://github.com/tomassirio/ListBot/network/members)
-![stars](https://img.shields.io/github/stars/tomassirio/ListBot)
-![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-red)
+<h1 align="center">LISTBOT</h1>
+
+<p align="center">
+  <a href="https://github.com/tomassirio/ListBot/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/tomassirio/ListBot"></a>
+  <a href="https://github.com/tomassirio/ListBot/issues"><img src="https://img.shields.io/github/issues/tomassirio/ListBot"></a>
+  <a href="https://github.com/tomassirio/ListBot/network/members"><img src="https://img.shields.io/github/forks/tomassirio/ListBot"></a>
+  <a href="https://img.shields.io/github/stars/tomassirio/ListBot"><img src="https://img.shields.io/github/stars/tomassirio/ListBot"></a>
+  <a href="https://img.shields.io/badge/Hacktoberfest-red"><img src="https://img.shields.io/badge/Hacktoberfest-red"></a>
+</p>
 
 A simple Discord Bot, written in Javascript to create Lists in every channel
 
@@ -14,7 +17,7 @@ Let's add everything we need on a community list!
 ![image](https://miro.medium.com/max/8512/0*1YAdWi5ruRiSQDas)
 
 
-### Inspiration
+### :tada: Inspiration
 
 ![image](https://greatpeopleinside.com/wp-content/uploads/2017/09/inspiration-at-work.jpeg)
 
