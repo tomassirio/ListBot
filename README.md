@@ -97,4 +97,5 @@ To connect on:
  - [arthur-merlin](https://github.com/arthur-merlin)
  - [joy98](https://github.com/joy98)
  - [khai93](https://github.com/khai93)
+ - [Carolini28](https://github.com/Carolini28)
  - [Add yours!](./CONTRIBUTING.md)
