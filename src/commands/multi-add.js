@@ -22,7 +22,7 @@ module.exports = {
 
         let newItem = new Item({
             content: instance,
-            author: message.author.username,
+            author: message.author.tag,
         });
 
             dbChannel.items.push(newItem)
