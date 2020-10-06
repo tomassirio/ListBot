@@ -114,7 +114,11 @@ To connect on:
  
  ## Who Am I?
  Tomas Sirio
+ 
  Backend Dev at Ualá
+ 
  Buenos Aires, Arg
+ 
  [tomassirio@gmail.com](mailto:tomassirio@gmail.com?Subject=Tomas%20You%20Are%20Amazing!)
+ 
  [LinkedIn](linkedin.com/in/tomassirio)
