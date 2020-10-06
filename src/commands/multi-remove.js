@@ -4,7 +4,7 @@ const ChannelRepository = require("../repositories/channel-repository");
 const { db } = require("../models/Channel");
 
 module.exports = {
-    name: 'removemany',
+    name: 'multi-remove',
     description: 'Removes multiple elements from the list',
     execute: async (message, args) => {
         let channel = message.channel;
