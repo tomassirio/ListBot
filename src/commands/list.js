@@ -16,7 +16,7 @@ module.exports = {
             return
         }
 
-        let i = 0
+        let i = 1
         for (let item of dbChannel.items) {
             fields.push({
                 name: `${i} - ${item.author}`,
