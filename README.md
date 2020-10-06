@@ -1,4 +1,4 @@
-## LISTBOT
+# LISTBOT
 
 ![build](https://travis-ci.org/pyymenta/spacecraft-cli.svg?branch=master)
 [<img src="https://img.shields.io/github/contributors-anon/tomassirio/ListBot"/>](https://github.com/tomassirio/ListBot/graphs/contributors)
@@ -14,7 +14,7 @@ Let's add everything we need on a community list!
 ![image](https://miro.medium.com/max/8512/0*1YAdWi5ruRiSQDas)
 
 
-## Inspiration
+### Inspiration
 
 ![image](https://greatpeopleinside.com/wp-content/uploads/2017/09/inspiration-at-work.jpeg)
 
@@ -22,20 +22,19 @@ A couple of friends and me wanted to keep track of the movies
 we wanted to watch on our discord server, 
 so I created ListBot to do that
 
-## Add ListBot to your Discord Server
+### Add ListBot to your Discord Server
 
 By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot) you can authorize ListBot to be used in your server
 
-Also you can rate ListBot [here](https://top.gg/bot/747219085573750918)
 
-# Getting started
+## Getting started
 
-## Installation
+### Installation
 
 Learn how create a Discord bot and get a valid token [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
 
 
-## To get started locally, follow these instructions:
+### To get started locally, follow these instructions:
 
 1.  Clone to your local computer using `git`.
 2.  Make sure you have Node installed; see instructions [here](https://nodejs.org/en/download/).
@@ -44,7 +43,7 @@ Learn how create a Discord bot and get a valid token [here](https://github.com/r
 5.  Run `npm run` to install dependencies.
 
 
-## Usage
+### Usage
 
 Once the bot is running and connected to your discord channel and database
 you can use the following commands
@@ -59,8 +58,7 @@ you can use the following commands
     * $remove <component>: removes the desired component
 ```
 
-
-## Docker
+### Docker
 
 For development, you can run ListBot using Docker and Docker Compose following this steps below:
 - Adjust `.env` with yout bot token.
@@ -80,7 +78,8 @@ To connect on:
 - Portainer: ***localhost:9000***
 - Mongo-express: ***localhost: 8081***
 
-## Contribution Guidelines:
+
+### Contribution Guidelines:
 
  -  ***fork*** and ***clone*** this repository
  - Make a new branch using `git checkout -b change/username`
@@ -88,7 +87,8 @@ To connect on:
  - Sign off your commits using `git commit -s -m w/signoff`
  - Push your changes to the branch and open a pull request.
 
-## Contributors Hacktoberfest 2020:
+
+### Contributors Hacktoberfest 2020:
 
  - [jledezma-mt](https://github.com/jledezma-mt)
  - [Fedelaus](https://github.com/Fedelaus)
@@ -110,3 +110,13 @@ To connect on:
  - [Carolini28](https://github.com/Carolini28)
  - [diogenesdauster](https://github.com/diogenesdauster)
  - [Add yours!](./CONTRIBUTING.md)
+ 
+ 
+ ## Who Am I?
+ ```
+ Tomas Sirio
+ Backend Dev at Ualá
+ Buenos Aires, Arg
+ tomassirio@gmail.com
+ linkedin.com/in/tomassirio
+ ```
