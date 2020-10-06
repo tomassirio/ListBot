@@ -52,7 +52,7 @@ module.exports = {
                 if (time) {
                     setTimeout(() => {
                         // Re-fetch the message and get reaction counts
-                        message.channel.fetch(message.id)
+                        message.channel.messages.fetch(message.id)
                             .then(async function (message) {
                                 let reactionCountsArray = [];
                                 for (let i = 0; i < selected.length; i++) {
@@ -66,14 +66,13 @@ module.exports = {
                                     else if(reactionCountsArray[i] === max) indexMax.push(i);
 
                                 // Display winner(s)
-                                console.log(reactionCountsArray); // Debugging votes
                                 let winnersText = "";
                                 if (reactionCountsArray[indexMax[0]] == 0) {
                                     winnersText = "No one voted!"
                                 } else {
                                     for (let i = 0; i < indexMax.length; i++) {
                                         winnersText +=
-                                            emojiList[indexMax[i]] + " " + selected[indexMax[i]] +
+                                            emojiList[indexMax[i]] + " " + selected[indexMax[i]].content +
                                             " (" + reactionCountsArray[indexMax[i]] + " vote(s))\n";
                                     }
                                 }

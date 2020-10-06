@@ -1,0 +1,8 @@
+node_modules
+*.md
+.babelrc
+.gitignore
+Procfile
+Dockerfile
+*.yaml
+*.yml

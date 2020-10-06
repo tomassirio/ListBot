@@ -14,7 +14,7 @@ module.exports = {
         }
 
         if (process.env.NODE_ENV === 'development') {
-            mongoose.connect('mongodb://db:27017/' + process.env.DB_MONGO + '?retryWrites=true&w=majority', dbOptions)
+            mongoose.connect('mongodb://' + process.env.LOCAL_DB_USER + ':' + process.env.LOCAL_DB_PASSWORD + '@mongo:27017/' + process.env.LOCAL_DB_MONGO + '?authSource=admin&retryWrites=true&w=majority', dbOptions)
         } else {
             mongoose.connect('mongodb+srv://'+ process.env.MONGO_USER + ':' + process.env.MONGO_PASS + '@cluster0.mhoa7.mongodb.net/' + process.env.DB_MONGO + '?retryWrites=true&w=majority', dbOptions)
         }
