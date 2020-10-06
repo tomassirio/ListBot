@@ -22,6 +22,12 @@ A couple of friends and me wanted to keep track of the movies
 we wanted to watch on our discord server, 
 so I created ListBot to do that
 
+## Add ListBot to your Discord Server
+
+By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot) you can authorize ListBot to be used in your server
+
+Also you can rate ListBot [here](https://top.gg/bot/747219085573750918)
+
 # Getting started
 
 ## Installation
