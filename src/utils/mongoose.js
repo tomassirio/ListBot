@@ -1,9 +1,23 @@
-require("dotenv").config()
-
+const { devMongoUrl , productionMongoURL } = require('../config')
 const mongoose = require('mongoose')
 
+mongoose.set('useFindAndModify', false)
+mongoose.Promise = global.Promise
+
+mongoose.connection.on('connected', () => {
+    console.log('Mongoose has suceesfully connected.')
+})
+
+mongoose.connection.on('err', () => {
+    console.error(`Mongoose connection error: \n${err.stack}.`)
+})
+
+mongoose.connection.on('disconected', () => {
+    console.warn('Mongoose has disconnected.')
+})
+
 module.exports = {
-    init: () => {
+    init: async () => {
         const dbOptions = {
             useNewUrlParser: true,
             useUnifiedTopology: true,
@@ -13,24 +27,12 @@ module.exports = {
             family: 4
         }
 
-        if (process.env.NODE_ENV === 'development') {
-            mongoose.connect('mongodb://' + process.env.LOCAL_DB_USER + ':' + process.env.LOCAL_DB_PASSWORD + '@mongo:27017/' + process.env.LOCAL_DB_MONGO + '?authSource=admin&retryWrites=true&w=majority', dbOptions)
+        if(process.env.NODE_ENV.trim() === "development"){
+            await mongoose.connect(devMongoUrl, dbOptions)
         } else {
-            mongoose.connect('mongodb+srv://'+ process.env.MONGO_USER + ':' + process.env.MONGO_PASS + '@cluster0.mhoa7.mongodb.net/' + process.env.DB_MONGO + '?retryWrites=true&w=majority', dbOptions)
+            await mongoose.connect(productionMongoURL, dbOptions)
         }
-        mongoose.set('useFindAndModify', false)
-        mongoose.Promise = global.Promise
-
-        mongoose.connection.on('connected', () => {
-            console.log('Mongoose has suceesfully connected')
-        })
-
-        mongoose.connection.on('err', () => {
-            console.error(`Mongoose connection error: \n${err.stack}`)
-        })
-
-        mongoose.connection.on('disconected', () => {
-            console.warn('Mongoose has disconnected')
-        })
+        
+        return mongoose.connection; 
     }
 }

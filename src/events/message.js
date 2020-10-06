@@ -1,7 +1,7 @@
-require("dotenv").config()
+const { prefix } = require('../config')
 
 module.exports = async (client, message) => {
-	if (!message.content.startsWith(process.env.PREFIX) || message.author.bot) return;
+	if (!message.content.startsWith(prefix) || message.author.bot) return;
 
 	let args = message.content.slice(process.env.PREFIX.length).trim().split(/ +/);
 	const command = args.shift().toLowerCase();
@@ -12,6 +12,6 @@ module.exports = async (client, message) => {
 		client.commands.get(command).execute(message, args);
 	} catch (error) {
 		console.error(error);
-		message.reply('there was an error trying to execute that command!');
+		message.reply('There was an error trying to execute that command!');
 	}
 };
