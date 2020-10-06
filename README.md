@@ -115,6 +115,11 @@ To connect on:
  - [divn](https://github.com/divn)
  - [Add yours!](./CONTRIBUTING.md)
  
+ ##Contributors
+<!-- readme: contributors -start -->
+
+
+<!-- readme: contributors -end -->
  
  ## :bust_in_silhouette: Who Am I?
  Tomas Sirio
