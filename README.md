@@ -201,7 +201,7 @@ To connect on:
         <a href="https://github.com/heyimalaap">
             <img src="https://avatars1.githubusercontent.com/u/59120107?v=4" width="100;" alt="heyimalaap"/>
             <br />
-            <sub><b>heyimalaap</b></sub>
+            <sub><b>Heyimalaap</b></sub>
         </a>
     </td></tr>
 <tr>
@@ -216,7 +216,7 @@ To connect on:
         <a href="https://github.com/diogenesdauster">
             <img src="https://avatars0.githubusercontent.com/u/16214631?v=4" width="100;" alt="diogenesdauster"/>
             <br />
-            <sub><b>Diógenes Dauster</b></sub>
+            <sub><b>DiC3genes Dauster</b></sub>
         </a>
     </td>
     <td align="center">
@@ -273,7 +273,7 @@ To connect on:
         <a href="https://github.com/arthur-merlin">
             <img src="https://avatars2.githubusercontent.com/u/72411685?v=4" width="100;" alt="arthur-merlin"/>
             <br />
-            <sub><b>arthur-merlin</b></sub>
+            <sub><b>Arthur-merlin</b></sub>
         </a>
     </td>
     <td align="center">
@@ -296,7 +296,7 @@ To connect on:
  ## :bust_in_silhouette: Who Am I?
  Tomas Sirio
  
- Backend Dev at Ualá
+ Backend Dev at UalC!
  
  Buenos Aires, Arg
  
