@@ -121,17 +121,17 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/AldoTu">
-            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
-            <br />
-            <sub><b>AldoTurmon</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/JDOG787">
             <img src="https://avatars1.githubusercontent.com/u/64325143?v=4" width="100;" alt="JDOG787"/>
             <br />
             <sub><b>JDOG787</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/AldoTu">
+            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+            <br />
+            <sub><b>AldoTurmon</b></sub>
         </a>
     </td>
     <td align="center">
