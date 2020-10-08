@@ -300,6 +300,12 @@ To connect on:
  ## :bust_in_silhouette: Who Am I?
 <img src="https://media.discordapp.net/attachments/763140054825697301/763681938652528690/logo-design-branding-logo-tool-open-electronic-1-5f7ed02bc8247.png?width=468&height=468" width="400" height="400" /></p>
 
- [tomassirio@gmail.com](mailto:tomassirio@gmail.com?Subject=Tomas%20You%20Are%20Amazing!)
-
- [LinkedIn](linkedin.com/in/tomassirio)
+  <a href="mailto:tomassirio@gmail.com?Subject=Tomas%20You%20Are%20Amazing!">
+      <img src="https://cdn2.downdetector.com/static/uploads/logo/image21.png" width="100"; height="100"/>
+  </a>
+  <a href="https://www.buymeacoffee.com/tomassirio1">
+      <img src="https://i.pinimg.com/originals/60/fd/e8/60fde811b6be57094e0abc69d9c2622a.jpg" width="100"; height="100"/>
+  </a>
+   <a href="linkedin.com/in/tomassirio">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6lpesO6pwpEcg_vPih50fcYPqy4F0Y_xw5Q&usqp=CAU" width="100"; height="100"/>
+  </a>
