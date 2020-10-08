@@ -16,7 +16,7 @@ Let's add everything we need on a community list!
 
 ![image](https://miro.medium.com/max/8512/0*1YAdWi5ruRiSQDas)
 
-### :tada: Inspiration
+## :tada: Inspiration
 
 ![image](https://greatpeopleinside.com/wp-content/uploads/2017/09/inspiration-at-work.jpeg)
 
@@ -24,28 +24,13 @@ A couple of friends and me wanted to keep track of the movies
 we wanted to watch on our discord server,
 so I created ListBot to do that.
 
-### :white_check_mark: Add ListBot to your Discord Server
+## :white_check_mark: Add ListBot to your Discord Server
 
 By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot) you can authorize ListBot to be used in your server.
 
 Also you can check out our Discord server in which we discuss what we can Add to the bot, possible bugfixes, etcetera in [here](https://discord.gg/59YjSZ)
 
-## :star: Getting started
-
-### :computer: Installation
-
-Learn how to create a Discord bot and get a valid token [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
-
-### :floppy_disk: To get started locally, follow these instructions:
-
-1.  Clone to your local computer using `git`.
-2.  Make sure you have Node installed; see instructions [here](https://nodejs.org/en/download/).
-3.  Make also sure that you have MongoDB installed; see instructions [here](https://docs.mongodb.com/manual/installation/).
-4.  Create a copy of the `.env.example` file named `.env` found in `./src/config/.env.example` and replace the placeholders with your bot token and MongoDB credentials
-5.  Run `npm install` to install all dependencies
-6.  Run `npm run dev` to start server as `development` environment or `npm run start` for `production`
-
-### :battery: Usage
+## :battery: Usage
 
 Once the bot is running and connected to your Discord channel and database
 you can use the following commands:
@@ -62,6 +47,21 @@ you can use the following commands:
     * $multi-remove <element> <element> - removes multiple elements \in a list
     * $remind <time_in_minutes> <component>: adds a component to the list and reminds you of it in n minutes
 ```
+
+## :star: Getting started
+
+### :computer: Installation
+
+Learn how to create a Discord bot and get a valid token [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
+
+### :floppy_disk: To get started locally, follow these instructions:
+
+1.  Clone to your local computer using `git`.
+2.  Make sure you have Node installed; see instructions [here](https://nodejs.org/en/download/).
+3.  Make also sure that you have MongoDB installed; see instructions [here](https://docs.mongodb.com/manual/installation/).
+4.  Create a copy of the `.env.example` file named `.env` found in `./src/config/.env.example` and replace the placeholders with your bot token and MongoDB credentials
+5.  Run `npm install` to install all dependencies
+6.  Run `npm run dev` to start server as `development` environment or `npm run start` for `production`
 
 ### :ship: Docker
 
@@ -86,7 +86,7 @@ To connect on:
 - Portainer: **_localhost:9000_**
 - Mongo-express: **_localhost: 8081_**
 
-### :building_construction: Contribution Guidelines:
+## :building_construction: Contribution Guidelines:
 
 - **_fork_** and **_clone_** this repository
 - Make a new branch using `git checkout -b change/username`
