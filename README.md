@@ -281,13 +281,6 @@ To connect on:
             <br />
             <sub><b>Koji Adriano Jr.</b></sub>
         </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/AldoTu">
-            <img src="https://avatars2.githubusercontent.com/u/19616796?s=400&v=4" width="100;" alt="AldoTu"/>
-            <br />
-            <sub><b>AldoTu</b></sub>
-        </a>
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
