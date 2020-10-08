@@ -135,13 +135,20 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/AldoTu">
+            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+            <br />
+            <sub><b>AldoTurmon</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/Abhijay007">
             <img src="https://avatars3.githubusercontent.com/u/64387054?v=4" width="100;" alt="Abhijay007"/>
             <br />
             <sub><b>Abhijay Jain</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/AkiaCode">
             <img src="https://avatars0.githubusercontent.com/u/71239005?v=4" width="100;" alt="AkiaCode"/>
@@ -150,10 +157,10 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/AldoTu">
-            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+        <a href="https://github.com/Peiprjs">
+            <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
             <br />
-            <sub><b>AldoTurmon</b></sub>
+            <sub><b>Peipr</b></sub>
         </a>
     </td>
     <td align="center">
@@ -168,13 +175,6 @@ To connect on:
             <img src="https://avatars0.githubusercontent.com/u/51622948?v=4" width="100;" alt="manishkrjha"/>
             <br />
             <sub><b>Manish Kumar Jha</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Peiprjs">
-            <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
-            <br />
-            <sub><b>Peipr</b></sub>
         </a>
     </td>
     <td align="center">
