@@ -32,7 +32,7 @@ module.exports = {
         } else {
             await mongoose.connect(productionMongoURL, dbOptions)
         }
-        
-        return mongoose.connection; 
+
+        return mongoose.connection;
     }
 }

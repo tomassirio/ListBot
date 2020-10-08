@@ -58,6 +58,7 @@ you can use the following commands:
     * $random: gives you a random component from the list
     * $remove <component>: removes the desired component
     * $multi-remove <element> <element> - removes multiple elements \in a list
+    * $remind <time_in_minutes> <component>: adds a component to the list and reminds you of it in n minutes
 ```
 
 ### :ship: Docker
