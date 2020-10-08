@@ -309,3 +309,6 @@ To connect on:
    <a href="linkedin.com/in/tomassirio">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6lpesO6pwpEcg_vPih50fcYPqy4F0Y_xw5Q&usqp=CAU" width="100"; height="100"/>
   </a>
+  <a href="https://discord.gg/59YjSZ">
+      <img src="https://www.net-aware.org.uk/siteassets/images-and-icons/application-icons/app-icons-discord.png?w=585&scale=down" width="100"; height="100"/>
+  </a>
