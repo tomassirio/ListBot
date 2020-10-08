@@ -128,12 +128,20 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/AldoTu">
+            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+            <br />
+            <sub><b>AldoTurmon</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Fedelaus">
             <img src="https://avatars2.githubusercontent.com/u/43784056?v=4" width="100;" alt="Fedelaus"/>
             <br />
             <sub><b>Nathan Dawson</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/AldoTu">
             <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
@@ -191,7 +199,8 @@ To connect on:
             <br />
             <sub><b>Aditya DS</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/heyimalaap">
             <img src="https://avatars1.githubusercontent.com/u/59120107?v=4" width="100;" alt="heyimalaap"/>
