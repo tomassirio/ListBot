@@ -16,7 +16,6 @@
 * We are accepting contributions in any language.
 * Use meaningful variable, method and function names and comments.
 * No profanity.
-* Basically, use common sense.
 
 ## Ways to Contribute:
 
