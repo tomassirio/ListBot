@@ -6,6 +6,8 @@ WORKDIR /listbot
 
 COPY package*.json ./
 
+COPY CHANGELOG ./
+
 RUN npm install --quiet
 
 RUN npm install nodemon -g --quiet
