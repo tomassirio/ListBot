@@ -128,17 +128,17 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/AldoTu">
-            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
-            <br />
-            <sub><b>AldoTurmon</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/Fedelaus">
             <img src="https://avatars2.githubusercontent.com/u/43784056?v=4" width="100;" alt="Fedelaus"/>
             <br />
             <sub><b>Nathan Dawson</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/AldoTu">
+            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+            <br />
+            <sub><b>AldoTurmon</b></sub>
         </a>
     </td></tr>
 <tr>
@@ -290,13 +290,6 @@ To connect on:
             <img src="https://avatars1.githubusercontent.com/u/43143132?v=4" width="100;" alt="kojiadrianojr"/>
             <br />
             <sub><b>Koji Adriano Jr.</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/medusalix">
-            <img src="https://avatars2.githubusercontent.com/u/8124898?v=4" width="100;" alt="medusalix"/>
-            <br />
-            <sub><b>Severin</b></sub>
         </a>
     </td></tr>
 </table>
