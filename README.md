@@ -60,6 +60,7 @@ you can use the following commands:
     * $random: gives you a random component from the list
     * $remove <component>: removes the desired component
     * $multi-remove <element> <element> - removes multiple elements \in a list
+    * $remind <time_in_minutes> <component>: adds a component to the list and reminds you of it in n minutes
 ```
 
 ### :ship: Docker
@@ -134,13 +135,20 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/AldoTu">
+            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+            <br />
+            <sub><b>AldoTurmon</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/Abhijay007">
             <img src="https://avatars3.githubusercontent.com/u/64387054?v=4" width="100;" alt="Abhijay007"/>
             <br />
             <sub><b>Abhijay Jain</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/AkiaCode">
             <img src="https://avatars0.githubusercontent.com/u/71239005?v=4" width="100;" alt="AkiaCode"/>
@@ -190,7 +198,8 @@ To connect on:
             <br />
             <sub><b>Aditya DS</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/heyimalaap">
             <img src="https://avatars1.githubusercontent.com/u/59120107?v=4" width="100;" alt="heyimalaap"/>
