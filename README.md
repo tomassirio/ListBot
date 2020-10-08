@@ -182,6 +182,13 @@ To connect on:
     </td></tr>
 <tr>
     <td align="center">
+        <a href="https://github.com/AldoTu">
+            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+            <br />
+            <sub><b>AldoTurmon</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Carolini28">
             <img src="https://avatars2.githubusercontent.com/u/10856392?v=4" width="100;" alt="Carolini28"/>
             <br />
@@ -215,15 +222,15 @@ To connect on:
             <br />
             <sub><b>JOY SARKAR</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/divn">
             <img src="https://avatars2.githubusercontent.com/u/6170626?v=4" width="100;" alt="divn"/>
             <br />
             <sub><b>Juuso Takala</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/thelovekesh">
             <img src="https://avatars0.githubusercontent.com/u/54371619?v=4" width="100;" alt="thelovekesh"/>
@@ -246,12 +253,20 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Toshiuk">
+            <img src="https://avatars1.githubusercontent.com/u/8109770?v=4" width="100;" alt="Toshiuk"/>
+            <br />
+            <sub><b>Toshiuk</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/arthur-merlin">
             <img src="https://avatars2.githubusercontent.com/u/72411685?v=4" width="100;" alt="arthur-merlin"/>
             <br />
             <sub><b>Arthur-merlin</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/khai93">
             <img src="https://avatars3.githubusercontent.com/u/33293519?v=4" width="100;" alt="khai93"/>
