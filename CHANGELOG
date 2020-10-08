@@ -1,0 +1,5 @@
+1.0.0 - First version - Add, Remove, List, Help functions added
+1.0.1 - Added a random function. Added a confirmation on the Add and Remove Function
+1.1.0 - Added the Poll function. WIP
+2.0   - Bot was completely revamped. Database now functioning
+3.0   - Bot got spookier on #Hacktoberfest2020. Added Add-Many, Remove-Many, Clear and Remind commands. Also lots of bug fixes and code optimization
