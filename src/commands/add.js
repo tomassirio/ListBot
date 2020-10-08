@@ -14,14 +14,14 @@ module.exports = {
 
         const newItem = new Item({
             content: item,
-            author: message.author.username,
+            author: message.author.tag
         })
 
         const dbChannel = await ChannelRepository.findOrCreate(channel)
         dbChannel.items.push(newItem)
         dbChannel.save()
 
-        let embededMessage = Util.embedMessage("Succesfully added", "0xffff00", item)
+        let embededMessage = Util.embedMessage("I've succesfully added your element to the list." , message.author.tag, "0xffff00", item)
         channel.send(embededMessage);
 
     },

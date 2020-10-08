@@ -7,12 +7,27 @@ module.exports = {
     description: 'Removes an element from the list',
     execute: async (message, args) => {
         let channel = message.channel
-        let itemToRemove = args[0]
+        let itemIndex = Number(args[0]) - 1;
+        let embedMessage = "";
+        let embedColor = "";
 
-        await ChannelRepository.findOrCreate(channel)
-        Channel.updateOne( {channelId: channel.id}, { $pullAll: {content: [itemToRemove] } } )
+        const dbChannel = await ChannelRepository.findOrCreate(channel)
 
-        let embededMessage = Util.embedMessage("There was no such an item", "0xff0000", "The solicited item: " + itemToRemove + " was not on the list")
+        // Check if item exists 
+        if ((itemIndex + 1) > dbChannel.items.length || itemIndex < 0) {
+            // give error
+            embedMessage = `Could not find item of index ${itemIndex + 1}`;
+            embedColor = "0xff0000"
+        } else {
+            // remove item
+            dbChannel.items.splice(itemIndex, 1)
+            dbChannel.save();
+            embedMessage = `Successfully deleted item of index ${itemIndex + 1}`;
+            embedColor = "0xffff00"
+        }
+
+        // send embeded message
+        let embededMessage = Util.embedMessage(embedMessage, message.author.id , embedColor, "")
         channel.send(embededMessage);
     },
 };

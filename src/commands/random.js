@@ -11,10 +11,10 @@ module.exports = {
 
         const { items } = await ChannelRepository.findOrCreate(channel)
         randomItem = items[Math.floor(Math.random()*items.length)];
-        console.log(randomItem.content)
 
+        console.log(`Randomly selected ${randomItem.content}`);
 
-        let embededMessage = Util.embedMessage("The random entry of the list is", "0xff0000", randomItem.content)
+        let embededMessage = Util.embedMessage("The random entry of the list is", message.author.tag ,  "0xff0000", `${randomItem.content}.\n\n Element was added by : ${randomItem.author}`)
         channel.send(embededMessage)
     },
 };
