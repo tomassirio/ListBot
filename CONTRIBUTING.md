@@ -18,6 +18,7 @@
 * No profanity.
 
 ## Ways to Contribute:
+
 * Implementing new algorithms in the repo, under the right section. Make a new section for it if it doesn't fall under any section. Make sure that your implementation works
 * Optimizing or improving the existing algorithms
 * Adding a different solution for the problem
