@@ -93,7 +93,7 @@ To connect on:
 
 ### :jack_o_lantern: Contributors Hacktoberfest 2020:
 
-<!-- readme: contributors -start -->
+<!-- readme: contributors -start --> 
 <table>
 <tr>
     <td align="center">
@@ -147,6 +147,13 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/AldoTu">
+            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+            <br />
+            <sub><b>AldoTurmon</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Akshansh99">
             <img src="https://avatars3.githubusercontent.com/u/44085790?v=4" width="100;" alt="Akshansh99"/>
             <br />
@@ -173,20 +180,13 @@ To connect on:
             <br />
             <sub><b>Aditya DS</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/heyimalaap">
             <img src="https://avatars1.githubusercontent.com/u/59120107?v=4" width="100;" alt="heyimalaap"/>
             <br />
             <sub><b>Heyimalaap</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/AldoTu">
-            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
-            <br />
-            <sub><b>AldoTurmon</b></sub>
         </a>
     </td>
     <td align="center">
