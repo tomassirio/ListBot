@@ -281,6 +281,12 @@ To connect on:
             <br />
             <sub><b>Koji Adriano Jr.</b></sub>
         </a>
+    <td align="center">
+        <a href="https://github.com/peiprjs">
+            <img src="https://avatars1.githubusercontent.com/u/72313029?v=4" width="100;" alt="peiprjs"/>
+            <br />
+            <sub><b>Peipr</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
@@ -288,11 +294,7 @@ To connect on:
 [Add yours!](./CONTRIBUTING.md)
 
  ## :bust_in_silhouette: Who Am I?
- Tomas Sirio
-
- Backend Dev at Uala
-
- Buenos Aires, Arg
+<img src="https://media.discordapp.net/attachments/763140054825697301/763681938652528690/logo-design-branding-logo-tool-open-electronic-1-5f7ed02bc8247.png?width=468&height=468" width="400" height="400" /></p>
 
  [tomassirio@gmail.com](mailto:tomassirio@gmail.com?Subject=Tomas%20You%20Are%20Amazing!)
 
