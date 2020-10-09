@@ -114,17 +114,17 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/jledezma-mt">
-            <img src="https://avatars1.githubusercontent.com/u/65924428?v=4" width="100;" alt="jledezma-mt"/>
-            <br />
-            <sub><b>Javier Ledezma</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/AldoTu">
             <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
             <br />
             <sub><b>AldoTurmon</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/jledezma-mt">
+            <img src="https://avatars1.githubusercontent.com/u/65924428?v=4" width="100;" alt="jledezma-mt"/>
+            <br />
+            <sub><b>Javier Ledezma</b></sub>
         </a>
     </td>
     <td align="center">
