@@ -1,5 +1,6 @@
-const { devMongoUrl , productionMongoURL } = require('../config')
+/* eslint-disable import/no-unresolved */
 const mongoose = require('mongoose')
+const { devMongoUrl, productionMongoURL } = require('../config')
 
 mongoose.set('useFindAndModify', false)
 mongoose.Promise = global.Promise
@@ -24,15 +25,15 @@ module.exports = {
             autoIndex: false,
             poolSize: 5,
             connectTimeoutMS: 10000,
-            family: 4
+            family: 4,
         }
 
-        if(process.env.NODE_ENV === "development"){
+        if (process.env.NODE_ENV === 'development') {
             await mongoose.connect(devMongoUrl, dbOptions)
         } else {
             await mongoose.connect(productionMongoURL, dbOptions)
         }
 
-        return mongoose.connection;
-    }
+        return mongoose.connection
+    },
 }

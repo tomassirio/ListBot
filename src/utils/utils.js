@@ -1,33 +1,34 @@
-const Discord = require("discord.js")
+// eslint-disable-next-line import/no-unresolved
+const Discord = require('discord.js')
 
-let Utils = {
-    embedMessage: function (message, author , color, item) {
+const Utils = {
+    embedMessage(message, author, color, item) {
         const embed = new Discord.MessageEmbed()
-        .setTitle(message)
-        .setColor(color)
-        .setDescription(item)
-        .setFooter(author)
-        .setTimestamp();
+            .setTitle(message)
+            .setColor(color)
+            .setDescription(item)
+            .setFooter(author)
+            .setTimestamp()
         return embed
     },
-    generateListEmbed: function (title, color, fields, footer){
-        const embed =  new Discord.MessageEmbed({
+    generateListEmbed(title, color, fields, footer) {
+        const embed = new Discord.MessageEmbed({
             title,
             color,
             timestamp: new Date(),
             fields,
-        });
+        })
 
         if (footer) {
             embed.setFooter(footer)
         }
 
-        return embed;
+        return embed
     },
-    createSet: function (channel, map){
-        let set = new Set()
+    createSet(channel, map) {
+        const set = new Set()
         map.set(channel, set)
-    }
+    },
 }
 
-module.exports = Utils;
+module.exports = Utils
