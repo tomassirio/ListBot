@@ -45,12 +45,12 @@ services:
   server:
     container_name: ListBotContainer
     build: .
-    env_file:
-      - .env
     depends_on:
       - mongo
     ports:
       - "3000:3000"
+    volumes:
+      - ./.env:/listbot/src/config/.env
     networks:
       - intranet
     
