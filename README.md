@@ -97,7 +97,7 @@ To connect on:
 
 ### :jack_o_lantern: Contributors Hacktoberfest 2020:
 
-<!-- readme: contributors -start -->
+<!-- readme: contributors -start --> 
 <table>
 <tr>
     <td align="center">
