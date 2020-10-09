@@ -1,7 +1,8 @@
+// eslint-disable-next-line import/no-unresolved
 const Discord = require('discord.js')
 
-let Utils = {
-    embedMessage: function (message, author, color, item) {
+const Utils = {
+    embedMessage(message, author, color, item) {
         const embed = new Discord.MessageEmbed()
             .setTitle(message)
             .setColor(color)
@@ -10,7 +11,7 @@ let Utils = {
             .setTimestamp()
         return embed
     },
-    generateListEmbed: function (title, color, fields, footer) {
+    generateListEmbed(title, color, fields, footer) {
         const embed = new Discord.MessageEmbed({
             title,
             color,
@@ -24,8 +25,8 @@ let Utils = {
 
         return embed
     },
-    createSet: function (channel, map) {
-        let set = new Set()
+    createSet(channel, map) {
+        const set = new Set()
         map.set(channel, set)
     },
 }

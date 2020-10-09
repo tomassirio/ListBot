@@ -1,3 +1,5 @@
+/* eslint-disable no-param-reassign */
+// eslint-disable-next-line import/no-unresolved
 const mongoose = require('mongoose')
 const Guild = require('../models/guild')
 

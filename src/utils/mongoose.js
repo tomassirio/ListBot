@@ -1,5 +1,6 @@
-const { devMongoUrl, productionMongoURL } = require('../config')
+/* eslint-disable import/no-unresolved */
 const mongoose = require('mongoose')
+const { devMongoUrl, productionMongoURL } = require('../config')
 
 mongoose.set('useFindAndModify', false)
 mongoose.Promise = global.Promise

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 const path = require('path')
 const result = require('dotenv').config({ path: path.join(__dirname, '.env') })
 
