@@ -94,9 +94,6 @@ To connect on:
 - Sign off your commits using `git commit -s -m w/signoff`
 - Push your changes to the branch and open a pull request
 
-## ⍰ Requesting help:
-![embed]<iframe src="https://discordapp.com/widget?id=763734224443408415&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-
 
 ### :jack_o_lantern: Contributors Hacktoberfest 2020:
 
