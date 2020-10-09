@@ -1,4 +1,4 @@
-const { devMongoUrl , productionMongoURL } = require('../config')
+const { devMongoUrl, productionMongoURL } = require('../config')
 const mongoose = require('mongoose')
 
 mongoose.set('useFindAndModify', false)
@@ -24,15 +24,15 @@ module.exports = {
             autoIndex: false,
             poolSize: 5,
             connectTimeoutMS: 10000,
-            family: 4
+            family: 4,
         }
 
-        if(process.env.NODE_ENV === "development"){
+        if (process.env.NODE_ENV === 'development') {
             await mongoose.connect(devMongoUrl, dbOptions)
         } else {
             await mongoose.connect(productionMongoURL, dbOptions)
         }
 
-        return mongoose.connection;
-    }
+        return mongoose.connection
+    },
 }
