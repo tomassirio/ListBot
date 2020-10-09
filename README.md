@@ -114,17 +114,17 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/TheRealLunatite">
-            <img src="https://avatars2.githubusercontent.com/u/50427871?v=4" width="100;" alt="TheRealLunatite"/>
-            <br />
-            <sub><b>Luna</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/AldoTu">
             <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
             <br />
             <sub><b>AldoTurmon</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/TheRealLunatite">
+            <img src="https://avatars2.githubusercontent.com/u/50427871?v=4" width="100;" alt="TheRealLunatite"/>
+            <br />
+            <sub><b>Luna</b></sub>
         </a>
     </td>
     <td align="center">
