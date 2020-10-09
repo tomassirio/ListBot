@@ -5,12 +5,25 @@ module.exports = {
     name: 'remind',
     description: 'Bot reminds of an item in channel after specific time',
     execute: async (message, args) => {
+        let channel = message.channel
+
+        if (args[0] == undefined){
+          let embededMessage = Util.embedMessage(`Please specify time for the reminder` , message.author.tag, "0xffff00", "I.e. '$remind 5 Hello World!'")
+          channel.send(embededMessage);
+          return;
+        }
+
         let item = ""
         let time = args[0]
         for(let i = 1; i < args.length; i++){
             item += args[i] + " "
         }
-        let channel = message.channel
+
+        if (item == ""){
+          let embededMessage = Util.embedMessage(`Please enter a non-blank item` , message.author.tag, "0xffff00", "")
+          channel.send(embededMessage);
+          return;
+        }
 
         let embededMessage = Util.embedMessage(`I've succesfully added your element to the list and will remind you in ${time} minutes.` , message.author.tag, "0xffff00", item)
         channel.send(embededMessage);
