@@ -114,6 +114,13 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Peiprjs">
+            <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
+            <br />
+            <sub><b>Peipr</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/AldoTu">
             <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
             <br />
@@ -133,15 +140,15 @@ To connect on:
             <br />
             <sub><b>JDOG787</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Fedelaus">
             <img src="https://avatars2.githubusercontent.com/u/43784056?v=4" width="100;" alt="Fedelaus"/>
             <br />
             <sub><b>Nathan Dawson</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Abhijay007">
             <img src="https://avatars3.githubusercontent.com/u/64387054?v=4" width="100;" alt="Abhijay007"/>
@@ -154,13 +161,6 @@ To connect on:
             <img src="https://avatars0.githubusercontent.com/u/71239005?v=4" width="100;" alt="AkiaCode"/>
             <br />
             <sub><b>AkiaCode</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Peiprjs">
-            <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
-            <br />
-            <sub><b>Peipr</b></sub>
         </a>
     </td>
     <td align="center">
