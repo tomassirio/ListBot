@@ -10,7 +10,7 @@
   <a href="https://img.shields.io/badge/Hacktoberfest-red"><img src="https://img.shields.io/badge/Hacktoberfest-red"></a>
 </p>
 
-A simple Discord Bot, written in Javascript to create Lists in every channel.
+ListBot is a relatively simple Discord Bot, written in Javascript to create Lists in every channel.
 
 Let's add everything we need on a community list!
 
@@ -26,9 +26,9 @@ so I created ListBot to do that.
 
 ## :white_check_mark: Add ListBot to your Discord Server
 
-By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot) you can authorize ListBot to be used in your server.
+By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot), you can authorize ListBot to be used in your server.
 
-Also you can check out our Discord server in which we discuss what we can Add to the bot, possible bugfixes, etcetera in [here](https://discord.gg/59YjSZ)
+You can also check out our Discord server in which we discuss what we can Add to the bot, possible bugfixes, etcetera in [here](https://discord.gg/59YjSZ)
 
 ## :battery: Usage
 
@@ -61,14 +61,14 @@ Learn how to create a Discord bot and get a valid token [here](https://github.co
 3.  Make also sure that you have MongoDB installed; see instructions [here](https://docs.mongodb.com/manual/installation/).
 4.  Create a copy of the `.env.example` file named `.env` found in `./src/config/.env.example` and replace the placeholders with your bot token and MongoDB credentials
 5.  Run `npm install` to install all dependencies
-6.  Run `npm run dev` to start server as `development` environment or `npm run start` for `production`
+6.  Run `npm run dev` to start your server as `development` environment or `npm run start` for `production`
 
 ### :ship: Docker
 
-For development, you can run ListBot using Docker and Docker Compose following this steps below:
+For development, you can run ListBot using Docker and Docker Compose following these steps below:
 
 - Adjust `.env` with your bot token
-- Run `docker-composer up -d`. This will build all containers on the first run and will be placed in background
+- Run `docker-composer up -d`. This will build all containers on the first run and will be placed in the background
 - If you want to see the logs, just type `docker-compose logs -f` or read all in **Portainer**
 - If you want to stop, run `docker-compose down`
 
@@ -114,11 +114,16 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/AldoTu">
-            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+      <a href="https://github.com/AldoTu">
+        <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
             <br />
             <sub><b>AldoTurmon</b></sub>
-        </a>
+      </a>
+      <a href="https://github.com/Peiprjs">
+        <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
+        <br />
+        <sub><b>Peipr</b></sub>
+      </a>
     </td>
     <td align="center">
         <a href="https://github.com/TheRealLunatite">
@@ -133,15 +138,15 @@ To connect on:
             <br />
             <sub><b>JDOG787</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Fedelaus">
             <img src="https://avatars2.githubusercontent.com/u/43784056?v=4" width="100;" alt="Fedelaus"/>
             <br />
             <sub><b>Nathan Dawson</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Abhijay007">
             <img src="https://avatars3.githubusercontent.com/u/64387054?v=4" width="100;" alt="Abhijay007"/>
@@ -154,13 +159,6 @@ To connect on:
             <img src="https://avatars0.githubusercontent.com/u/71239005?v=4" width="100;" alt="AkiaCode"/>
             <br />
             <sub><b>AkiaCode</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Peiprjs">
-            <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
-            <br />
-            <sub><b>Peipr</b></sub>
         </a>
     </td>
     <td align="center">
@@ -185,6 +183,13 @@ To connect on:
         </a>
     </td></tr>
 <tr>
+    <td align="center">
+        <a href="https://github.com/adhammo">
+            <img src="https://avatars2.githubusercontent.com/u/56611873?v=4" width="100;" alt="adhammo"/>
+            <br />
+            <sub><b>Adham Mohamed</b></sub>
+        </a>
+    </td>
     <td align="center">
         <a href="https://github.com/Aditya-ds-1806">
             <img src="https://avatars1.githubusercontent.com/u/46485997?v=4" width="100;" alt="Aditya-ds-1806"/>
@@ -219,15 +224,15 @@ To connect on:
             <br />
             <sub><b>Henrique Paulo Bonfim</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/jsilvaigor">
             <img src="https://avatars2.githubusercontent.com/u/7428662?v=4" width="100;" alt="jsilvaigor"/>
             <br />
             <sub><b>Igor Silva</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/joy98">
             <img src="https://avatars3.githubusercontent.com/u/32029022?v=4" width="100;" alt="joy98"/>
@@ -262,15 +267,15 @@ To connect on:
             <br />
             <sub><b>Sh1710</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Toshiuk">
             <img src="https://avatars1.githubusercontent.com/u/8109770?v=4" width="100;" alt="Toshiuk"/>
             <br />
             <sub><b>Toshiuk</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/arthur-merlin">
             <img src="https://avatars2.githubusercontent.com/u/72411685?v=4" width="100;" alt="arthur-merlin"/>
