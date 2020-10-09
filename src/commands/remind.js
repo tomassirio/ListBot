@@ -17,6 +17,16 @@ module.exports = {
             channel.send(embededMessage)
             return
         }
+        if (isNaN(args[0])){
+          let embededMessage = Util.embedMessage(
+              `Time given is not a number`,
+              message.author.tag,
+              '0xffff00',
+              "I.e. '$remind 5 Hello World!'"
+          )
+          channel.send(embededMessage)
+          return
+        }
 
         let item = ''
         let time = args[0]
