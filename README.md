@@ -28,7 +28,7 @@ so I created ListBot to do that.
 
 By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot), you can authorize ListBot to be used in your server.
 
-You can also check out our Discord server in which we discuss what we can Add to the bot, possible bugfixes, etcetera in [here](https://discord.gg/59YjSZ)
+You can also check out our Discord server in which we discuss what we can add to the bot, possible bug fixes, we sometimes have fun and something else in [here](discord.io/listbot). 
 
 ## :battery: Usage
 
@@ -93,6 +93,7 @@ To connect on:
 - Commit the desired changes to that branch
 - Sign off your commits using `git commit -s -m w/signoff`
 - Push your changes to the branch and open a pull request
+
 
 ### :jack_o_lantern: Contributors Hacktoberfest 2020:
 
