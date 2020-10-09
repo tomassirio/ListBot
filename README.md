@@ -114,16 +114,18 @@ To connect on:
         </a>
     </td>
     <td align="center">
-      <a href="https://github.com/AldoTu">
-        <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+        <a href="https://github.com/AldoTu">
+            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
             <br />
             <sub><b>AldoTurmon</b></sub>
-      </a>
-      <a href="https://github.com/Peiprjs">
-        <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
-        <br />
-        <sub><b>Peipr</b></sub>
-      </a>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Peiprjs">
+            <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
+            <br />
+            <sub><b>Peipr</b></sub>
+        </a>
     </td>
     <td align="center">
         <a href="https://github.com/TheRealLunatite">
