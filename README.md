@@ -187,6 +187,13 @@ To connect on:
     </td></tr>
 <tr>
     <td align="center">
+        <a href="https://github.com/CarlyRaeJepsenStan">
+            <img src="https://avatars3.githubusercontent.com/u/44917034?v=4" width="100;" alt="CarlyRaeJepsenStan"/>
+            <br />
+            <sub><b>CarlyRaeJepsenStan</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/manishkrjha">
             <img src="https://avatars0.githubusercontent.com/u/51622948?v=4" width="100;" alt="manishkrjha"/>
             <br />
@@ -220,15 +227,15 @@ To connect on:
             <br />
             <sub><b>Aditya DS</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/heyimalaap">
             <img src="https://avatars1.githubusercontent.com/u/59120107?v=4" width="100;" alt="heyimalaap"/>
             <br />
             <sub><b>Heyimalaap</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Carolini28">
             <img src="https://avatars2.githubusercontent.com/u/10856392?v=4" width="100;" alt="Carolini28"/>
@@ -263,15 +270,15 @@ To connect on:
             <br />
             <sub><b>JOY SARKAR</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/divn">
             <img src="https://avatars2.githubusercontent.com/u/6170626?v=4" width="100;" alt="divn"/>
             <br />
             <sub><b>Juuso Takala</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/thelovekesh">
             <img src="https://avatars0.githubusercontent.com/u/54371619?v=4" width="100;" alt="thelovekesh"/>
@@ -305,13 +312,6 @@ To connect on:
             <img src="https://avatars2.githubusercontent.com/u/72411685?v=4" width="100;" alt="arthur-merlin"/>
             <br />
             <sub><b>Arthur-merlin</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/khai93">
-            <img src="https://avatars3.githubusercontent.com/u/33293519?v=4" width="100;" alt="khai93"/>
-            <br />
-            <sub><b>Khai93</b></sub>
         </a>
     </td></tr>
 </table>
