@@ -280,6 +280,13 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/XysID">
+            <img src="https://avatars0.githubusercontent.com/u/71617416?v=4" width="100;" alt="XysID"/>
+            <br />
+            <sub><b>Xys</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/arthur-merlin">
             <img src="https://avatars2.githubusercontent.com/u/72411685?v=4" width="100;" alt="arthur-merlin"/>
             <br />
