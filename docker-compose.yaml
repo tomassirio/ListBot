@@ -51,6 +51,8 @@ services:
             - mongo
         ports:
             - '3000:3000'
+        volumes:
+            - ./.env:/listbot/src/config/.env
         networks:
             - intranet
 

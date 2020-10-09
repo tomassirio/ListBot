@@ -28,7 +28,7 @@ so I created ListBot to do that.
 
 By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot), you can authorize ListBot to be used in your server.
 
-You can also check out our Discord server in which we discuss what we can Add to the bot, possible bugfixes, etcetera in [here](https://discord.gg/59YjSZ)
+You can also check out our Discord server in which we discuss what we can add to the bot, possible bug fixes, we sometimes have fun and something else in [here](discord.io/listbot). 
 
 ## :battery: Usage
 
@@ -94,6 +94,7 @@ To connect on:
 -   Sign off your commits using `git commit -s -m w/signoff`
 -   Push your changes to the branch and open a pull request
 
+
 ### :jack_o_lantern: Contributors Hacktoberfest 2020:
 
 <!-- readme: contributors -start -->
@@ -104,6 +105,13 @@ To connect on:
             <img src="https://avatars3.githubusercontent.com/u/19593836?v=4" width="100;" alt="tomassirio"/>
             <br />
             <sub><b>Tomas Sirio</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Peiprjs">
+            <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
+            <br />
+            <sub><b>Peipr</b></sub>
         </a>
     </td>
     <td align="center">
@@ -118,13 +126,6 @@ To connect on:
             <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
             <br />
             <sub><b>AldoTurmon</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Peiprjs">
-            <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
-            <br />
-            <sub><b>Peipr</b></sub>
         </a>
     </td>
     <td align="center">
@@ -147,6 +148,13 @@ To connect on:
             <img src="https://avatars2.githubusercontent.com/u/43784056?v=4" width="100;" alt="Fedelaus"/>
             <br />
             <sub><b>Nathan Dawson</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/medusalix">
+            <img src="https://avatars2.githubusercontent.com/u/8124898?v=4" width="100;" alt="medusalix"/>
+            <br />
+            <sub><b>Severin</b></sub>
         </a>
     </td>
     <td align="center">
@@ -176,15 +184,15 @@ To connect on:
             <br />
             <sub><b>Manish Kumar Jha</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/simonardejr">
             <img src="https://avatars0.githubusercontent.com/u/3685303?v=4" width="100;" alt="simonardejr"/>
             <br />
             <sub><b>Simonarde Lima</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/adhammo">
             <img src="https://avatars2.githubusercontent.com/u/56611873?v=4" width="100;" alt="adhammo"/>
@@ -219,15 +227,15 @@ To connect on:
             <br />
             <sub><b>DiC3genes Dauster</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/hpbonfim">
             <img src="https://avatars3.githubusercontent.com/u/40275173?v=4" width="100;" alt="hpbonfim"/>
             <br />
             <sub><b>Henrique Paulo Bonfim</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/jsilvaigor">
             <img src="https://avatars2.githubusercontent.com/u/7428662?v=4" width="100;" alt="jsilvaigor"/>
@@ -262,20 +270,27 @@ To connect on:
             <br />
             <sub><b>Quan Pham</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Sh1710">
             <img src="https://avatars2.githubusercontent.com/u/72331454?v=4" width="100;" alt="Sh1710"/>
             <br />
             <sub><b>Sh1710</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Toshiuk">
             <img src="https://avatars1.githubusercontent.com/u/8109770?v=4" width="100;" alt="Toshiuk"/>
             <br />
             <sub><b>Toshiuk</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/XysID">
+            <img src="https://avatars0.githubusercontent.com/u/71617416?v=4" width="100;" alt="XysID"/>
+            <br />
+            <sub><b>Xys</b></sub>
         </a>
     </td>
     <td align="center">
@@ -297,13 +312,6 @@ To connect on:
             <img src="https://avatars1.githubusercontent.com/u/43143132?v=4" width="100;" alt="kojiadrianojr"/>
             <br />
             <sub><b>Koji Adriano Jr.</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/medusalix">
-            <img src="https://avatars2.githubusercontent.com/u/8124898?v=4" width="100;" alt="medusalix"/>
-            <br />
-            <sub><b>Severin</b></sub>
         </a>
     </td></tr>
 </table>
