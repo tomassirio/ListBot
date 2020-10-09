@@ -67,37 +67,37 @@ Learn how to create a Discord bot and get a valid token [here](https://github.co
 
 For development, you can run ListBot using Docker and Docker Compose following these steps below:
 
-- Adjust `.env` with your bot token
-- Run `docker-composer up -d`. This will build all containers on the first run and will be placed in the background
-- If you want to see the logs, just type `docker-compose logs -f` or read all in **Portainer**
-- If you want to stop, run `docker-compose down`
+-   Adjust `.env` with your bot token
+-   Run `docker-composer up -d`. This will build all containers on the first run and will be placed in the background
+-   If you want to see the logs, just type `docker-compose logs -f` or read all in **Portainer**
+-   If you want to stop, run `docker-compose down`
 
 The docker-compose.yml file contains:
 
-- **Mongo-express**: \*For database manager\*\*
-- **Mongo**: _The database itself_
-- **Server**: _ListBot_
-- **Portainer**: _To monitor your container services, such as logs, restarts and more._
-  - _You need to create a local user and password_
-  - _Next page you need to choose docker local environment and after that click connect_
+-   **Mongo-express**: \*For database manager\*\*
+-   **Mongo**: _The database itself_
+-   **Server**: _ListBot_
+-   **Portainer**: _To monitor your container services, such as logs, restarts and more._
+    -   _You need to create a local user and password_
+    -   _Next page you need to choose docker local environment and after that click connect_
 
 To connect on:
 
-- Portainer: **_localhost:9000_**
-- Mongo-express: **_localhost: 8081_**
+-   Portainer: **_localhost:9000_**
+-   Mongo-express: **_localhost: 8081_**
 
 ## :building_construction: Contribution Guidelines:
 
-- **_fork_** and **_clone_** this repository
-- Make a new branch using `git checkout -b change/username`
-- Commit the desired changes to that branch
-- Sign off your commits using `git commit -s -m w/signoff`
-- Push your changes to the branch and open a pull request
+-   **_fork_** and **_clone_** this repository
+-   Make a new branch using `git checkout -b change/username`
+-   Commit the desired changes to that branch
+-   Sign off your commits using `git commit -s -m w/signoff`
+-   Push your changes to the branch and open a pull request
 
 
 ### :jack_o_lantern: Contributors Hacktoberfest 2020:
 
-<!-- readme: contributors -start --> 
+<!-- readme: contributors -start -->
 <table>
 <tr>
     <td align="center">
@@ -319,7 +319,8 @@ To connect on:
 
 [Add yours!](./CONTRIBUTING.md)
 
- ## :bust_in_silhouette: Who Am I?
+## :bust_in_silhouette: Who Am I?
+
 <img src="https://media.discordapp.net/attachments/763140054825697301/763681938652528690/logo-design-branding-logo-tool-open-electronic-1-5f7ed02bc8247.png?width=468&height=468" width="410" height="410" /></p>
 
   <a href="mailto:tomassirio@gmail.com?Subject=Tomas%20You%20Are%20Amazing!">
@@ -334,4 +335,3 @@ To connect on:
   <a href="https://www.buymeacoffee.com/tomassirio1">
       <img src="https://i.pinimg.com/originals/60/fd/e8/60fde811b6be57094e0abc69d9c2622a.jpg" width="100"; height="100"/>
   </a>
-

@@ -5,7 +5,6 @@ module.exports = {
     name: 'ping',
     description: 'Check the bot latency',
     execute: async (message, args) => {
-    
   
 const m = await message.channel.send("Please wait...");
         let embed = new Discord.MessageEmbed()
@@ -17,5 +16,3 @@ const m = await message.channel.send("Please wait...");
             .setTimestamp();
             return m.edit(`🏓 Poong!`, embed)
 }
-    
-  
