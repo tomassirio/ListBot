@@ -28,7 +28,7 @@ module.exports = {
             return
         }
 
-        let item = args.map((item) => item + ' ')
+        let item = elements.map((item) => item + ' ')
 
         if (item == '') {
             let embededMessage = Util.embedMessage(
