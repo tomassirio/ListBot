@@ -5,8 +5,8 @@ module.exports = {
     name: 'list',
     description: 'Lists all the elements of the list',
     execute: async (message) => {
-        let { channel } = message
-        let fields = []
+        let channel = message.channel
+
         let dbChannel = await ChannelRepository.findOrCreate(channel)
 
         if (!dbChannel.items || dbChannel.items.length === 0) {
@@ -20,14 +20,11 @@ module.exports = {
             return
         }
 
-        let i = 1
-        for (let item of dbChannel.items) {
-            fields.push({
-                name: `${i} - ${item.content}`,
-                value: item.author,
-            })
-            i += 1
-        }
+        let fields = dbChannel.items.map((item, i) => ({
+            name: `${i} - ${item.content}`,
+            value: item.author,
+        }))
+
 
         let channelName = channel.name
         channelName = channelName.charAt(0).toUpperCase() + channelName.slice(1) // Capitalize the first letter in the channel name.

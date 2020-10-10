@@ -7,11 +7,7 @@ module.exports = {
     description: 'Add multiple elements to the list',
 
     execute: async (message, args) => {
-        let item = []
-
-        args.forEach((element) => {
-            item.push(element)
-        })
+        let item = [...args]
 
         let { channel } = message
 

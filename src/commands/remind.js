@@ -3,10 +3,11 @@ const Util = require('../utils/utils.js')
 module.exports = {
     name: 'remind',
     description: 'Bot reminds of an item in channel after specific time',
-    execute: async (message, args) => {
-        let { channel } = message
+    execute: async (message, [minutes, ...elements]) => {
+        let channel = message.channel
 
-        if (args[0] === undefined) {
+        if (minutes == undefined) {
+
             let embededMessage = Util.embedMessage(
                 `Please specify time for the reminder`,
                 message.author.tag,
@@ -16,7 +17,8 @@ module.exports = {
             channel.send(embededMessage)
             return
         }
-        if (isNaN(args[0])) {
+        if (isNaN(minutes)) {
+
             let embededMessage = Util.embedMessage(
                 `Time given is not a number`,
                 message.author.tag,
@@ -27,11 +29,8 @@ module.exports = {
             return
         }
 
-        let item = ''
-        let time = args[0]
-        for (let i = 1; i < args.length; i++) {
-            item += `${args[i]} `
-        }
+        let item = elements.map((item) => item + ' ')
+
 
         if (item === '') {
             let embededMessage = Util.embedMessage(
