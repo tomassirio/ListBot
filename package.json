@@ -6,13 +6,15 @@
     "scripts": {
         "start": "babel src -d build && cross-env NODE_ENV=production node build/index.js",
         "dev": "cross-env NODE_ENV=development nodemon --exec babel-node src/index.js",
-        "prettier": "prettier --write ."
+        "lint": "eslint .",
+        "lint-fix": "eslint --fix ."
     },
     "license": "ISC",
     "dependencies": {
         "@babel/polyfill": "^7.11.5",
         "ascii-table": "0.0.9",
         "cheerio": "^1.0.0-rc.3",
+        "common-tags": "^1.8.0",
         "cross-env": "^7.0.2",
         "discord.js": "^12.3.1",
         "dotenv": "^8.2.0",

@@ -5,7 +5,7 @@ module.exports = {
     name: 'poll',
     description: 'Generates a Poll from 5 random elements on the list',
     execute: async (message, args) => {
-        let channel = message.channel
+        let { channel } = message
         let time = args[0]
 
         let emojiList = ['1⃣', '2⃣', '3⃣', '4⃣', '5⃣']
@@ -22,11 +22,11 @@ module.exports = {
 
         let optionsText = ''
         for (let i = 0; i < selected.length; i++) {
-            optionsText += emojiList[i] + ' ' + selected[i].content + '\n'
+            optionsText += `${emojiList[i]} ${selected[i].content}\n`
         }
 
         let embed = new Discord.MessageEmbed()
-            .setTitle('Poll for ' + channel.name)
+            .setTitle(`Poll for ${channel.name}`)
             .setDescription(optionsText)
             .setAuthor(message.author.username, message.author.displayAvatarURL)
             .setColor(0xff0000)
@@ -40,7 +40,7 @@ module.exports = {
             embed.setFooter(`The poll has started and has no end time`)
         }
 
-        //msg.delete(); // Remove the user's command message
+        // msg.delete(); // Remove the user's command message
 
         channel
             .send(embed) // Definitely use a 2d array here..
@@ -64,8 +64,8 @@ module.exports = {
                                 }
 
                                 // Find winner(s)
-                                let max = -Infinity,
-                                    indexMax = []
+                                let max = -Infinity
+                                let indexMax = []
                                 for (
                                     let i = 0;
                                     i < reactionCountsArray.length;
@@ -83,13 +83,11 @@ module.exports = {
                                     winnersText = 'No one voted!'
                                 } else {
                                     for (let i = 0; i < indexMax.length; i++) {
-                                        winnersText +=
-                                            emojiList[indexMax[i]] +
-                                            ' ' +
-                                            selected[indexMax[i]].content +
-                                            ' (' +
-                                            reactionCountsArray[indexMax[i]] +
-                                            ' vote(s))\n'
+                                        winnersText += `${
+                                            emojiList[indexMax[i]]
+                                        } ${selected[indexMax[i]].content} (${
+                                            reactionCountsArray[indexMax[i]]
+                                        } vote(s))\n`
                                     }
                                 }
 

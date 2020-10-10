@@ -1,4 +1,3 @@
-/* eslint-disable import/no-unresolved */
 const mongoose = require('mongoose')
 const { devMongoUrl, productionMongoURL } = require('../config')
 

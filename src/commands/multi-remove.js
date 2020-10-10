@@ -1,13 +1,11 @@
 const Util = require('../utils/utils.js')
-const Channel = require('../models/Channel')
 const ChannelRepository = require('../repositories/channel-repository')
-const { db } = require('../models/Channel')
 
 module.exports = {
     name: 'multi-remove',
     description: 'Removes multiple elements from the list',
     execute: async (message, args) => {
-        let channel = message.channel
+        let { channel } = message
         let indexFrom = args[0] - 1
         let indexTo = args[1] - 1
         let numOfItems = indexTo - indexFrom + 1

@@ -1,17 +1,6 @@
 const { MessageEmbed } = require('discord.js')
 const { stripIndents } = require('common-tags')
 
-module.exports = {
-    name: 'commands',
-    aliases: ['c'],
-    category: 'info',
-    description: 'Displays a full list of bot commands.',
-    usage: `commands`,
-    run: async (client, message) => {
-        return getAll(client, message)
-    },
-}
-
 function getAll(client, message) {
     const embed = new MessageEmbed()
         .setColor(process.env.COLOR)
@@ -41,4 +30,15 @@ function getAll(client, message) {
                 `${process.env.PREFIX}help <commandName>\` without the \`<>\` to see more information about a specific command.\n\n${info}`
         )
     )
+}
+
+module.exports = {
+    name: 'commands',
+    aliases: ['c'],
+    category: 'info',
+    description: 'Displays a full list of bot commands.',
+    usage: `commands`,
+    run: async (client, message) => {
+        return getAll(client, message)
+    },
 }

@@ -8,9 +8,9 @@ module.exports = {
     execute: async (message, args) => {
         let item = ''
         for (let i = 0; i < args.length; i++) {
-            item += args[i] + ' '
+            item += `${args[i]} `
         }
-        let channel = message.channel
+        let { channel } = message
 
         const newItem = new Item({
             content: item,
