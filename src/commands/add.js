@@ -7,7 +7,8 @@ module.exports = {
     description: 'Add an element to the list',
     execute: async (message, args) => {
         let item = args.join(' ')
-        let channel = message.channel
+        let { channel } = message
+
 
         const newItem = new Item({
             content: item,

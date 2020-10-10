@@ -5,7 +5,7 @@ module.exports = {
     name: 'poll',
     description: 'Generates a Poll from 5 random elements on the list',
     execute: async (message, [time]) => {
-        let channel = message.channel
+        let { channel } = message
 
         let emojiList = ['1⃣', '2⃣', '3⃣', '4⃣', '5⃣']
 
@@ -23,8 +23,9 @@ module.exports = {
             (_, i) => `${emojiList[i]} ${selected[i].content}`
         )
 
+
         let embed = new Discord.MessageEmbed()
-            .setTitle('Poll for ' + channel.name)
+            .setTitle(`Poll for ${channel.name}`)
             .setDescription(optionsText)
             .setAuthor(message.author.username, message.author.displayAvatarURL)
             .setColor(0xff0000)
@@ -38,14 +39,16 @@ module.exports = {
             embed.setFooter(`The poll has started and has no end time`)
         }
 
-        //msg.delete(); // Remove the user's command message
+        // msg.delete(); // Remove the user's command message
 
         channel
             .send(embed) // Definitely use a 2d array here..
             .then(async (message) => {
                 let reactionArray = []
+
                 for (let i = 0; i < selected.length; i++) {
-                    reactionArray[i] = await message.react(emojiList[i])
+                    reactionCountsArray[i] =
+                        fetchedMessage.reactions.resolve(emojiList[i]).count - 1
                 }
 
                 if (time) {
@@ -96,8 +99,29 @@ module.exports = {
                                 message.edit('', embed)
                             })
                     }, time * 60 * 1000)
+
                 }
-            })
-            .catch(console.error)
+
+                // Display winner(s)
+                let winnersText = ''
+                if (reactionCountsArray[indexMax[0]] === 0) {
+                    winnersText = 'No one voted!'
+                } else {
+                    for (let i = 0; i < indexMax.length; i++) {
+                        winnersText += `${emojiList[indexMax[i]]} ${
+                            selected[indexMax[i]].content
+                        } (${reactionCountsArray[indexMax[i]]} vote(s))\n`
+                    }
+                }
+
+                embed.addField('**Winner(s):**', winnersText)
+                embed.setFooter(
+                    `The poll is now closed! It lasted ${time} minute(s)`
+                )
+                embed.setTimestamp()
+
+                fetchedMessage.edit('', embed)
+            }, time * 60 * 1000)
+        }
     },
 }

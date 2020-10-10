@@ -1,5 +1,4 @@
 const Util = require('../utils/utils.js')
-const Channel = require('../models/Channel')
 const Item = require('../models/Item.js')
 const ChannelRepository = require('../repositories/channel-repository')
 
@@ -10,7 +9,7 @@ module.exports = {
     execute: async (message, args) => {
         let item = [...args]
 
-        let channel = message.channel
+        let { channel } = message
 
         const dbChannel = await ChannelRepository.findOrCreate(channel)
 

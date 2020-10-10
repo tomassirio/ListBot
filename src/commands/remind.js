@@ -1,5 +1,4 @@
 const Util = require('../utils/utils.js')
-const Item = require('../models/Item.js')
 
 module.exports = {
     name: 'remind',
@@ -8,6 +7,7 @@ module.exports = {
         let channel = message.channel
 
         if (minutes == undefined) {
+
             let embededMessage = Util.embedMessage(
                 `Please specify time for the reminder`,
                 message.author.tag,
@@ -18,6 +18,7 @@ module.exports = {
             return
         }
         if (isNaN(minutes)) {
+
             let embededMessage = Util.embedMessage(
                 `Time given is not a number`,
                 message.author.tag,
@@ -30,7 +31,8 @@ module.exports = {
 
         let item = elements.map((item) => item + ' ')
 
-        if (item == '') {
+
+        if (item === '') {
             let embededMessage = Util.embedMessage(
                 `Please enter a non-blank item`,
                 message.author.tag,

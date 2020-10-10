@@ -1,6 +1,18 @@
 on: [push, pull_request]
 
 jobs:
+    lint:
+        runs-on: ubuntu-latest
+        name: Lint Code
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+            - name: Lint
+              uses: actions/setup-node@v1
+              with:
+                  node-version: '12'
+            - run: npm install
+            - run: npm run lint
     contrib-readme-job:
         runs-on: ubuntu-latest
         name: A job to automate contrib in readme

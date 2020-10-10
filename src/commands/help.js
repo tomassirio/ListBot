@@ -4,8 +4,8 @@ require('dotenv').config()
 module.exports = {
     name: 'help',
     description: 'Gets the bot commands',
-    execute(message, args) {
-        let channel = message.channel
+    execute(message) {
+        let { channel } = message
 
         // [syntax, description]
         let commands = [
@@ -32,6 +32,7 @@ module.exports = {
             ],
             ['help', 'to see this message'],
         ]
+
 
         let msg = commands
             .map(

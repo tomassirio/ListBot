@@ -4,7 +4,7 @@ const Discord = require('discord.js')
 module.exports = {
     name: 'ping',
     description: 'Check the bot latency',
-    execute: async (message, args) => {
+    execute: async (message) => {
         const m = await message.channel.send('Please wait...')
         let embed = new Discord.MessageEmbed()
             .addField(

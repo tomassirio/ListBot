@@ -1,4 +1,3 @@
-/* eslint-disable import/no-unresolved */
 const mongoose = require('mongoose')
 const { devMongoUrl, productionMongoURL } = require('../config')
 
@@ -9,7 +8,7 @@ mongoose.connection.on('connected', () => {
     console.log('Mongoose has suceesfully connected.')
 })
 
-mongoose.connection.on('err', () => {
+mongoose.connection.on('error', (err) => {
     console.error(`Mongoose connection error: \n${err.stack}.`)
 })
 
