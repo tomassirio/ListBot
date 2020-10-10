@@ -4,9 +4,8 @@ const ChannelRepository = require('../repositories/channel-repository')
 module.exports = {
     name: 'poll',
     description: 'Generates a Poll from 5 random elements on the list',
-    execute: async (message, args) => {
+    execute: async (message, [time]) => {
         let channel = message.channel
-        let time = args[0]
 
         let emojiList = ['1⃣', '2⃣', '3⃣', '4⃣', '5⃣']
 
@@ -20,10 +19,9 @@ module.exports = {
         // Get sub-array of first n elements after shuffled
         let selected = shuffled.slice(0, 5)
 
-        let optionsText = ''
-        for (let i = 0; i < selected.length; i++) {
-            optionsText += emojiList[i] + ' ' + selected[i].content + '\n'
-        }
+        let optionsText = selected.map(
+            (_, i) => `${emojiList[i]} ${selected[i].content}`
+        )
 
         let embed = new Discord.MessageEmbed()
             .setTitle('Poll for ' + channel.name)
@@ -44,7 +42,7 @@ module.exports = {
 
         channel
             .send(embed) // Definitely use a 2d array here..
-            .then(async function (message) {
+            .then(async (message) => {
                 let reactionArray = []
                 for (let i = 0; i < selected.length; i++) {
                     reactionArray[i] = await message.react(emojiList[i])
@@ -55,7 +53,7 @@ module.exports = {
                         // Re-fetch the message and get reaction counts
                         message.channel.messages
                             .fetch(message.id)
-                            .then(async function (message) {
+                            .then(async (message) => {
                                 let reactionCountsArray = []
                                 for (let i = 0; i < selected.length; i++) {
                                     reactionCountsArray[i] =
@@ -82,15 +80,11 @@ module.exports = {
                                 if (reactionCountsArray[indexMax[0]] == 0) {
                                     winnersText = 'No one voted!'
                                 } else {
-                                    for (let i = 0; i < indexMax.length; i++) {
-                                        winnersText +=
-                                            emojiList[indexMax[i]] +
-                                            ' ' +
-                                            selected[indexMax[i]].content +
-                                            ' (' +
-                                            reactionCountsArray[indexMax[i]] +
-                                            ' vote(s))\n'
-                                    }
+                                    winnersText = indexMap
+                                        .map((index) => {
+                                            ;`${emojiList[index]} ${selected[index].content} (${reactionCountsArray[index]} vote(s))`
+                                        })
+                                        .join('\n')
                                 }
 
                                 embed.addField('**Winner(s):**', winnersText)
