@@ -8,7 +8,7 @@ mongoose.connection.on('connected', () => {
     console.log('Mongoose has suceesfully connected.')
 })
 
-mongoose.connection.on('err', () => {
+mongoose.connection.on('error', (err) => {
     console.error(`Mongoose connection error: \n${err.stack}.`)
 })
 

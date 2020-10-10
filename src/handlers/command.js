@@ -1,7 +1,7 @@
 const { readdirSync } = require('fs')
-const ascii = require('ascii-table')
+const Ascii = require('ascii-table')
 
-const table = new ascii().setHeading('Command', 'Status')
+const table = new Ascii().setHeading('Command', 'Status')
 const path = require('path')
 
 module.exports = (client) => {

@@ -25,6 +25,7 @@
         "semi": ["error", "never"],
         "prefer-const": "off",
         "no-restricted-syntax": "off",
+        "no-restricted-globals": "off",
 	    "no-console": "off",
         "no-plusplus": ["error", {
             "allowForLoopAfterthoughts": true
