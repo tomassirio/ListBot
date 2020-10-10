@@ -17,7 +17,7 @@ function getAll(client, message) {
         .setColor(process.env.COLOR)
         .setTitle('Command List')
         .setThumbnail(client.user.avatarURL())
-        .setFooter('Created by CidBarbaCorta')
+        .setFooter('Created by Tomas Sirio')
 
     const commands = (category) => {
         return client.commands
