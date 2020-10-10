@@ -4,8 +4,8 @@ const ChannelRepository = require('../repositories/channel-repository')
 module.exports = {
     name: 'random',
     description: 'Gets a random element from the list',
-    execute: async (message, args) => {
-        let channel = message.channel
+    execute: async (message) => {
+        let { channel } = message
 
         let randomItem
 

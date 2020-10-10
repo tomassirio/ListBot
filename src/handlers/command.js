@@ -1,18 +1,14 @@
-/* eslint-disable new-cap */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable global-require */
-/* eslint-disable no-restricted-syntax */
 const { readdirSync } = require('fs')
-const ascii = require('ascii-table')
+const Ascii = require('ascii-table')
 
-const table = new ascii().setHeading('Command', 'Status')
+const table = new Ascii().setHeading('Command', 'Status')
 const path = require('path')
 
 module.exports = (client) => {
     const fullPath = path.resolve(__dirname, `../commands/`)
     const commands = readdirSync(fullPath).filter((f) => f.endsWith('.js'))
     for (const file of commands) {
-        // eslint-disable-next-line import/no-dynamic-require
+        // eslint-disable-next-line import/no-dynamic-require, global-require
         const pull = require(`../commands/${file}`)
 
         if (pull.name) {

@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 const Discord = require('discord.js')
 
 const Utils = {
