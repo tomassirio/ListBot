@@ -3,12 +3,10 @@ const Channel = require('../models/Channel')
 const ChannelRepository = {
     find: async (id) => {
         try {
-            return await Channel.findOne({
-                channelId: id,
-            })
+            return await Channel.findOne({ channelId: id })
         } catch (e) {
-            console.log(e)
-            return null
+          console.log(e)
+          return null
         }
     },
 

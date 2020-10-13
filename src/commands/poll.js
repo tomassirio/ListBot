@@ -122,6 +122,5 @@ module.exports = {
 
                 fetchedMessage.edit('', embed)
             }, time * 60 * 1000)
-        }
-    },
+          }
 }

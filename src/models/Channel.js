@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
+const { encrypt, decrypt } = require('../utils/encrypt')
 
-const channelSchema = mongoose.Schema({
+const channelSchema = new mongoose.Schema({
     channelId: {
         default: '1',
         type: String,
@@ -15,5 +16,8 @@ const channelSchema = mongoose.Schema({
     },
     items: [],
 })
+
+channelSchema.plugin(encrypt)
+channelSchema.plugin(decrypt)
 
 module.exports = mongoose.model('Channel', channelSchema, 'listBot')
