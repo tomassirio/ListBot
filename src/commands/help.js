@@ -33,7 +33,6 @@ module.exports = {
             ['help', 'to see this message'],
         ]
 
-
         let msg = commands
             .map(
                 ([syntax, description]) =>
