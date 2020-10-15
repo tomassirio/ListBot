@@ -325,7 +325,7 @@ To connect on:
   <a href="mailto:tomassirio@gmail.com?Subject=Tomas%20You%20Are%20Amazing!">
       <img src="https://cdn2.downdetector.com/static/uploads/logo/image21.png" width="100"; height="100"/>
   </a>
-  <a href="linkedin.com/in/tomassirio">
+  <a href="lhttps://www.linkedin.com/in/tomassirio/">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6lpesO6pwpEcg_vPih50fcYPqy4F0Y_xw5Q&usqp=CAU" width="100"; height="100"/>
   </a>
   <a href="https://discord.gg/59YjSZ">
