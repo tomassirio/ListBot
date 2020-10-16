@@ -10,7 +10,7 @@
   <a href="https://img.shields.io/badge/Hacktoberfest-red"><img src="https://img.shields.io/badge/Hacktoberfest-red"></a>
 </p>
 
-A simple Discord Bot, written in Javascript to create Lists in every channel.
+ListBot is a relatively simple Discord Bot, written in Javascript to create Lists in every channel.
 
 Let's add everything we need on a community list!
 
@@ -26,9 +26,9 @@ so I created ListBot to do that.
 
 ## :white_check_mark: Add ListBot to your Discord Server
 
-By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot) you can authorize ListBot to be used in your server.
+By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot), you can authorize ListBot to be used in your server.
 
-Also you can check out our Discord server in which we discuss what we can Add to the bot, possible bugfixes, etcetera in [here](https://discord.gg/59YjSZ)
+You can also check out our Discord server in which we discuss what we can add to the bot, possible bug fixes, we sometimes have fun and something else in [here](https://discord.io/listbot).
 
 ## :battery: Usage
 
@@ -61,38 +61,38 @@ Learn how to create a Discord bot and get a valid token [here](https://github.co
 3.  Make also sure that you have MongoDB installed; see instructions [here](https://docs.mongodb.com/manual/installation/).
 4.  Create a copy of the `.env.example` file named `.env` found in `./src/config/.env.example` and replace the placeholders with your bot token and MongoDB credentials
 5.  Run `npm install` to install all dependencies
-6.  Run `npm run dev` to start server as `development` environment or `npm run start` for `production`
+6.  Run `npm run dev` to start your server as `development` environment or `npm run start` for `production`
 
 ### :ship: Docker
 
-For development, you can run ListBot using Docker and Docker Compose following this steps below:
+For development, you can run ListBot using Docker and Docker Compose following these steps below:
 
-- Adjust `.env` with your bot token
-- Run `docker-composer up -d`. This will build all containers on the first run and will be placed in background
-- If you want to see the logs, just type `docker-compose logs -f` or read all in **Portainer**
-- If you want to stop, run `docker-compose down`
+-   Adjust `.env` with your bot token
+-   Run `docker-composer up -d`. This will build all containers on the first run and will be placed in the background
+-   If you want to see the logs, just type `docker-compose logs -f` or read all in **Portainer**
+-   If you want to stop, run `docker-compose down`
 
 The docker-compose.yml file contains:
 
-- **Mongo-express**: \*For database manager\*\*
-- **Mongo**: _The database itself_
-- **Server**: _ListBot_
-- **Portainer**: _To monitor your container services, such as logs, restarts and more._
-  - _You need to create a local user and password_
-  - _Next page you need to choose docker local environment and after that click connect_
+-   **Mongo-express**: \*For database manager\*\*
+-   **Mongo**: _The database itself_
+-   **Server**: _ListBot_
+-   **Portainer**: _To monitor your container services, such as logs, restarts and more._
+    -   _You need to create a local user and password_
+    -   _Next page you need to choose docker local environment and after that click connect_
 
 To connect on:
 
-- Portainer: **_localhost:9000_**
-- Mongo-express: **_localhost: 8081_**
+-   Portainer: **_localhost:9000_**
+-   Mongo-express: **_localhost: 8081_**
 
 ## :building_construction: Contribution Guidelines:
 
-- **_fork_** and **_clone_** this repository
-- Make a new branch using `git checkout -b change/username`
-- Commit the desired changes to that branch
-- Sign off your commits using `git commit -s -m w/signoff`
-- Push your changes to the branch and open a pull request
+-   **_fork_** and **_clone_** this repository
+-   Make a new branch using `git checkout -b change/username`
+-   Commit the desired changes to that branch
+-   Sign off your commits using `git commit -s -m w/signoff`
+-   Push your changes to the branch and open a pull request
 
 ### :jack_o_lantern: Contributors Hacktoberfest 2020:
 
@@ -104,6 +104,13 @@ To connect on:
             <img src="https://avatars3.githubusercontent.com/u/19593836?v=4" width="100;" alt="tomassirio"/>
             <br />
             <sub><b>Tomas Sirio</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Peiprjs">
+            <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
+            <br />
+            <sub><b>Peipr</b></sub>
         </a>
     </td>
     <td align="center">
@@ -121,12 +128,20 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/medusalix">
+            <img src="https://avatars2.githubusercontent.com/u/8124898?v=4" width="100;" alt="medusalix"/>
+            <br />
+            <sub><b>Severin</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/TheRealLunatite">
             <img src="https://avatars2.githubusercontent.com/u/50427871?v=4" width="100;" alt="TheRealLunatite"/>
             <br />
             <sub><b>Luna</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/JDOG787">
             <img src="https://avatars1.githubusercontent.com/u/64325143?v=4" width="100;" alt="JDOG787"/>
@@ -140,8 +155,7 @@ To connect on:
             <br />
             <sub><b>Nathan Dawson</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Abhijay007">
             <img src="https://avatars3.githubusercontent.com/u/64387054?v=4" width="100;" alt="Abhijay007"/>
@@ -157,10 +171,25 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Peiprjs">
-            <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
+        <a href="https://github.com/anontyro">
+            <img src="https://avatars3.githubusercontent.com/u/18455641?v=4" width="100;" alt="anontyro"/>
             <br />
-            <sub><b>Peipr</b></sub>
+            <sub><b>Alexander Wilkinson</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/rgroves">
+            <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
+            <br />
+            <sub><b>Robert Groves</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/adhammo">
+            <img src="https://avatars2.githubusercontent.com/u/56611873?v=4" width="100;" alt="adhammo"/>
+            <br />
+            <sub><b>Adham Mohamed</b></sub>
         </a>
     </td>
     <td align="center">
@@ -168,6 +197,13 @@ To connect on:
             <img src="https://avatars3.githubusercontent.com/u/44085790?v=4" width="100;" alt="Akshansh99"/>
             <br />
             <sub><b>Akshansh Rewariya</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/CarlyRaeJepsenStan">
+            <img src="https://avatars3.githubusercontent.com/u/44917034?v=4" width="100;" alt="CarlyRaeJepsenStan"/>
+            <br />
+            <sub><b>CarlyRaeJepsenStan</b></sub>
         </a>
     </td>
     <td align="center">
@@ -183,13 +219,20 @@ To connect on:
             <br />
             <sub><b>Simonarde Lima</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/ValentiMS">
+            <img src="https://avatars0.githubusercontent.com/u/30903958?v=4" width="100;" alt="ValentiMS"/>
+            <br />
+            <sub><b>ValentC- MartC-n</b></sub>
+        </a>
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/adhammo">
-            <img src="https://avatars2.githubusercontent.com/u/56611873?v=4" width="100;" alt="adhammo"/>
+        <a href="https://github.com/XysID">
+            <img src="https://avatars0.githubusercontent.com/u/71617416?v=4" width="100;" alt="XysID"/>
             <br />
-            <sub><b>Adham Mohamed</b></sub>
+            <sub><b>Xys</b></sub>
         </a>
     </td>
     <td align="center">
@@ -270,60 +313,24 @@ To connect on:
             <sub><b>Sh1710</b></sub>
         </a>
     </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/Toshiuk">
-            <img src="https://avatars1.githubusercontent.com/u/8109770?v=4" width="100;" alt="Toshiuk"/>
-            <br />
-            <sub><b>Toshiuk</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/arthur-merlin">
-            <img src="https://avatars2.githubusercontent.com/u/72411685?v=4" width="100;" alt="arthur-merlin"/>
-            <br />
-            <sub><b>Arthur-merlin</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/khai93">
-            <img src="https://avatars3.githubusercontent.com/u/33293519?v=4" width="100;" alt="khai93"/>
-            <br />
-            <sub><b>Khai93</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/kojiadrianojr">
-            <img src="https://avatars1.githubusercontent.com/u/43143132?v=4" width="100;" alt="kojiadrianojr"/>
-            <br />
-            <sub><b>Koji Adriano Jr.</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/medusalix">
-            <img src="https://avatars2.githubusercontent.com/u/8124898?v=4" width="100;" alt="medusalix"/>
-            <br />
-            <sub><b>Severin</b></sub>
-        </a>
-    </td></tr>
 </table>
 <!-- readme: contributors -end -->
 
 [Add yours!](./CONTRIBUTING.md)
 
- ## :bust_in_silhouette: Who Am I?
+## :bust_in_silhouette: Who Am I?
+
 <img src="https://media.discordapp.net/attachments/763140054825697301/763681938652528690/logo-design-branding-logo-tool-open-electronic-1-5f7ed02bc8247.png?width=468&height=468" width="410" height="410" /></p>
 
   <a href="mailto:tomassirio@gmail.com?Subject=Tomas%20You%20Are%20Amazing!">
       <img src="https://cdn2.downdetector.com/static/uploads/logo/image21.png" width="100"; height="100"/>
   </a>
-  <a href="linkedin.com/in/tomassirio">
+  <a href="lhttps://www.linkedin.com/in/tomassirio/">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6lpesO6pwpEcg_vPih50fcYPqy4F0Y_xw5Q&usqp=CAU" width="100"; height="100"/>
   </a>
-  <a href="https://discord.gg/59YjSZ">
+  <a href="https://discord.gg/H67z6e">
       <img src="https://www.net-aware.org.uk/siteassets/images-and-icons/application-icons/app-icons-discord.png?w=585&scale=down" width="100"; height="100"/>
   </a>
   <a href="https://www.buymeacoffee.com/tomassirio1">
       <img src="https://i.pinimg.com/originals/60/fd/e8/60fde811b6be57094e0abc69d9c2622a.jpg" width="100"; height="100"/>
   </a>
-
