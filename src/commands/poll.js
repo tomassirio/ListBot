@@ -5,17 +5,18 @@ const MAX_POLL_TIME_MINUTES = 1440 // 24 hours in minutes (60*24)
 
 module.exports = {
     name: 'poll',
-    description: 'Generates a Poll from 5 random elements on the list',
+    description: 'Generates a Poll from up to 5 random elements on the list',
     execute: async (message, [time]) => {
         let { channel } = message
-        let emojiList = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣']
         const { items } = await ChannelRepository.findOrCreate(channel)
+        let maxItems = items.length
+        let emojiList = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣'].slice(0, maxItems)
 
         // Shuffle list elements
         let shuffled = Array.from(items).sort(() => 0.5 - Math.random())
 
         // Get first 5 from shuffle elements
-        let selected = shuffled.slice(0, 5)
+        let selected = shuffled.slice(0, maxItems)
 
         // Format the poll options.
         let optionsText = selected.map(
