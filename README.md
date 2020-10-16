@@ -178,13 +178,20 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/rgroves">
+            <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
+            <br />
+            <sub><b>Robert Groves</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/adhammo">
             <img src="https://avatars2.githubusercontent.com/u/56611873?v=4" width="100;" alt="adhammo"/>
             <br />
             <sub><b>Adham Mohamed</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Akshansh99">
             <img src="https://avatars3.githubusercontent.com/u/44085790?v=4" width="100;" alt="Akshansh99"/>
@@ -219,20 +226,13 @@ To connect on:
             <br />
             <sub><b>ValentC- MartC-n</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/XysID">
             <img src="https://avatars0.githubusercontent.com/u/71617416?v=4" width="100;" alt="XysID"/>
             <br />
             <sub><b>Xys</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/rgroves">
-            <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
-            <br />
-            <sub><b>Robert Groves</b></sub>
         </a>
     </td>
     <td align="center">
