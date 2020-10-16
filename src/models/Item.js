@@ -1,14 +1,14 @@
-const {Schema, model} = require("mongoose");
+const { Schema, model } = require('mongoose')
 
 const itemSchema = Schema({
-    content: { 
+    content: {
         default: '',
-        type: String
-        },           
-    author: { 
+        type: String,
+    },
+    author: {
         default: '',
-        type: String
-        },   
-});
+        type: String,
+    },
+})
 
-module.exports = model("Item", itemSchema, 'listTest')
+module.exports = model('Item', itemSchema, 'listTest')
