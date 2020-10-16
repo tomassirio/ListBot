@@ -76,6 +76,8 @@ module.exports = {
         channel.send(embed).then(async (pollMessage) => {
             // If no time limit was set for the poll, just exit without doing anything to collect results.
             if (pollDuration === 0) {
+                // Just provide the initial emoji reacts and exit.
+                emojiList.forEach((e) => pollMessage.react(e))
                 return
             }
 
