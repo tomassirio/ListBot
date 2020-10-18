@@ -150,6 +150,13 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/rgroves">
+            <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
+            <br />
+            <sub><b>Robert Groves</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Fedelaus">
             <img src="https://avatars2.githubusercontent.com/u/43784056?v=4" width="100;" alt="Fedelaus"/>
             <br />
@@ -175,13 +182,6 @@ To connect on:
             <img src="https://avatars3.githubusercontent.com/u/18455641?v=4" width="100;" alt="anontyro"/>
             <br />
             <sub><b>Alexander Wilkinson</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/rgroves">
-            <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
-            <br />
-            <sub><b>Robert Groves</b></sub>
         </a>
     </td></tr>
 <tr>
