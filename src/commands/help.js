@@ -14,12 +14,12 @@ module.exports = {
                 'multi-add {element} {element}',
                 'to add multiple elements to the list',
             ],
-            [('remove {element}', 'to remove an element from the list')],
+            ['remove {element}', 'to remove an element from the list'],
             [
                 'multi-remove {element} {element}',
                 'to remove multiple elements from the list',
             ],
-            [('list', 'to list every element on the list')],
+            ['list', 'to list every element on the list'],
             ['random', 'gets a random element from the list'],
             [
                 'poll {active_time_in_minutes}',
