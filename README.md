@@ -143,17 +143,17 @@ To connect on:
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/JDOG787">
-            <img src="https://avatars1.githubusercontent.com/u/64325143?v=4" width="100;" alt="JDOG787"/>
-            <br />
-            <sub><b>JDOG787</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/rgroves">
             <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
             <br />
             <sub><b>Robert Groves</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/JDOG787">
+            <img src="https://avatars1.githubusercontent.com/u/64325143?v=4" width="100;" alt="JDOG787"/>
+            <br />
+            <sub><b>JDOG787</b></sub>
         </a>
     </td>
     <td align="center">
@@ -264,13 +264,20 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/ggangix">
+            <img src="https://avatars0.githubusercontent.com/u/1617136?v=4" width="100;" alt="ggangix"/>
+            <br />
+            <sub><b>Giuseppe Gangi</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/hpbonfim">
             <img src="https://avatars3.githubusercontent.com/u/40275173?v=4" width="100;" alt="hpbonfim"/>
             <br />
             <sub><b>Henrique Paulo Bonfim</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/jsilvaigor">
             <img src="https://avatars2.githubusercontent.com/u/7428662?v=4" width="100;" alt="jsilvaigor"/>
@@ -304,13 +311,6 @@ To connect on:
             <img src="https://avatars1.githubusercontent.com/u/13553340?v=4" width="100;" alt="phamducquanptit"/>
             <br />
             <sub><b>Quan Pham</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Sh1710">
-            <img src="https://avatars2.githubusercontent.com/u/72331454?v=4" width="100;" alt="Sh1710"/>
-            <br />
-            <sub><b>Sh1710</b></sub>
         </a>
     </td></tr>
 </table>
