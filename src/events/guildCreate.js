@@ -7,7 +7,7 @@ module.exports = async (client, guild) => {
         guildID: guild.id,
         guildName: guild.name,
         guildAdminsId: [guild.ownerID],
-    });
+    })
 
     newGuild
         .save()
