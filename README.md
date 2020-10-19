@@ -107,6 +107,13 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/AldoTu">
+            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+            <br />
+            <sub><b>AldoTurmon</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Peiprjs">
             <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
             <br />
@@ -121,10 +128,10 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/AldoTu">
-            <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
+        <a href="https://github.com/medusalix">
+            <img src="https://avatars2.githubusercontent.com/u/8124898?v=4" width="100;" alt="medusalix"/>
             <br />
-            <sub><b>AldoTurmon</b></sub>
+            <sub><b>Severin</b></sub>
         </a>
     </td>
     <td align="center">
@@ -142,6 +149,7 @@ To connect on:
         </a>
     </td></tr>
 <tr>
+
     <td align="center">
         <a href="https://github.com/rgroves">
             <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
@@ -224,17 +232,18 @@ To connect on:
         <a href="https://github.com/ValentiMS">
             <img src="https://avatars0.githubusercontent.com/u/30903958?v=4" width="100;" alt="ValentiMS"/>
             <br />
-            <sub><b>ValentC- MartC-n</b></sub>
+            <sub><b>Valentí Martín</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
+
     <td align="center">
         <a href="https://github.com/XysID">
             <img src="https://avatars0.githubusercontent.com/u/71617416?v=4" width="100;" alt="XysID"/>
             <br />
             <sub><b>Xys</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Aditya-ds-1806">
             <img src="https://avatars1.githubusercontent.com/u/46485997?v=4" width="100;" alt="Aditya-ds-1806"/>
@@ -284,7 +293,8 @@ To connect on:
             <br />
             <sub><b>Igor Silva</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/joy98">
             <img src="https://avatars3.githubusercontent.com/u/32029022?v=4" width="100;" alt="joy98"/>
@@ -312,6 +322,21 @@ To connect on:
             <br />
             <sub><b>Quan Pham</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Sh1710">
+            <img src="https://avatars2.githubusercontent.com/u/72331454?v=4" width="100;" alt="Sh1710"/>
+            <br />
+            <sub><b>Sh1710</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Toshiuk">
+            <img src="https://avatars1.githubusercontent.com/u/8109770?v=4" width="100;" alt="Toshiuk"/>
+            <br />
+            <sub><b>Toshiuk</b></sub>
+        </a>
+
     </td></tr>
 </table>
 <!-- readme: contributors -end -->

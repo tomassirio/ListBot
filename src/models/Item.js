@@ -1,6 +1,7 @@
-const { Schema, model } = require('mongoose')
+const mongoose = require('mongoose')
+const { encrypt } = require('../utils/encrypt')
 
-const itemSchema = Schema({
+const itemSchema = new mongoose.Schema({
     content: {
         default: '',
         type: String,
@@ -11,4 +12,6 @@ const itemSchema = Schema({
     },
 })
 
-module.exports = model('Item', itemSchema, 'listTest')
+itemSchema.plugin(encrypt)
+
+module.exports = mongoose.model('Item', itemSchema, 'listTest')

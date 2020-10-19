@@ -21,7 +21,7 @@ module.exports = {
         }
 
         let fields = dbChannel.items.map((item, i) => ({
-            name: `${i} - ${item.content}`,
+            name: `${i + 1} - ${item.content}`,
             value: item.author,
         }))
 
