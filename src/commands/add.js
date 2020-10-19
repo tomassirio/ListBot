@@ -1,6 +1,7 @@
 const Util = require('../utils/utils.js')
 const Item = require('../models/Item.js')
 const ChannelRepository = require('../repositories/channel-repository')
+const easterEggCheck = require('./add-eggs').check
 
 module.exports = {
     name: 'add',
@@ -9,6 +10,9 @@ module.exports = {
         let item = args.join(' ')
         let { channel } = message
 
+        if (easterEggCheck(item, message)) {
+            return
+        }
 
         const newItem = new Item({
             content: item,

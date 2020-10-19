@@ -5,7 +5,7 @@ module.exports = {
     name: 'list',
     description: 'Lists all the elements of the list',
     execute: async (message) => {
-        let channel = message.channel
+        let { channel } = message
 
         let dbChannel = await ChannelRepository.findOrCreate(channel)
 
@@ -24,7 +24,6 @@ module.exports = {
             name: `${i + 1} - ${item.content}`,
             value: item.author,
         }))
-
 
         let channelName = channel.name
         channelName = channelName.charAt(0).toUpperCase() + channelName.slice(1) // Capitalize the first letter in the channel name.

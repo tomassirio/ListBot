@@ -28,7 +28,7 @@ so I created ListBot to do that.
 
 By clicking [here](https://discord.com/oauth2/authorize?client_id=747219085573750918&scope=bot), you can authorize ListBot to be used in your server.
 
-You can also check out our Discord server in which we discuss what we can add to the bot, possible bug fixes, we sometimes have fun and something else in [here](discord.io/listbot).
+You can also check out our Discord server in which we discuss what we can add to the bot, possible bug fixes, we sometimes have fun and something else in [here](https://discord.io/listbot).
 
 ## :battery: Usage
 
@@ -135,6 +135,13 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/medusalix">
+            <img src="https://avatars2.githubusercontent.com/u/8124898?v=4" width="100;" alt="medusalix"/>
+            <br />
+            <sub><b>Severin</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/TheRealLunatite">
             <img src="https://avatars2.githubusercontent.com/u/50427871?v=4" width="100;" alt="TheRealLunatite"/>
             <br />
@@ -142,6 +149,14 @@ To connect on:
         </a>
     </td></tr>
 <tr>
+
+    <td align="center">
+        <a href="https://github.com/rgroves">
+            <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
+            <br />
+            <sub><b>Robert Groves</b></sub>
+        </a>
+    </td>
     <td align="center">
         <a href="https://github.com/JDOG787">
             <img src="https://avatars1.githubusercontent.com/u/64325143?v=4" width="100;" alt="JDOG787"/>
@@ -176,15 +191,15 @@ To connect on:
             <br />
             <sub><b>Alexander Wilkinson</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/adhammo">
             <img src="https://avatars2.githubusercontent.com/u/56611873?v=4" width="100;" alt="adhammo"/>
             <br />
             <sub><b>Adham Mohamed</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Akshansh99">
             <img src="https://avatars3.githubusercontent.com/u/44085790?v=4" width="100;" alt="Akshansh99"/>
@@ -220,6 +235,7 @@ To connect on:
             <sub><b>Valentí Martín</b></sub>
         </a>
     </td>
+
     <td align="center">
         <a href="https://github.com/XysID">
             <img src="https://avatars0.githubusercontent.com/u/71617416?v=4" width="100;" alt="XysID"/>
@@ -256,6 +272,14 @@ To connect on:
             <sub><b>DiC3genes Dauster</b></sub>
         </a>
     </td>
+    <td align="center">
+        <a href="https://github.com/ggangix">
+            <img src="https://avatars0.githubusercontent.com/u/1617136?v=4" width="100;" alt="ggangix"/>
+            <br />
+            <sub><b>Giuseppe Gangi</b></sub>
+        </a>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/hpbonfim">
             <img src="https://avatars3.githubusercontent.com/u/40275173?v=4" width="100;" alt="hpbonfim"/>
@@ -312,6 +336,7 @@ To connect on:
             <br />
             <sub><b>Toshiuk</b></sub>
         </a>
+
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
@@ -325,10 +350,10 @@ To connect on:
   <a href="mailto:tomassirio@gmail.com?Subject=Tomas%20You%20Are%20Amazing!">
       <img src="https://cdn2.downdetector.com/static/uploads/logo/image21.png" width="100"; height="100"/>
   </a>
-  <a href="linkedin.com/in/tomassirio">
+  <a href="lhttps://www.linkedin.com/in/tomassirio/">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6lpesO6pwpEcg_vPih50fcYPqy4F0Y_xw5Q&usqp=CAU" width="100"; height="100"/>
   </a>
-  <a href="https://discord.gg/59YjSZ">
+  <a href="https://discord.gg/H67z6e">
       <img src="https://www.net-aware.org.uk/siteassets/images-and-icons/application-icons/app-icons-discord.png?w=585&scale=down" width="100"; height="100"/>
   </a>
   <a href="https://www.buymeacoffee.com/tomassirio1">
