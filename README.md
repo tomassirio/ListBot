@@ -128,10 +128,10 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/medusalix">
-            <img src="https://avatars2.githubusercontent.com/u/8124898?v=4" width="100;" alt="medusalix"/>
+        <a href="https://github.com/ahmad-reza619">
+            <img src="https://avatars3.githubusercontent.com/u/52902060?v=4" width="100;" alt="ahmad-reza619"/>
             <br />
-            <sub><b>Severin</b></sub>
+            <sub><b>Ahmad Reza</b></sub>
         </a>
     </td>
     <td align="center">
@@ -140,16 +140,15 @@ To connect on:
             <br />
             <sub><b>Severin</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/TheRealLunatite">
             <img src="https://avatars2.githubusercontent.com/u/50427871?v=4" width="100;" alt="TheRealLunatite"/>
             <br />
             <sub><b>Luna</b></sub>
         </a>
-    </td></tr>
-<tr>
-
+    </td>
     <td align="center">
         <a href="https://github.com/rgroves">
             <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
@@ -184,15 +183,15 @@ To connect on:
             <br />
             <sub><b>AkiaCode</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/anontyro">
             <img src="https://avatars3.githubusercontent.com/u/18455641?v=4" width="100;" alt="anontyro"/>
             <br />
             <sub><b>Alexander Wilkinson</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/adhammo">
             <img src="https://avatars2.githubusercontent.com/u/56611873?v=4" width="100;" alt="adhammo"/>
@@ -227,23 +226,22 @@ To connect on:
             <br />
             <sub><b>Simonarde Lima</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/ValentiMS">
             <img src="https://avatars0.githubusercontent.com/u/30903958?v=4" width="100;" alt="ValentiMS"/>
             <br />
-            <sub><b>Valentí Martín</b></sub>
+            <sub><b>ValentC- MartC-n</b></sub>
         </a>
     </td>
-
     <td align="center">
         <a href="https://github.com/XysID">
             <img src="https://avatars0.githubusercontent.com/u/71617416?v=4" width="100;" alt="XysID"/>
             <br />
             <sub><b>Xys</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Aditya-ds-1806">
             <img src="https://avatars1.githubusercontent.com/u/46485997?v=4" width="100;" alt="Aditya-ds-1806"/>
@@ -271,15 +269,15 @@ To connect on:
             <br />
             <sub><b>DiC3genes Dauster</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/ggangix">
             <img src="https://avatars0.githubusercontent.com/u/1617136?v=4" width="100;" alt="ggangix"/>
             <br />
             <sub><b>Giuseppe Gangi</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/hpbonfim">
             <img src="https://avatars3.githubusercontent.com/u/40275173?v=4" width="100;" alt="hpbonfim"/>
@@ -293,8 +291,7 @@ To connect on:
             <br />
             <sub><b>Igor Silva</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/joy98">
             <img src="https://avatars3.githubusercontent.com/u/32029022?v=4" width="100;" alt="joy98"/>
@@ -315,28 +312,6 @@ To connect on:
             <br />
             <sub><b>Lovekesh Kumar</b></sub>
         </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/phamducquanptit">
-            <img src="https://avatars1.githubusercontent.com/u/13553340?v=4" width="100;" alt="phamducquanptit"/>
-            <br />
-            <sub><b>Quan Pham</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Sh1710">
-            <img src="https://avatars2.githubusercontent.com/u/72331454?v=4" width="100;" alt="Sh1710"/>
-            <br />
-            <sub><b>Sh1710</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Toshiuk">
-            <img src="https://avatars1.githubusercontent.com/u/8109770?v=4" width="100;" alt="Toshiuk"/>
-            <br />
-            <sub><b>Toshiuk</b></sub>
-        </a>
-
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
