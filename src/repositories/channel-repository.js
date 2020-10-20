@@ -5,8 +5,8 @@ const ChannelRepository = {
         try {
             return await Channel.findOne({ channelId: id })
         } catch (e) {
-          console.log(e)
-          return null
+            console.log(e)
+            return null
         }
     },
 
