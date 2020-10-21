@@ -221,13 +221,20 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/RazCrimson3">
+            <img src="https://avatars2.githubusercontent.com/u/52282402?v=4" width="100;" alt="RazCrimson3"/>
+            <br />
+            <sub><b>RazCrimson3</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/simonardejr">
             <img src="https://avatars0.githubusercontent.com/u/3685303?v=4" width="100;" alt="simonardejr"/>
             <br />
             <sub><b>Simonarde Lima</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/ValentiMS">
             <img src="https://avatars0.githubusercontent.com/u/30903958?v=4" width="100;" alt="ValentiMS"/>
@@ -262,15 +269,15 @@ To connect on:
             <br />
             <sub><b>Carolini Rodrigues</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/diogenesdauster">
             <img src="https://avatars0.githubusercontent.com/u/16214631?v=4" width="100;" alt="diogenesdauster"/>
             <br />
             <sub><b>DiC3genes Dauster</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/ggangix">
             <img src="https://avatars0.githubusercontent.com/u/1617136?v=4" width="100;" alt="ggangix"/>
@@ -304,13 +311,6 @@ To connect on:
             <img src="https://avatars2.githubusercontent.com/u/6170626?v=4" width="100;" alt="divn"/>
             <br />
             <sub><b>Juuso Takala</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/thelovekesh">
-            <img src="https://avatars0.githubusercontent.com/u/54371619?v=4" width="100;" alt="thelovekesh"/>
-            <br />
-            <sub><b>Lovekesh Kumar</b></sub>
         </a>
     </td></tr>
 </table>
