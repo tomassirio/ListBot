@@ -1,5 +1,5 @@
+const config = require('../config')
 const Util = require('../utils/utils.js')
-require('dotenv').config()
 
 module.exports = {
     name: 'help',
@@ -36,7 +36,7 @@ module.exports = {
         let msg = commands
             .map(
                 ([syntax, description]) =>
-                    `**${process.env.PREFIX}${syntax}** - ${description}`
+                    `**${config.prefix}${syntax}** - ${description}`
             )
             .join('\n')
         let embededMessage = Util.embedMessage(

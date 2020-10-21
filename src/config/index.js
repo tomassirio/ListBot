@@ -6,6 +6,8 @@ if (result.error) throw result.error // Throw an error if it failed to load the 
 const {
     PREFIX: prefix = '$',
     BOT_TOKEN: botToken,
+    ENCRYPTION_KEY: encryptionKey,
+    ENCRYPTION_IV: encryptionIV,
     LOCAL_DB_SCHEME = 'mongodb',
     LOCAL_DB_USER,
     LOCAL_DB_PASSWORD,
@@ -65,4 +67,6 @@ module.exports = {
     botToken,
     devMongoUrl,
     productionMongoURL,
+    encryptionKey,
+    encryptionIV,
 }

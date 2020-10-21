@@ -1,22 +1,24 @@
 /*
 const crypto = require('crypto')
+const config = require('../config')
 
 const algorithm = 'aes-256-cbc' // use the aes256 encryption algorithm
-const key = process.env.KEY
-// const key = 'uqB2&:pQ"4-5KVTJ@&-#*"LgQ2KBGQyn'
-const iv = process.env.IV
-// const iv = 'bz-qG-U*"6tz87;G'
-// key has to be 32 chars long
-// iv has to be 16 chars long
 
-if (key.length !== 32 || iv.length !==) {
+// config.encryptionKey has to be 32 chars long
+// config.encryptionIV has to be 16 chars long
+/*
+if (config.encryptionKey.length !== 32 || config.encryptionIV.length !==) {
 console.error("Key and IV lengths are invalid")
 } 
 
 // eslint-disable-next-line no-unused-vars
 let encrypt = (schema, options) => {
     schema.pre('save', { document: true, query: false }, function func(next) {
-        let cipher = crypto.createCipheriv(algorithm, Buffer.from(key), iv)
+        let cipher = crypto.createCipheriv(
+            algorithm,
+            Buffer.from(config.encryptionKey),
+            config.encryptionIV
+        )
         let encrypted = cipher.update(this.items[this.items.length - 1].content)
         encrypted = Buffer.concat([encrypted, cipher.final()]).toString(
             'base64'
@@ -35,8 +37,8 @@ let decrypt = (schema, options) => {
             let encryptedText = result.items[i].content
             let decipher = crypto.createDecipheriv(
                 algorithm,
-                Buffer.from(key),
-                iv
+                Buffer.from(config.encryptionKey),
+                config.encryptionIV
             )
             let decrypted = decipher.update(encryptedText, 'base64')
             decrypted = Buffer.concat([decrypted, decipher.final()])
