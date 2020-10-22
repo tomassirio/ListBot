@@ -17,7 +17,7 @@ const channelSchema = new mongoose.Schema({
     items: [],
 })
 
-channelSchema.plugin(encrypt)
-channelSchema.plugin(decrypt)
+//channelSchema.plugin(encrypt)
+//channelSchema.plugin(decrypt)
 
 module.exports = mongoose.model('Channel', channelSchema, 'listBot')
