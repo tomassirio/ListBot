@@ -143,17 +143,17 @@ To connect on:
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/TheRealLunatite">
-            <img src="https://avatars2.githubusercontent.com/u/50427871?v=4" width="100;" alt="TheRealLunatite"/>
-            <br />
-            <sub><b>Luna</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/rgroves">
             <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
             <br />
             <sub><b>Robert Groves</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/TheRealLunatite">
+            <img src="https://avatars2.githubusercontent.com/u/50427871?v=4" width="100;" alt="TheRealLunatite"/>
+            <br />
+            <sub><b>Luna</b></sub>
         </a>
     </td>
     <td align="center">
