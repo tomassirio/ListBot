@@ -1,4 +1,4 @@
-const crypto = require('crypto')
+/*const crypto = require('crypto')
 
 const algorithm = 'aes-256-cbc' // use the aes256 encryption algorithm
 const key = process.env.KEY
@@ -7,10 +7,10 @@ const iv = process.env.IV
 // const iv = 'bz-qG-U*"6tz87;G'
 // key has to be 32 chars long
 // iv has to be 16 chars long
-/*
+
 if (key.length !== 32 || iv.length !==) {
 console.error("Key and IV lengths are invalid")
-} */
+} 
 
 // eslint-disable-next-line no-unused-vars
 let encrypt = (schema, options) => {
@@ -46,7 +46,7 @@ let decrypt = (schema, options) => {
 }
 
 module.exports = { encrypt, decrypt }
-
+*/
 /*
 =-= USAGE:
 =-= const functions = require("./path/to/src/utils/encrypt.js")
