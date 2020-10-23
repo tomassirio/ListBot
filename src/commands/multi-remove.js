@@ -29,7 +29,7 @@ module.exports = {
 
         let embeddedMessage = Util.embedMessage(
             embedMessage,
-            message.author.tag,
+            message.author,
             embedColor,
             ''
         )

@@ -13,7 +13,7 @@ module.exports = {
 
         const messageWithFormat = Util.embedMessage(
             'Successfully cleared',
-            message.author.tag,
+            message.author,
             '0xffff00',
             'The list is now empty.'
         )

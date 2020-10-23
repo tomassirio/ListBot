@@ -30,7 +30,7 @@ module.exports = {
             guild.save()
             let embeddedMessage = Util.embedMessage(
                 'Successfully removed user from admin',
-                message.author.tag,
+                message.author,
                 '0xffff00',
                 'Hooray'
             )
@@ -39,7 +39,7 @@ module.exports = {
             // user is not an admin
             let embeddedMessage = Util.embedMessage(
                 'The user is not an admin',
-                message.author.tag,
+                message.author,
                 '0xffff00',
                 'Aww'
             )

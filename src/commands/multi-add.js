@@ -26,7 +26,7 @@ module.exports = {
 
         let embeddedMessage = Util.embedMessage(
             'Successfully added',
-            message.author.tag,
+            message.author,
             '0xffff00',
             item
         )

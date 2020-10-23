@@ -16,7 +16,7 @@ module.exports = {
 
         let embeddedMessage = Util.embedMessage(
             'The random entry of the list is',
-            message.author.tag,
+            message.author,
             '0xff0000',
             `${randomItem.content}.\n\n Element was added by : ${randomItem.author}`
         )

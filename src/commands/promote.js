@@ -24,7 +24,7 @@ module.exports = {
         guild.save()
         let embeddedMessage = Util.embedMessage(
             'Successfully added user as admin',
-            message.author.tag,
+            message.author,
             '0xffff00',
             'Hooray'
         )

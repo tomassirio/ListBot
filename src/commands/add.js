@@ -25,7 +25,7 @@ module.exports = {
 
         let embeddedMessage = Util.embedMessage(
             "I've successfully added your element to the list.",
-            message.author.tag,
+            message.author,
             '0xffff00',
             item
         )

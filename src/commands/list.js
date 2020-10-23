@@ -13,7 +13,7 @@ module.exports = {
             const emptyMessage = Util.embedMessage(
                 'Warning',
                 '0xffff00',
-                message.author.tag,
+                message.author,
                 "No items found, please use the 'add {element}' command to put your first item."
             )
             channel.send(emptyMessage)

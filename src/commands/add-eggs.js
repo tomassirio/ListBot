@@ -23,7 +23,7 @@ const AddEggs = {
                     konamiEggMessages[
                         Math.floor(Math.random() * konamiEggMessages.length)
                     ],
-                    message.author.tag,
+                    message.author,
                     '0xffff00',
                     'You found the Konami Code Easter Egg.\nNothing was added.'
                 )
