@@ -39,12 +39,12 @@ module.exports = {
                     `**${config.prefix}${syntax}** - ${description}`
             )
             .join('\n')
-        let embededMessage = Util.embedMessage(
+        let embeddedMessage = Util.embedMessage(
             'List Bot Help Message',
             message.author.tag,
             '0xffff00',
             msg
         )
-        channel.send(embededMessage)
+        channel.send(embeddedMessage)
     },
 }

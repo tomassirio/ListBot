@@ -22,12 +22,12 @@ module.exports = {
         // add id into mongo guild schema
         guild.guildAdminsId.push(mentionedUserId)
         guild.save()
-        let embededMessage = Util.embedMessage(
-            'Succesfully added user as admin',
+        let embeddedMessage = Util.embedMessage(
+            'Successfully added user as admin',
             message.author.tag,
             '0xffff00',
             'Hooray'
         )
-        message.channel.send(embededMessage)
+        message.channel.send(embeddedMessage)
     },
 }

@@ -17,7 +17,7 @@ module.exports = {
         if (indexTo > dbChannel.items.length || indexFrom < 0) {
             embedColor = '0xff0000'
             embedMessage =
-                'Could not delete items specified! Check that there are items in the indexs you entered!'
+                'Could not delete items specified! Check that there are items in the index range you entered!'
         } else {
             dbChannel.items.splice(indexFrom, numOfItems)
             dbChannel.save()
@@ -27,12 +27,12 @@ module.exports = {
             } to ${indexTo + 1}`
         }
 
-        let embededMessage = Util.embedMessage(
+        let embeddedMessage = Util.embedMessage(
             embedMessage,
             message.author.tag,
             embedColor,
             ''
         )
-        channel.send(embededMessage)
+        channel.send(embeddedMessage)
     },
 }

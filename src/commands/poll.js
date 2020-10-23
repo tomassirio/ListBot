@@ -23,7 +23,7 @@ module.exports = {
             (_, i) => `${emojiList[i]} ${selected[i].content}`
         )
 
-        // Create emed for the poll.
+        // Create embed for the poll.
         let embed = new Discord.MessageEmbed()
             .setTitle(`Poll for ${channel.name}`)
             .setDescription(optionsText)
@@ -44,16 +44,16 @@ module.exports = {
 
             pollDuration = Math.round(minutes * 60) * 1000 // rounding if minutes >0 and <1
 
-            // Creaete a nice, human-readable duration description (e.g. 2 hours and 30 minutes).
+            // Create a nice, human-readable duration description (e.g. 2 hours and 30 minutes).
             if (minutes > 59) {
                 let hours = Math.floor(minutes / 60)
-                let remainderMins = minutes % 60
+                let remainingMinutes = minutes % 60
                 let hourPluralizer = hours > 1 ? 's' : ''
-                let minPluralizer = remainderMins > 1 ? 's' : ''
+                let minPluralizer = remainingMinutes > 1 ? 's' : ''
                 durationDescription = `${hours} hour${hourPluralizer}`
                 durationDescription +=
-                    remainderMins > 0
-                        ? ` and ${remainderMins} minute${minPluralizer}`
+                    remainingMinutes > 0
+                        ? ` and ${remainingMinutes} minute${minPluralizer}`
                         : ''
             } else if (minutes < 1) {
                 let seconds = Math.round(minutes * 60)

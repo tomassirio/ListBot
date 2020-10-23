@@ -9,12 +9,12 @@ module.exports = {
         let { channel } = message
         const log = await fs.readFile(path.join(__dirname, '../../CHANGELOG'))
 
-        let embededMessage = Util.embedMessage(
+        let embeddedMessage = Util.embedMessage(
             'Log version',
             message.author.tag,
             '0xff0000',
             log
         )
-        channel.send(embededMessage)
+        channel.send(embeddedMessage)
     },
 }

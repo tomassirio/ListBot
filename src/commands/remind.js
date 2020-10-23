@@ -7,47 +7,47 @@ module.exports = {
         let { channel } = message
 
         if (minutes === undefined) {
-            let embededMessage = Util.embedMessage(
+            let embeddedMessage = Util.embedMessage(
                 `Please specify time for the reminder`,
                 message.author.tag,
                 '0xffff00',
                 "I.e. '$remind 5 Hello World!'"
             )
-            channel.send(embededMessage)
+            channel.send(embeddedMessage)
             return
         }
 
         if (isNaN(minutes)) {
-            let embededMessage = Util.embedMessage(
+            let embeddedMessage = Util.embedMessage(
                 `Time given is not a number`,
                 message.author.tag,
                 '0xffff00',
                 "I.e. '$remind 5 Hello World!'"
             )
-            channel.send(embededMessage)
+            channel.send(embeddedMessage)
             return
         }
 
         let item = elements.map((curItem) => `${curItem} `) // TODO should this be a join?
 
         if (item === '') {
-            let embededMessage = Util.embedMessage(
+            let embeddedMessage = Util.embedMessage(
                 `Please enter a non-blank item`,
                 message.author.tag,
                 '0xffff00',
                 ''
             )
-            channel.send(embededMessage)
+            channel.send(embeddedMessage)
             return
         }
 
-        let embededMessage = Util.embedMessage(
-            `I've succesfully added your element to the list and will remind you in ${minutes} minutes.`,
+        let embeddedMessage = Util.embedMessage(
+            `I've successfully added your element to the list and will remind you in ${minutes} minutes.`,
             message.author.tag,
             '0xffff00',
             item
         )
-        channel.send(embededMessage)
+        channel.send(embeddedMessage)
 
         setTimeout(() => {
             let remindMessage = Util.embedMessage(

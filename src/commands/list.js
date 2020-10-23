@@ -28,12 +28,12 @@ module.exports = {
         let channelName = channel.name
         channelName = channelName.charAt(0).toUpperCase() + channelName.slice(1) // Capitalize the first letter in the channel name.
 
-        let embededMessage = Util.generateListEmbed(
+        let embeddedMessage = Util.generateListEmbed(
             `${channelName} List`,
             '0xffff00',
             fields,
             `Requested by ${message.author.tag}`
         )
-        channel.send(embededMessage)
+        channel.send(embeddedMessage)
     },
 }

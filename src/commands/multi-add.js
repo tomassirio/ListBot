@@ -20,16 +20,16 @@ module.exports = {
             })
 
             dbChannel.items.push(newItem)
-        })
+        }
 
         dbChannel.save()
 
-        let embededMessage = Util.embedMessage(
+        let embeddedMessage = Util.embedMessage(
             'Successfully added',
             message.author.tag,
             '0xffff00',
             item
         )
-        channel.send(embededMessage)
+        channel.send(embeddedMessage)
     },
 }
