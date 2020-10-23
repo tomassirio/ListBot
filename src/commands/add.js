@@ -1,4 +1,5 @@
 const Util = require('../utils/utils.js')
+const Style = require('../utils/messageStyle.js')
 const Item = require('../models/Item.js')
 const ChannelRepository = require('../repositories/channel-repository')
 const easterEggCheck = require('./add-eggs').check
@@ -27,7 +28,7 @@ module.exports = {
             "I've successfully added your element to the list.",
             message.author.tag,
             '0xffff00',
-            item
+            Style.green(item)
         )
         channel.send(embeddedMessage)
     },

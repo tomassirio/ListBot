@@ -1,5 +1,6 @@
 const config = require('../config')
 const Util = require('../utils/utils.js')
+const Style = require('../utils/messageStyle.js')
 
 module.exports = {
     name: 'help',
@@ -36,14 +37,14 @@ module.exports = {
         let msg = commands
             .map(
                 ([syntax, description]) =>
-                    `**${config.prefix}${syntax}** - ${description}`
+                    `${config.prefix}${syntax} = "${description}"`
             )
             .join('\n')
         let embeddedMessage = Util.embedMessage(
             'List Bot Help Message',
             message.author.tag,
             '0xffff00',
-            msg
+            Style.bash(msg)
         )
         channel.send(embeddedMessage)
     },
