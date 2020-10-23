@@ -19,7 +19,7 @@ const AddEggs = {
             // Check for trigger of Konami Code Egg
             case '⬆️⬆️⬇️⬇️⬅️➡️⬅️➡️BA': {
                 // Send a random egg message.
-                let embededMessage = Util.embedMessage(
+                let embeddedMessage = Util.embedMessage(
                     konamiEggMessages[
                         Math.floor(Math.random() * konamiEggMessages.length)
                     ],
@@ -28,7 +28,7 @@ const AddEggs = {
                     'You found the Konami Code Easter Egg.\nNothing was added.'
                 )
 
-                message.channel.send(embededMessage)
+                message.channel.send(embeddedMessage)
 
                 // true signals to terminate primary command after easter egg runs.
                 return true

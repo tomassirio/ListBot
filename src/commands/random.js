@@ -14,12 +14,12 @@ module.exports = {
 
         console.log(`Randomly selected ${randomItem.content}`)
 
-        let embededMessage = Util.embedMessage(
+        let embeddedMessage = Util.embedMessage(
             'The random entry of the list is',
             message.author.tag,
             '0xff0000',
             `${randomItem.content}.\n\n Element was added by : ${randomItem.author}`
         )
-        channel.send(embededMessage)
+        channel.send(embeddedMessage)
     },
 }

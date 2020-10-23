@@ -28,22 +28,22 @@ module.exports = {
             // remove the user id from user admin
             guild.guildAdminsId.splice(userId, 1)
             guild.save()
-            let embededMessage = Util.embedMessage(
-                'Succesfully removed user from admin',
+            let embeddedMessage = Util.embedMessage(
+                'Successfully removed user from admin',
                 message.author.tag,
                 '0xffff00',
                 'Hooray'
             )
-            message.channel.send(embededMessage)
+            message.channel.send(embeddedMessage)
         } else {
             // user is not an admin
-            let embededMessage = Util.embedMessage(
+            let embeddedMessage = Util.embedMessage(
                 'The user is not an admin',
                 message.author.tag,
                 '0xffff00',
-                'Awww'
+                'Aww'
             )
-            message.channel.send(embededMessage)
+            message.channel.send(embeddedMessage)
         }
     },
 }

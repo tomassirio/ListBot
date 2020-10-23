@@ -25,13 +25,13 @@ module.exports = {
             embedColor = '0xffff00'
         }
 
-        // send embeded message
-        let embededMessage = Util.embedMessage(
+        // send embedded message
+        let embeddedMessage = Util.embedMessage(
             embedMessage,
             message.author.id,
             embedColor,
             ''
         )
-        channel.send(embededMessage)
+        channel.send(embeddedMessage)
     },
 }

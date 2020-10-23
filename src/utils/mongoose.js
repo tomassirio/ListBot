@@ -5,14 +5,14 @@ mongoose.set('useFindAndModify', false)
 mongoose.Promise = global.Promise
 
 mongoose.connection.on('connected', () => {
-    console.log('Mongoose has suceesfully connected.')
+    console.log('Mongoose has successfully connected.')
 })
 
 mongoose.connection.on('error', (err) => {
     console.error(`Mongoose connection error: \n${err.stack}.`)
 })
 
-mongoose.connection.on('disconected', () => {
+mongoose.connection.on('disconnected', () => {
     console.warn('Mongoose has disconnected.')
 })
 
