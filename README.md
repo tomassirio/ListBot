@@ -221,10 +221,10 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/RazCrimson3">
-            <img src="https://avatars2.githubusercontent.com/u/52282402?v=4" width="100;" alt="RazCrimson3"/>
+        <a href="https://github.com/RazCrimson">
+            <img src="https://avatars2.githubusercontent.com/u/52282402?v=4" width="100;" alt="RazCrimson"/>
             <br />
-            <sub><b>RazCrimson3</b></sub>
+            <sub><b>RazCrimson</b></sub>
         </a>
     </td></tr>
 <tr>
