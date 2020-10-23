@@ -49,11 +49,11 @@ module.exports = {
                 let hours = Math.floor(minutes / 60)
                 let remainingMinutes = minutes % 60
                 let hourPluralizer = hours > 1 ? 's' : ''
-                let minPluralizer = remainingMinutes > 1 ? 's' : ''
+                let minutesPluralizer = remainingMinutes > 1 ? 's' : ''
                 durationDescription = `${hours} hour${hourPluralizer}`
                 durationDescription +=
                     remainingMinutes > 0
-                        ? ` and ${remainingMinutes} minute${minPluralizer}`
+                        ? ` and ${remainingMinutes} minute${minutesPluralizer}`
                         : ''
             } else if (minutes < 1) {
                 let seconds = Math.round(minutes * 60)
