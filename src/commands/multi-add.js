@@ -20,7 +20,7 @@ module.exports = {
             })
 
             dbChannel.items.push(newItem)
-        }
+        })
 
         dbChannel.save()
 
