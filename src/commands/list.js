@@ -12,8 +12,8 @@ module.exports = {
         if (!dbChannel.items || dbChannel.items.length === 0) {
             const emptyMessage = Util.embedMessage(
                 'Warning',
-                '0xffff00',
                 message.author,
+                '0xffff00',
                 "No items found, please use the 'add {element}' command to put your first item."
             )
             channel.send(emptyMessage)
