@@ -24,10 +24,10 @@ module.exports = {
         dbChannel.save()
 
         let embeddedMessage = Util.embedMessage(
-            "I've successfully added your element to the list.",
+            `Added a item to \`${channel.name}\`'s List`,
             message.author,
             '0xffff00',
-            item
+            `\`\`\`nim\n"${newItem.content}"    -    ${newItem.author}\`\`\``
         )
         channel.send(embeddedMessage)
     },

@@ -19,7 +19,7 @@ module.exports = {
 
         if (isNaN(minutes)) {
             let embeddedMessage = Util.embedMessage(
-                `Time given is not a number`,
+                `Time given is not valid`,
                 message.author,
                 '0xffff00',
                 "I.e. '$remind 5 Hello World!'"

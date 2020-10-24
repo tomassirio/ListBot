@@ -21,11 +21,10 @@ module.exports = {
         }
 
         let listItems = dbChannel.items.map(
-            (item, i) => `${i + 1}) ${item.content}    -    '${item.author}'`
+            (item, i) => `${i + 1}) "${item.content}"    -    ${item.author}`
         )
 
         let channelName = channel.name
-        channelName = channelName.charAt(0).toUpperCase() + channelName.slice(1) // Capitalize the first letter in the channel name.
 
         let embeddedMessage = Util.embedMessage(
             `List for \`${channelName}\``,

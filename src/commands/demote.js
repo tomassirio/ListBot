@@ -16,12 +16,12 @@ module.exports = {
         )
 
         if (!authorIsAdmin) return
-        // get mentioned user id
-        const mentionedUserId = message.mentions.users.first().id
+        // get mentioned user
+        const mentionedUser = message.mentions.users.first()
 
         // check if user is really an admin
         const userId = guild.guildAdminsId.findIndex(
-            (adminId) => adminId === mentionedUserId
+            (adminId) => adminId === mentionedUser.id
         )
 
         if (userId !== -1) {
@@ -29,19 +29,19 @@ module.exports = {
             guild.guildAdminsId.splice(userId, 1)
             guild.save()
             let embeddedMessage = Util.embedMessage(
-                'Successfully removed user from admin',
+                `Removed admin permissions for \`${mentionedUser.tag}\``,
                 message.author,
                 '0xffff00',
-                'Hooray'
+                'Hooray!..'
             )
             message.channel.send(embeddedMessage)
         } else {
             // user is not an admin
             let embeddedMessage = Util.embedMessage(
-                'The user is not an admin',
+                `\`${mentionedUser.tag}\` is not an admin`,
                 message.author,
                 '0xffff00',
-                'Aww'
+                'Oof..'
             )
             message.channel.send(embeddedMessage)
         }

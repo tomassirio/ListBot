@@ -21,7 +21,9 @@ module.exports = {
             // remove item
             dbChannel.items.splice(itemIndex, 1)
             dbChannel.save()
-            embedMessage = `Successfully deleted item of index ${itemIndex + 1}`
+            embedMessage = `Removed one item with index ${
+                itemIndex + 1
+            } from \`${channel.name}\`'s List`
             embedColor = '0xffff00'
         }
 

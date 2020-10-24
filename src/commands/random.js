@@ -15,10 +15,10 @@ module.exports = {
         console.log(`Randomly selected ${randomItem.content}`)
 
         let embeddedMessage = Util.embedMessage(
-            'The random entry of the list is',
+            `Random entry from \`${channel.name}\`'s List `,
             message.author,
             '0xff0000',
-            `${randomItem.content}.\n\n Element was added by : ${randomItem.author}`
+            `\`\`\`nim\n${randomItem.content}    -    '${randomItem.author}'\`\`\``
         )
         channel.send(embeddedMessage)
     },
