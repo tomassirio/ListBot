@@ -13,14 +13,14 @@ module.exports = {
 
         const dbChannel = await ChannelRepository.findOrCreate(channel)
 
-        item.forEach(async (instance) => {
+        for (const instance of item) {
             let newItem = new Item({
                 content: instance,
                 author: message.author.tag,
             })
 
             dbChannel.items.push(newItem)
-        })
+        }
 
         dbChannel.save()
 
