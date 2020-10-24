@@ -6,12 +6,13 @@ module.exports = {
     description: 'Lists all the elements of the list',
     execute: async (message) => {
         let { channel } = message
+        let channelName = channel.name
 
         let dbChannel = await ChannelRepository.findOrCreate(channel)
 
         if (!dbChannel.items || dbChannel.items.length === 0) {
             const emptyMessage = Util.embedMessage(
-                'Warning',
+                `List empty for \`${channelName}\``,
                 message.author,
                 '0xffff00',
                 "No items found, please use the 'add {element}' command to put your first item."
@@ -23,8 +24,6 @@ module.exports = {
         let listItems = dbChannel.items.map(
             (item, i) => `${i + 1}) "${item.content}"    -    ${item.author}`
         )
-
-        let channelName = channel.name
 
         let embeddedMessage = Util.embedMessage(
             `List for \`${channelName}\``,
