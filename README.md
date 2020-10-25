@@ -107,6 +107,13 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/RazCrimson">
+            <img src="https://avatars2.githubusercontent.com/u/52282402?v=4" width="100;" alt="RazCrimson"/>
+            <br />
+            <sub><b>RazCrimson</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/AldoTu">
             <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
             <br />
@@ -133,13 +140,6 @@ To connect on:
             <br />
             <sub><b>Ahmad Reza</b></sub>
         </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/medusalix">
-            <img src="https://avatars2.githubusercontent.com/u/8124898?v=4" width="100;" alt="medusalix"/>
-            <br />
-            <sub><b>Severin</b></sub>
-        </a>
     </td></tr>
 <tr>
     <td align="center">
@@ -147,6 +147,13 @@ To connect on:
             <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
             <br />
             <sub><b>Robert Groves</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/medusalix">
+            <img src="https://avatars2.githubusercontent.com/u/8124898?v=4" width="100;" alt="medusalix"/>
+            <br />
+            <sub><b>Severin</b></sub>
         </a>
     </td>
     <td align="center">
@@ -176,15 +183,15 @@ To connect on:
             <br />
             <sub><b>Abhijay Jain</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/AkiaCode">
             <img src="https://avatars0.githubusercontent.com/u/71239005?v=4" width="100;" alt="AkiaCode"/>
             <br />
             <sub><b>AkiaCode</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/anontyro">
             <img src="https://avatars3.githubusercontent.com/u/18455641?v=4" width="100;" alt="anontyro"/>
@@ -218,13 +225,6 @@ To connect on:
             <img src="https://avatars0.githubusercontent.com/u/51622948?v=4" width="100;" alt="manishkrjha"/>
             <br />
             <sub><b>Manish Kumar Jha</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/RazCrimson">
-            <img src="https://avatars2.githubusercontent.com/u/52282402?v=4" width="100;" alt="RazCrimson"/>
-            <br />
-            <sub><b>RazCrimson</b></sub>
         </a>
     </td></tr>
 <tr>
