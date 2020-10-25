@@ -2,6 +2,7 @@ const Discord = require('discord.js')
 const ChannelRepository = require('../repositories/channel-repository')
 
 const MAX_POLL_TIME_MINUTES = 1440 // 24 hours in minutes (60*24)
+const MAX_ITEMS = 5
 
 module.exports = {
     name: 'poll',
@@ -9,7 +10,7 @@ module.exports = {
     execute: async (message, [time]) => {
         let { channel } = message
         const { items } = await ChannelRepository.findOrCreate(channel)
-        let maxItems = items.length
+        let maxItems = items.length < MAX_ITEMS ? items.length : MAX_ITEMS
         let emojiList = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣'].slice(0, maxItems)
 
         // Shuffle list elements
