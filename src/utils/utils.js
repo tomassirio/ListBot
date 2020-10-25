@@ -22,7 +22,6 @@ const Utils = {
             embed.setFooter(footer)
         }
 
-        console.log(embed)
         return embed
     },
     createSet(channel, map) {
