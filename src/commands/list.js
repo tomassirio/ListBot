@@ -6,33 +6,30 @@ module.exports = {
     description: 'Lists all the elements of the list',
     execute: async (message) => {
         let { channel } = message
+        let channelName = channel.name
 
         let dbChannel = await ChannelRepository.findOrCreate(channel)
 
         if (!dbChannel.items || dbChannel.items.length === 0) {
             const emptyMessage = Util.embedMessage(
-                'Warning',
+                `List empty for \`${channelName}\``,
+                message.author,
                 '0xffff00',
-                message.author.tag,
                 "No items found, please use the 'add {element}' command to put your first item."
             )
             channel.send(emptyMessage)
             return
         }
 
-        let fields = dbChannel.items.map((item, i) => ({
-            name: `${i + 1} - ${item.content}`,
-            value: item.author,
-        }))
+        let listItems = dbChannel.items.map(
+            (item, i) => `${i + 1}) "${item.content}"    -    ${item.author}`
+        )
 
-        let channelName = channel.name
-        channelName = channelName.charAt(0).toUpperCase() + channelName.slice(1) // Capitalize the first letter in the channel name.
-
-        let embeddedMessage = Util.generateListEmbed(
-            `${channelName} List`,
+        let embeddedMessage = Util.embedMessage(
+            `List for \`${channelName}\``,
+            message.author,
             '0xffff00',
-            fields,
-            `Requested by ${message.author.tag}`
+            `\`\`\`nim\n${listItems.join('\n')}\`\`\``
         )
         channel.send(embeddedMessage)
     },

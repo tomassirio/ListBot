@@ -1,4 +1,4 @@
-const Discord = require('discord.js')
+const Util = require('../utils/utils.js')
 const ChannelRepository = require('../repositories/channel-repository')
 
 const MAX_POLL_TIME_MINUTES = 1440 // 24 hours in minutes (60*24)
@@ -24,12 +24,12 @@ module.exports = {
         )
 
         // Create embed for the poll.
-        let embed = new Discord.MessageEmbed()
-            .setTitle(`Poll for ${channel.name}`)
-            .setDescription(optionsText)
-            .setAuthor(message.author.username, message.author.displayAvatarURL)
-            .setColor(0xff0000)
-            .setTimestamp()
+        let embed = Util.embedMessage(
+            `Poll for \`${channel.name}\``,
+            message.author,
+            '0xff0000',
+            optionsText
+        )
 
         // Determine the poll duration.
         let pollDuration = 0

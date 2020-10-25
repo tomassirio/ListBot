@@ -11,7 +11,7 @@ module.exports = {
 
         let embeddedMessage = Util.embedMessage(
             'Log version',
-            message.author.tag,
+            message.author,
             '0xff0000',
             log
         )
