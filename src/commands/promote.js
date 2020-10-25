@@ -23,10 +23,10 @@ module.exports = {
         guild.guildAdminsId.push(mentionedUser.id)
         guild.save()
         let embeddedMessage = Util.embedMessage(
-            `Added \`${mentionedUser.tag}\` as a admin`,
+            `Added \`${mentionedUser.tag}\` as an admin`,
             message.author,
             '0xffff00',
-            'Hooray!..'
+            'Hooray!'
         )
         message.channel.send(embeddedMessage)
     },

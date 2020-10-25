@@ -32,7 +32,7 @@ module.exports = {
                 `Removed admin permissions for \`${mentionedUser.tag}\``,
                 message.author,
                 '0xffff00',
-                'Hooray!..'
+                'Hooray!'
             )
             message.channel.send(embeddedMessage)
         } else {
