@@ -1,4 +1,5 @@
 const Util = require('../utils/utils.js')
+const Style = require('../utils/messageStyle.js')
 
 module.exports = {
     name: 'remind',
@@ -11,7 +12,7 @@ module.exports = {
                 `Please specify time for the reminder`,
                 message.author.tag,
                 '0xffff00',
-                "I.e. '$remind 5 Hello World!'"
+                Style.error("I.e. '$remind 5 Hello World!'")
             )
             channel.send(embeddedMessage)
             return
@@ -22,7 +23,7 @@ module.exports = {
                 `Time given is not a number`,
                 message.author.tag,
                 '0xffff00',
-                "I.e. '$remind 5 Hello World!'"
+                Style.error("I.e. '$remind 5 Hello World!'")
             )
             channel.send(embeddedMessage)
             return
@@ -45,7 +46,7 @@ module.exports = {
             `I've successfully added your element to the list and will remind you in ${minutes} minutes.`,
             message.author.tag,
             '0xffff00',
-            item
+            Style.green(item)
         )
         channel.send(embeddedMessage)
 
@@ -54,7 +55,7 @@ module.exports = {
                 `REMINDER!`,
                 message.author.tag,
                 '0xffff00',
-                item
+                Style.warn(item)
             )
             channel.send(remindMessage)
         }, minutes * 60000)
