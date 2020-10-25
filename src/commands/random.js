@@ -1,4 +1,5 @@
 const Util = require('../utils/utils.js')
+const Style = require('../utils/messageStyle.js')
 const ChannelRepository = require('../repositories/channel-repository')
 
 module.exports = {
@@ -12,13 +13,13 @@ module.exports = {
         const { items } = await ChannelRepository.findOrCreate(channel)
         randomItem = items[Math.floor(Math.random() * items.length)]
 
-        console.log(`Randomly selected ${randomItem.content}`)
+        const outputMessage = `< ${randomItem.content} >\nElement was added by : ${randomItem.author}\n---`
 
         let embeddedMessage = Util.embedMessage(
             'The random entry of the list is',
             message.author.tag,
             '0xff0000',
-            `${randomItem.content}.\n\n Element was added by : ${randomItem.author}`
+            Style.markDown(outputMessage)
         )
         channel.send(embeddedMessage)
     },
