@@ -5,7 +5,7 @@
     "main": "src/index.js",
     "scripts": {
         "start": "babel src -d build && cross-env NODE_ENV=production node build/index.js",
-        "dev": "cross-env NODE_ENV=development nodemon --exec babel-node src/index.js",
+        "dev": "cross-env NODE_ENV=development nodemon --inspect --exec babel-node src/index.js",
         "lint": "eslint .",
         "lint-fix": "eslint --fix ."
     },
