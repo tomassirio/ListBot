@@ -16,17 +16,17 @@ module.exports = {
         )
 
         if (!authorIsAdmin) return
-        // get mentioned user id
-        const mentionedUserId = message.mentions.users.first().id
+        // get mentioned user
+        const mentionedUser = message.mentions.users.first()
 
         // add id into mongo guild schema
-        guild.guildAdminsId.push(mentionedUserId)
+        guild.guildAdminsId.push(mentionedUser.id)
         guild.save()
         let embeddedMessage = Util.embedMessage(
-            'Successfully added user as admin',
-            message.author.tag,
+            `Added \`${mentionedUser.tag}\` as an admin`,
+            message.author,
             '0xffff00',
-            'Hooray'
+            'Hooray!'
         )
         message.channel.send(embeddedMessage)
     },

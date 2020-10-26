@@ -40,8 +40,8 @@ module.exports = {
             )
             .join('\n')
         let embeddedMessage = Util.embedMessage(
-            'List Bot Help Message',
-            message.author.tag,
+            "List Bot's Help Message",
+            message.author,
             '0xffff00',
             msg
         )
