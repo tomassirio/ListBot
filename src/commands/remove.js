@@ -7,7 +7,7 @@ module.exports = {
     description: 'Removes an element from the list',
     execute: async (message, args) => {
         let { channel } = message
-        let itemIndex = Number(args[0] || 1) - 1
+        let itemIndex = Number(args[0]) - 1
         let embedMessage = ''
         let embedColor = ''
         let embedTitle = ''

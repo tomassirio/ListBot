@@ -26,9 +26,9 @@ module.exports = {
 
         let embeddedMessage = Util.embedMessage(
             `Added an item to \`${channel.name}\`'s List`,
-            message.author,
+            message.author.tag,
             '0xffff00',
-            `\`\`\`nim\n"${newItem.content}"    -    ${newItem.author}\`\`\``
+            Style.green(item)
         )
         channel.send(embeddedMessage)
     },

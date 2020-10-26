@@ -23,6 +23,9 @@ const MessageStyle = {
     markDown(message) {
         return this.style('md', message)
     },
+    nim(message) {
+        return this.style('nim', message)
+    },
 }
 
 module.exports = MessageStyle
