@@ -11,7 +11,7 @@ module.exports = async (client, message) => {
 
     const command = client.commands.get(commandName);
 
-    if (command.min_args > args.length) {
+    if (command.hasOwnProperty("min_args") && command.min_args > args.length) {
         let embeddedMessage = Util.embedMessage(
             'You didn\'t provide enough arguments!',
             message.author.tag,

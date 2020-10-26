@@ -4,8 +4,9 @@ const ChannelRepository = require('../repositories/channel-repository')
 
 module.exports = {
     name: 'multi-add',
+    min_args: 1,
+    usage: "<content_1> <content_2> ... <content_n>",
     description: 'Add multiple elements to the list',
-
     execute: async (message, args) => {
         let item = [...args]
 
