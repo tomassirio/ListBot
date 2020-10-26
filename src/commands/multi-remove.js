@@ -22,14 +22,14 @@ module.exports = {
             dbChannel.items.splice(indexFrom, numOfItems)
             dbChannel.save()
             embedColor = '0xffff00'
-            embedMessage = `Successfully deleted items from index ${
+            embedMessage = `Removed ${numOfItems} items from index ${
                 indexFrom + 1
-            } to ${indexTo + 1}`
+            } to ${indexTo + 1} from \`${channel.name}\`'s List`
         }
 
         let embeddedMessage = Util.embedMessage(
             embedMessage,
-            message.author.tag,
+            message.author,
             embedColor,
             ''
         )

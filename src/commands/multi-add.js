@@ -14,22 +14,22 @@ module.exports = {
 
         const dbChannel = await ChannelRepository.findOrCreate(channel)
 
-        item.forEach(async (instance) => {
+        for (const instance of item) {
             let newItem = new Item({
                 content: instance,
                 author: message.author.tag,
             })
 
             dbChannel.items.push(newItem)
-        })
+        }
 
         dbChannel.save()
 
         const description = item.map((msg, i) => `${i + 1}. ${msg}`).join('\n')
 
         let embeddedMessage = Util.embedMessage(
-            'Successfully added',
-            message.author.tag,
+            `Added ${item.length} item(s) to \`${channel.name}\`'s List`,
+            message.author,
             '0xffff00',
             Style.markDown(description)
         )

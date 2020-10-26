@@ -11,12 +11,12 @@ module.exports = {
         dbChannel.items = []
         dbChannel.save()
 
-        const messageWithFormat = Util.embedMessage(
-            'Successfully cleared',
-            message.author.tag,
+        const embedMessage = Util.embedMessage(
+            `Cleared \`${channel.name}\`'s List`,
+            message.author,
             '0xffff00',
             'The list is now empty.'
         )
-        channel.send(messageWithFormat)
+        channel.send(embedMessage)
     },
 }

@@ -16,8 +16,8 @@ module.exports = {
         const outputMessage = `< ${randomItem.content} >\nElement was added by : ${randomItem.author}\n---`
 
         let embeddedMessage = Util.embedMessage(
-            'The random entry of the list is',
-            message.author.tag,
+            `Random entry from \`${channel.name}\`'s List `,
+            message.author,
             '0xff0000',
             Style.markDown(outputMessage)
         )
