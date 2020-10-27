@@ -26,7 +26,7 @@ module.exports = {
 
         let embeddedMessage = Util.embedMessage(
             `Added an item to \`${channel.name}\`'s List`,
-            message.author.tag,
+            message.author,
             '0xffff00',
             Style.green(item)
         )

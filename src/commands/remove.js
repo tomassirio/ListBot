@@ -36,7 +36,7 @@ module.exports = {
         // send embedded message
         let embeddedMessage = Util.embedMessage(
             embedTitle,
-            message.author.id,
+            message.author,
             embedColor,
             embedMessage
         )

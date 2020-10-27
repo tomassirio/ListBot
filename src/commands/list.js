@@ -29,11 +29,9 @@ module.exports = {
             (item, i) => `${i + 1}. < ${item.content} >\n${item.author}\n---`
         )
 
-        channelName = channelName.charAt(0).toUpperCase() + channelName.slice(1) // Capitalize the first letter in the channel name.
-
         let embeddedMessage = Util.embedMessage(
-            `${channelName} List`,
-            `Requested by ${message.author.tag}`,
+            `List for \`${channelName}\``,
+            message.author,
             '0xffff00',
             Style.markDown(fields.join('\n'))
         )

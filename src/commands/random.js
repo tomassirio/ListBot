@@ -13,7 +13,7 @@ module.exports = {
         const { items } = await ChannelRepository.findOrCreate(channel)
         randomItem = items[Math.floor(Math.random() * items.length)]
 
-        const outputMessage = `< ${randomItem.content} >\nElement was added by : ${randomItem.author}\n---`
+        const outputMessage = `< ${randomItem.content} >\n${randomItem.author}\n---`
 
         let embeddedMessage = Util.embedMessage(
             `Random entry from \`${channel.name}\`'s List `,
