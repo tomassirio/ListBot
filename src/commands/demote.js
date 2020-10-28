@@ -34,7 +34,7 @@ module.exports = {
                 '0xffff00',
                 'Hooray!'
             )
-            message.channel.send(embeddedMessage)
+            await message.channel.send(embeddedMessage)
         } else {
             // user is not an admin
             let embeddedMessage = Util.embedMessage(
@@ -43,7 +43,7 @@ module.exports = {
                 '0xffff00',
                 'Oof..'
             )
-            message.channel.send(embeddedMessage)
+            await message.channel.send(embeddedMessage)
         }
     },
 }
