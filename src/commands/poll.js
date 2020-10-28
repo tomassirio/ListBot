@@ -141,7 +141,7 @@ module.exports = {
                 }`
 
                 // Create the poll results message.
-                let resultMessage = ''
+                let resultMessage
 
                 if (totalVotes === 0) {
                     resultMessage = 'No one voted! 😢'
