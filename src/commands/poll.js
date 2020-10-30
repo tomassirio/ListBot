@@ -68,10 +68,7 @@ module.exports = {
             embed.setFooter(
                 `The poll has started and will last ${durationDescription}`
             )
-        } else {
-            minutes = 0
-            embed.setFooter(`The poll has started and has no end time`)
-        }
+        } else embed.setFooter(`The poll has started and has no end time`)
 
         // Send the initial poll message to the channel then do some processing after its been sent successfully.
         channel.send(embed).then(async (pollMessage) => {
