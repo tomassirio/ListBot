@@ -8,5 +8,7 @@ data
 
 # IDE entries
 .idea
+.vscode/
 
 .DS_Store
+
