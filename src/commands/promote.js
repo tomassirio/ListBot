@@ -28,6 +28,6 @@ module.exports = {
             '0xffff00',
             'Hooray!'
         )
-        message.channel.send(embeddedMessage)
+        await message.channel.send(embeddedMessage)
     },
 }

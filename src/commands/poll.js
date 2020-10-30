@@ -69,7 +69,6 @@ module.exports = {
                 `The poll has started and will last ${durationDescription}`
             )
         } else {
-            minutes = 0
             embed.setFooter(`The poll has started and has no end time`)
         }
 
@@ -141,7 +140,7 @@ module.exports = {
                 }`
 
                 // Create the poll results message.
-                let resultMessage = ''
+                let resultMessage
 
                 if (totalVotes === 0) {
                     resultMessage = 'No one voted! 😢'
