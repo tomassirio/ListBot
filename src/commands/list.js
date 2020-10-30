@@ -1,4 +1,5 @@
 let Util = require('../utils/utils.js')
+const Style = require('../utils/messageStyle.js')
 const ChannelRepository = require('../repositories/channel-repository')
 
 module.exports = {
@@ -15,21 +16,24 @@ module.exports = {
                 `List empty for \`${channelName}\``,
                 message.author,
                 '0xffff00',
-                "No items found, please use the 'add {element}' command to put your first item."
+                message.author.tag,
+                Style.error(
+                    "No items found, please use the 'add {element}' command to put your first item."
+                )
             )
             channel.send(emptyMessage)
             return
         }
 
-        let listItems = dbChannel.items.map(
-            (item, i) => `${i + 1}) "${item.content}"    -    ${item.author}`
+        let fields = dbChannel.items.map(
+            (item, i) => `${i + 1}. < ${item.content} >\n${item.author}\n---`
         )
 
         let embeddedMessage = Util.embedMessage(
             `List for \`${channelName}\``,
             message.author,
             '0xffff00',
-            `\`\`\`nim\n${listItems.join('\n')}\`\`\``
+            Style.markDown(fields.join('\n'))
         )
         channel.send(embeddedMessage)
     },
