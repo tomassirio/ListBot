@@ -7,7 +7,7 @@ const Utils = {
             .setTitle(title)
             .setColor(color)
             .setDescription(description)
-            .setFooter(author.username, author.displayAvatarURL)
+            .setFooter(author.username, author.displayAvatarURL())
             .setTimestamp()
     },
 }
