@@ -1,5 +1,6 @@
-const config = require('../config');
-const Util = require('../utils/utils');
+const config = require('../config')
+const Style = require('../utils/messageStyle')
+const Util = require('../utils/utils')
 
 module.exports = async (client, message) => {
     if (!message.content.startsWith(config.prefix) || message.author.bot) return
@@ -9,14 +10,16 @@ module.exports = async (client, message) => {
 
     if (!client.commands.has(commandName)) return
 
-    const command = client.commands.get(commandName);
+    const command = client.commands.get(commandName)
 
-    if (command.hasOwnProperty("min_args") && command.min_args > args.length) {
+    if (command.hasOwnProperty('min_args') && command.min_args > args.length) {
         let embeddedMessage = Util.embedMessage(
-            'You didn\'t provide enough arguments!',
+            "You didn't provide enough arguments!",
             message.author,
             '0xffff00',
-            `The correct usage would be: ${config.prefix}${commandName} ${command.usage}`
+            Style.warn(
+                `The correct usage would be: \n${config.prefix}${commandName} ${command.usage}`
+            )
         )
         return message.channel.send(embeddedMessage)
     }
