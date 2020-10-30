@@ -14,7 +14,7 @@ module.exports = async (client, message) => {
     if (command.hasOwnProperty("min_args") && command.min_args > args.length) {
         let embeddedMessage = Util.embedMessage(
             'You didn\'t provide enough arguments!',
-            message.author.tag,
+            message.author,
             '0xffff00',
             `The correct usage would be: ${config.prefix}${commandName} ${command.usage}`
         )

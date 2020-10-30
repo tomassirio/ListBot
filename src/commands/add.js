@@ -6,7 +6,7 @@ const easterEggCheck = require('./add-eggs').check
 module.exports = {
     name: 'add',
     min_args: 1,
-    usage: "<content>",
+    usage: '<element>',
     description: 'Add an element to the list',
     execute: async (message, args) => {
         let item = args.join(' ')
