@@ -3,21 +3,25 @@ const ChannelRepository = require('../repositories/channel-repository')
 
 const MAX_POLL_TIME_MINUTES = 1440 // 24 hours in minutes (60*24)
 const MIN_ITEMS_COUNT = 2
-const MAX_ITEMS = 9
-// Changing MIN_ITEMS_COUNT and MAX_ITEMS outside the range [1, 9] breaks the emotes
+const MAX_ITEMS_COUNT = 9
+const DEFAULT_ITEMS_COUNT = 5
+// Changing MIN_ITEMS_COUNT and MAX_ITEMS_COUNT outside the range [1, 9] breaks the emotes
 // Having 1 as MIN_ITEMS_COUNT breaks the purpose of a poll
 
 module.exports = {
     name: 'poll',
-    description: `Generates a Poll from ${MIN_ITEMS_COUNT} to ${MAX_ITEMS} random elements on the list`,
-    execute: async (message, [time, DEFAULT_ITEMS = 5]) => {
+    description: `Generates a Poll from ${MIN_ITEMS_COUNT} to ${MAX_ITEMS_COUNT} random elements on the list`,
+    execute: async (
+        message,
+        [time, requestedPollCount = DEFAULT_ITEMS_COUNT]
+    ) => {
         let { channel } = message
         const { items } = await ChannelRepository.findOrCreate(channel)
 
         let pollItemsCount = Math.min(
-            Math.max(DEFAULT_ITEMS, MIN_ITEMS_COUNT),
+            Math.max(requestedPollCount, MIN_ITEMS_COUNT),
             items.length,
-            MAX_ITEMS
+            MAX_ITEMS_COUNT
         )
         // List can only have items up to i = 9(1-9) as emotes will break when ranges goes beyond that.
         let emojiList = [...Array(pollItemsCount).keys()].map(
