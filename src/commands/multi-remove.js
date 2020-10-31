@@ -4,7 +4,7 @@ const ChannelRepository = require('../repositories/channel-repository')
 module.exports = {
     name: 'multi-remove',
     min_args: 2,
-    usage: "<start_index> <end_index>",
+    usage: '<start_index> <end_index>',
     description: 'Removes multiple elements from the list',
     execute: async (message, args) => {
         let { channel } = message

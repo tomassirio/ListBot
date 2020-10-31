@@ -12,7 +12,10 @@ module.exports = async (client, message) => {
 
     const command = client.commands.get(commandName)
 
-    if (command.hasOwnProperty('min_args') && command.min_args > args.length) {
+    if (
+        Object.prototype.hasOwnProperty.call(command, 'min_args') &&
+        command.min_args > args.length
+    ) {
         let embeddedMessage = Util.embedMessage(
             "You didn't provide enough arguments!",
             message.author,
@@ -21,7 +24,8 @@ module.exports = async (client, message) => {
                 `The correct usage would be: \n${config.prefix}${commandName} ${command.usage}`
             )
         )
-        return message.channel.send(embeddedMessage)
+        message.channel.send(embeddedMessage)
+        return
     }
 
     try {
