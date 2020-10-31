@@ -157,6 +157,13 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/vitasenka">
+            <img src="https://avatars1.githubusercontent.com/u/64737770?v=4" width="100;" alt="vitasenka"/>
+            <br />
+            <sub><b>Pirooz Amirpour</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/medusalix">
             <img src="https://avatars2.githubusercontent.com/u/8124898?v=4" width="100;" alt="medusalix"/>
             <br />
@@ -176,15 +183,15 @@ To connect on:
             <br />
             <sub><b>JDOG787</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Fedelaus">
             <img src="https://avatars2.githubusercontent.com/u/43784056?v=4" width="100;" alt="Fedelaus"/>
             <br />
             <sub><b>Nathan Dawson</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Abhijay007">
             <img src="https://avatars3.githubusercontent.com/u/64387054?v=4" width="100;" alt="Abhijay007"/>
@@ -219,15 +226,15 @@ To connect on:
             <br />
             <sub><b>CarlyRaeJepsenStan</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/manishkrjha">
             <img src="https://avatars0.githubusercontent.com/u/51622948?v=4" width="100;" alt="manishkrjha"/>
             <br />
             <sub><b>Manish Kumar Jha</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/simonardejr">
             <img src="https://avatars0.githubusercontent.com/u/3685303?v=4" width="100;" alt="simonardejr"/>
@@ -262,15 +269,15 @@ To connect on:
             <br />
             <sub><b>Heyimalaap</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Carolini28">
             <img src="https://avatars2.githubusercontent.com/u/10856392?v=4" width="100;" alt="Carolini28"/>
             <br />
             <sub><b>Carolini Rodrigues</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/diogenesdauster">
             <img src="https://avatars0.githubusercontent.com/u/16214631?v=4" width="100;" alt="diogenesdauster"/>
@@ -304,13 +311,6 @@ To connect on:
             <img src="https://avatars3.githubusercontent.com/u/32029022?v=4" width="100;" alt="joy98"/>
             <br />
             <sub><b>JOY SARKAR</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/divn">
-            <img src="https://avatars2.githubusercontent.com/u/6170626?v=4" width="100;" alt="divn"/>
-            <br />
-            <sub><b>Juuso Takala</b></sub>
         </a>
     </td></tr>
 </table>
