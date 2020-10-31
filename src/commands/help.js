@@ -26,7 +26,7 @@ module.exports = {
                 'poll {active_time_in_minutes} [{number_of_items}]',
                 'creates a poll on the channel for 2 to 9 random elements. ' +
                     'Uses 5 elements by default. If you want a poll with custom number of elements ' +
-                    'with no poll time limit, set the time as 0. WIP',
+                    'with no poll time limit, set the time as 0.',
             ],
             ['log', "gets the bot's log"],
             [
