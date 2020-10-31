@@ -4,6 +4,8 @@ const ChannelRepository = require('../repositories/channel-repository')
 
 module.exports = {
     name: 'remove',
+    min_args: 1,
+    usage: '<index>',
     description: 'Removes an element from the list',
     execute: async (message, args) => {
         let { channel } = message
