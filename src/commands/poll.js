@@ -16,7 +16,8 @@ module.exports = {
 
         let pollItemsCount = Math.min(
             Math.max(DEFAULT_ITEMS, MIN_ITEMS),
-            Math.min(items.length, MAX_ITEMS)
+            items.length,
+            MAX_ITEMS
         )
         // List can only have items up to i = 9(1-9) as emotes will break when ranges goes beyond that.
         let emojiList = [...Array(pollItemsCount).keys()].map(
