@@ -107,10 +107,24 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/anontyro">
+            <img src="https://avatars3.githubusercontent.com/u/18455641?v=4" width="100;" alt="anontyro"/>
+            <br />
+            <sub><b>Alexander Wilkinson</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/RazCrimson">
             <img src="https://avatars2.githubusercontent.com/u/52282402?v=4" width="100;" alt="RazCrimson"/>
             <br />
             <sub><b>RazCrimson</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/rgroves">
+            <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
+            <br />
+            <sub><b>Robert Groves</b></sub>
         </a>
     </td>
     <td align="center">
@@ -126,7 +140,8 @@ To connect on:
             <br />
             <sub><b>Peipr</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/jledezma-mt">
             <img src="https://avatars1.githubusercontent.com/u/65924428?v=4" width="100;" alt="jledezma-mt"/>
@@ -139,14 +154,6 @@ To connect on:
             <img src="https://avatars3.githubusercontent.com/u/52902060?v=4" width="100;" alt="ahmad-reza619"/>
             <br />
             <sub><b>Ahmad Reza</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/rgroves">
-            <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
-            <br />
-            <sub><b>Robert Groves</b></sub>
         </a>
     </td>
     <td align="center">
@@ -168,13 +175,6 @@ To connect on:
             <img src="https://avatars1.githubusercontent.com/u/64325143?v=4" width="100;" alt="JDOG787"/>
             <br />
             <sub><b>JDOG787</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/anontyro">
-            <img src="https://avatars3.githubusercontent.com/u/18455641?v=4" width="100;" alt="anontyro"/>
-            <br />
-            <sub><b>Alexander Wilkinson</b></sub>
         </a>
     </td>
     <td align="center">

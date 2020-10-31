@@ -11,8 +11,8 @@ module.exports = {
         let indexFrom = args[0] - 1
         let indexTo = args[1] - 1
         let numOfItems = indexTo - indexFrom + 1
-        let embedColor = ''
-        let embedMessage = ';'
+        let embedColor
+        let embedMessage
 
         const dbChannel = await ChannelRepository.findOrCreate(channel)
 

@@ -15,7 +15,7 @@ const {
     LOCAL_DB_PORT = '',
     LOCAL_DB_AUTH_DB = '',
     LOCAL_DB_OPTIONS = '',
-    DB_SCHEME = 'monogdb',
+    DB_SCHEME = 'mongodb',
     DB_USER,
     DB_PASSWORD,
     DB_HOST,
