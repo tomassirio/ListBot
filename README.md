@@ -88,15 +88,12 @@ To connect on:
 
 ## :building_construction: Contribution Guidelines:
 
--   **_fork_** and **_clone_** this repository
--   Make a new branch using `git checkout -b change/username`
--   Commit the desired changes to that branch
--   Sign off your commits using `git commit -s -m w/signoff`
--   Push your changes to the branch and open a pull request
+-   All contributors must read and abide by our [Contributor Code of Conduct](./CODE_OF_CONDUCT.md)
+-   Visit the [Contributing Page](./contributing/CONTRIBUTING.md) for full details on how to get started.
 
 ### :jack_o_lantern: Contributors Hacktoberfest 2020:
 
-<!-- readme: contributors -start --> 
+<!-- readme: contributors -start -->
 <table>
 <tr>
     <td align="center">
