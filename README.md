@@ -107,17 +107,17 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/anontyro">
-            <img src="https://avatars3.githubusercontent.com/u/18455641?v=4" width="100;" alt="anontyro"/>
-            <br />
-            <sub><b>Alexander Wilkinson</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/RazCrimson">
             <img src="https://avatars2.githubusercontent.com/u/52282402?v=4" width="100;" alt="RazCrimson"/>
             <br />
             <sub><b>RazCrimson</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/anontyro">
+            <img src="https://avatars3.githubusercontent.com/u/18455641?v=4" width="100;" alt="anontyro"/>
+            <br />
+            <sub><b>Alexander Wilkinson</b></sub>
         </a>
     </td>
     <td align="center">
