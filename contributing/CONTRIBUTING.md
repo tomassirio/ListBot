@@ -8,7 +8,7 @@ Welcome back! If you agree to abide by the [Contributor Code of Conduct](./CODE_
 
 ## At A Glance
 
-Here is a pictoral overview of the contributor workflow.
+Here is a pictoral overview of the contributor workflow. Note that the workflow image uses a short branch name for illustrative purposes. Please name your issue branches according to the naming convention described later in this document.
 
 ![GitHub Logo](./listbot-git-contributor-workflow-final.png)
 
@@ -24,26 +24,26 @@ Below is a step-by-step guide to the contributor workflow.
     $ git clone git@github.com:username/ListBot.git
     ```
 
-3. Set up a remote `upstream` so that you can keep up-to-date with the source repository changes.
+3. Set up a remote `upstream` so that you can keep up to date with the source repository changes.
 
     ```
     $ git remote add upstream git@github.com:tomassirio/ListBot.git
     ```
 
-    You can verify you've set up the remote correctly by running the following command which will list the remote names and URLs:
+    You can verify you have set up the remote correctly by running the following command which will list the remote names and URLs:
 
     ```
     $ git remote -v
     ```
 
-    You should see output similar to the following:
+    You should see lines like the following two in the above command's output:
 
     ```
     upstream        git@github.com:tomassirio/ListBot.git (fetch)
     upstream        git@github.com:tomassirio/ListBot.git (push)
     ```
 
-4. Create a specific feature branch to develop on (be sure to branch off your up-to-date master branch):
+4. Create a specific feature branch to develop on (be sure to branch off your up to date master branch):
 
     ```
     $ git checkout -b ###-short-description-of-issue
@@ -53,7 +53,9 @@ Below is a step-by-step guide to the contributor workflow.
 
 5. Edit and test the changes on your development machine.
 
-6. Merge the upstream master branch (and fix any conflicts)
+6. Commit your work to your issue branch as needed.
+
+7. Merge the upstream master branch (and fix any conflicts)
 
     ```
     $ git fetch upstream
@@ -64,25 +66,25 @@ Below is a step-by-step guide to the contributor workflow.
     $ git merge master
     ```
 
-    Get in the habit of continually incorporating changes from the upstream master to keep your master up-to-date.
+    Get in the habit of continually incorporating changes from the upstream master to keep your master up-to-date as you work to avoid having to deal with many conflicts.
 
-7. Perform final testing and run `npm run lint` to ensure there are no linting issues in your working branch.
+8. Perform final testing and run `npm run lint` to ensure there are no linting issues in your working branch.
 
-8. Push your issue branch up to your (origin) fork.
+9. Push your issue branch up to your (origin) fork.
 
     ```
     git push origin ###-short-description-of-issue
     ```
 
-9. Issue a Pull Request on GitHub.
+10. Issue a Pull Request on GitHub.
 
 ## Pull Request Checklist
 
 -   Before issuing a pull request be sure that you have: 1) incorporated the current state of the upstream master into your issue branch, 2) checked your code against the linter, and 3) tested ListBot with your changes in place.
 
--   As of this writing, there are no automated tests in the codebase. This means you have to be diligent to ensure everything is in working order after making changes. You'll do this by manually testing ListBot before issuing your pull request. This isn't ideal, and there is [an open issue for getting tests in place](https://github.com/tomassirio/ListBot/issues/53) (help with that if you're able).
+-   As of this writing, there are no automated tests in the codebase. This means you must be diligent to ensure everything is in working order after making changes. You will do this by manually testing ListBot before issuing your pull request. This is not ideal, and there is [an open issue for getting tests in place](https://github.com/tomassirio/ListBot/issues/53) (help with that if you are able).
 
--   If you're adding a new feature, document how to test it in a PR comment. This is another stopgap until automated testing is in place, and at that time new features will require new automated tests exist as part of the pull request changes.
+-   If you are adding a new feature, document how to test it in a PR comment. This is another stopgap until automated testing is in place, and at that time new features will require new automated tests exist as part of the pull request changes.
 
 ## Dos and Don'ts
 
@@ -90,11 +92,11 @@ Below is a step-by-step guide to the contributor workflow.
 
 -   Do create development branches for each issue you are working on
 
--   Do keep each development branch related to a single issue — do not mixes fixes with features or unrelated fixes with other fixes; Open a new issue if you need to
+-   Do keep each development branch related to a single issue — do not mix fixes with features or unrelated fixes with other fixes; Open a new issue if you need to
 
 -   Do keep config files clean (like .gitignore for example) — don't add test files that are specific to your setup
 
 ## What To Contribute
 
 -   Browse [the list of issues in the repo](https://github.com/tomassirio/ListBot/issues) and see if there is something you are interested in working on
--   Or if you discover an issue with the bot or its documentation here open a new issue. If you're willing and able to fix the issue, note that in your submission.
+-   Or if you discover an issue with the bot or its documentation here open a new issue. If you are willing and able to fix the issue, note that in your submission and the issue will be assigned to you.
