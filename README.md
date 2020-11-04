@@ -250,10 +250,10 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Xyszx">
-            <img src="https://avatars0.githubusercontent.com/u/71617416?v=4" width="100;" alt="Xyszx"/>
+        <a href="https://github.com/Lydzx">
+            <img src="https://avatars0.githubusercontent.com/u/71617416?v=4" width="100;" alt="Lydzx"/>
             <br />
-            <sub><b>ArsenDevX</b></sub>
+            <sub><b>Lyd</b></sub>
         </a>
     </td>
     <td align="center">
