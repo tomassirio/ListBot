@@ -93,7 +93,7 @@ To connect on:
 
 ### :jack_o_lantern: Contributors Hacktoberfest 2020:
 
-<!-- readme: contributors -start -->
+<!-- readme: contributors -start --> 
 <table>
 <tr>
     <td align="center">
@@ -111,17 +111,17 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/anontyro">
-            <img src="https://avatars3.githubusercontent.com/u/18455641?v=4" width="100;" alt="anontyro"/>
-            <br />
-            <sub><b>Alexander Wilkinson</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/rgroves">
             <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
             <br />
             <sub><b>Robert Groves</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/anontyro">
+            <img src="https://avatars3.githubusercontent.com/u/18455641?v=4" width="100;" alt="anontyro"/>
+            <br />
+            <sub><b>Alexander Wilkinson</b></sub>
         </a>
     </td>
     <td align="center">
