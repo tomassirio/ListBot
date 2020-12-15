@@ -17,7 +17,7 @@ module.exports = {
 
         for (const instance of item) {
             let newItem = new Item({
-                content: instance,
+                content: instance.trim(),
                 author: message.author.tag,
             })
 
@@ -26,7 +26,7 @@ module.exports = {
 
         dbChannel.save()
 
-        const description = item.map((msg, i) => `${i + 1}. ${msg}`).join('\n')
+        const description = item.map((msg, i) => `${i + 1}. ${msg.trim()}`).join('\n')
 
         let embeddedMessage = Util.embedMessage(
             `Added ${item.length} item(s) to \`${channel.name}\`'s List`,
