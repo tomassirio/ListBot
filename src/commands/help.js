@@ -1,7 +1,7 @@
+const fs = require('fs')
 const config = require('../config')
 const Util = require('../utils/utils.js')
 const Style = require('../utils/messageStyle.js')
-const fs = require('fs')
 
 const COMMANDS_FOLDER = './src/commands'
 
@@ -14,11 +14,16 @@ module.exports = {
         // [syntax, description]
         let commands = []
 
-        fs.readdirSync(COMMANDS_FOLDER).forEach(file => {
-            const command = require('./' + file)
-            if (!command.hasOwnProperty('name') || !command.hasOwnProperty('description')) return
+        fs.readdirSync(COMMANDS_FOLDER).forEach((file) => {
+            // eslint-disable-next-line import/no-dynamic-require,global-require
+            const command = require(`./${file}`)
+            if (
+                !Object.prototype.hasOwnProperty.call(command, 'name') ||
+                !Object.prototype.hasOwnProperty.call(command, 'description')
+            )
+                return
 
-            const usage = (command.usage != null) ? ' ' + command.usage : ''
+            const usage = command.usage != null ? ` ${command.usage}` : ''
             commands.push([`${command.name}${usage}`, command.description])
         })
 
