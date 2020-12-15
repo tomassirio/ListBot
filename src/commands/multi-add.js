@@ -6,7 +6,8 @@ const ChannelRepository = require('../repositories/channel-repository')
 module.exports = {
     name: 'multi-add',
     min_args: 1,
-    usage: '<element_1> <element_2> ... <element_n>',
+    usage: '<element_1>;<element_2>;...;<element_n>',
+    delimiter: ';',
     description: 'Add multiple elements to the list',
     execute: async (message, args) => {
         let item = [...args]
@@ -17,7 +18,7 @@ module.exports = {
 
         for (const instance of item) {
             let newItem = new Item({
-                content: instance,
+                content: instance.trim(),
                 author: message.author.tag,
             })
 
@@ -26,7 +27,9 @@ module.exports = {
 
         dbChannel.save()
 
-        const description = item.map((msg, i) => `${i + 1}. ${msg}`).join('\n')
+        const description = item
+            .map((msg, i) => `${i + 1}. ${msg.trim()}`)
+            .join('\n')
 
         let embeddedMessage = Util.embedMessage(
             `Added ${item.length} item(s) to \`${channel.name}\`'s List`,

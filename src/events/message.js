@@ -5,12 +5,16 @@ const Util = require('../utils/utils')
 module.exports = async (client, message) => {
     if (!message.content.startsWith(config.prefix) || message.author.bot) return
 
-    let args = message.content.slice(config.prefix.length).trim().split(/ +/)
-    const commandName = args.shift().toLowerCase()
+    const splitMessage = message.content
+        .slice(config.prefix.length)
+        .trim()
+        .split(/ /)
+    let [commandName, args] = [splitMessage.shift(), splitMessage.join(' ')]
 
     if (!client.commands.has(commandName)) return
 
     const command = client.commands.get(commandName)
+    if (args != null) args = args.split(command.delimiter ?? / +/)
 
     if (
         Object.prototype.hasOwnProperty.call(command, 'min_args') &&
