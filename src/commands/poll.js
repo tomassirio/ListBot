@@ -11,6 +11,7 @@ const DEFAULT_ITEMS_COUNT = 5
 module.exports = {
     name: 'poll',
     description: `Generates a Poll from ${MIN_ITEMS_COUNT} to ${MAX_ITEMS_COUNT} random elements on the list`,
+    usage: `<time_in_minutes> [nb_items=${DEFAULT_ITEMS_COUNT}]`,
     execute: async (
         message,
         [time, requestedPollCount = DEFAULT_ITEMS_COUNT]
