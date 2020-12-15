@@ -5,7 +5,10 @@ const Util = require('../utils/utils')
 module.exports = async (client, message) => {
     if (!message.content.startsWith(config.prefix) || message.author.bot) return
 
-    const splitMessage = message.content.slice(config.prefix.length).trim().split(/ /)
+    const splitMessage = message.content
+        .slice(config.prefix.length)
+        .trim()
+        .split(/ /)
     let [commandName, args] = [splitMessage.shift(), splitMessage.join(' ')]
 
     if (!client.commands.has(commandName)) return

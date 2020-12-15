@@ -27,7 +27,9 @@ module.exports = {
 
         dbChannel.save()
 
-        const description = item.map((msg, i) => `${i + 1}. ${msg.trim()}`).join('\n')
+        const description = item
+            .map((msg, i) => `${i + 1}. ${msg.trim()}`)
+            .join('\n')
 
         let embeddedMessage = Util.embedMessage(
             `Added ${item.length} item(s) to \`${channel.name}\`'s List`,
