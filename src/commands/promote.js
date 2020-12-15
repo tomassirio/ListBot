@@ -4,6 +4,7 @@ const Util = require('../utils/utils.js')
 module.exports = {
     name: 'promote',
     description: 'Promote a user into an admin of ListBot',
+    usage: '<@user>',
     execute: async (message) => {
         // check if user promoting is admin
         const guildID = message.guild.id
