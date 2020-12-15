@@ -7,9 +7,10 @@ module.exports = {
     name: 'multi-add',
     min_args: 1,
     usage: '<element_1>;<element_2>;...;<element_n>',
+    delimiter: ';',
     description: 'Add multiple elements to the list',
     execute: async (message, args) => {
-        let item = [...args].join(' ').split(';')
+        let item = [...args]
 
         let { channel } = message
 
