@@ -2,7 +2,7 @@ let Util = require('../utils/utils.js')
 const Style = require('../utils/messageStyle.js')
 const ChannelRepository = require('../repositories/channel-repository')
 
-const MAX_EMBED_SIZE = 1900
+const MAX_EMBED_SIZE = 1800
 
 module.exports = {
     name: 'list',
