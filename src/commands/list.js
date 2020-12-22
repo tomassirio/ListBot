@@ -31,6 +31,8 @@ module.exports = {
         let size = 0
 
         function send() {
+            if (fields.length === 0) return
+            
             let embeddedMessage = Util.embedMessage(
                 `List for \`${channelName}\``,
                 message.author,
