@@ -30,7 +30,7 @@ module.exports = {
             return
         }
 
-        let item = elements.map((curItem) => `${curItem} `) // TODO should this be a join?
+        let item = elements.join(' ')
 
         if (item === '') {
             let embeddedMessage = Util.embedMessage(
