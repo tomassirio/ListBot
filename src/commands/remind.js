@@ -3,8 +3,9 @@ const Style = require('../utils/messageStyle.js')
 
 module.exports = {
     name: 'remind',
-    usage: '<time_in_seconds>',
-    description: 'Bot reminds of an item in channel after specific time',
+    usage: '<time_in_seconds> <reminder_text>',
+    description:
+        'Bot issues a reminder in the channel after the specified time',
     execute: async (message, [minutes, ...elements]) => {
         let { channel } = message
 
