@@ -8,7 +8,7 @@ module.exports = async (client, message) => {
     const splitMessage = message.content
         .slice(config.prefix.length)
         .trim()
-        .split(/ /)
+        .split(/ +/)
     let [commandName, args] = [
         splitMessage.shift().toLowerCase(),
         splitMessage.join(' '),
@@ -17,7 +17,7 @@ module.exports = async (client, message) => {
     if (!client.commands.has(commandName)) return
 
     const command = client.commands.get(commandName)
-    if (args != null) args = args.split(command.delimiter ?? / +/)
+    if (args != null) args = args.split(command.delimiter ?? / /)
 
     if (
         Object.prototype.hasOwnProperty.call(command, 'min_args') &&
