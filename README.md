@@ -104,17 +104,17 @@ To connect on:
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/RazCrimson">
-            <img src="https://avatars2.githubusercontent.com/u/52282402?v=4" width="100;" alt="RazCrimson"/>
-            <br />
-            <sub><b>RazCrimson</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/rgroves">
             <img src="https://avatars0.githubusercontent.com/u/891249?v=4" width="100;" alt="rgroves"/>
             <br />
             <sub><b>Robert Groves</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/RazCrimson">
+            <img src="https://avatars2.githubusercontent.com/u/52282402?v=4" width="100;" alt="RazCrimson"/>
+            <br />
+            <sub><b>RazCrimson</b></sub>
         </a>
     </td>
     <td align="center">
@@ -125,20 +125,27 @@ To connect on:
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/FeelZoR">
+            <img src="https://avatars3.githubusercontent.com/u/15250308?v=4" width="100;" alt="FeelZoR"/>
+            <br />
+            <sub><b>Thomas Vincent</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/AldoTu">
             <img src="https://avatars3.githubusercontent.com/u/19616796?v=4" width="100;" alt="AldoTu"/>
             <br />
             <sub><b>AldoTurmon</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Peiprjs">
             <img src="https://avatars3.githubusercontent.com/u/72313029?v=4" width="100;" alt="Peiprjs"/>
             <br />
             <sub><b>Peipr</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/jledezma-mt">
             <img src="https://avatars1.githubusercontent.com/u/65924428?v=4" width="100;" alt="jledezma-mt"/>
@@ -158,13 +165,6 @@ To connect on:
             <img src="https://avatars1.githubusercontent.com/u/64737770?v=4" width="100;" alt="vitasenka"/>
             <br />
             <sub><b>Pirooz Amirpour</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/FeelZoR">
-            <img src="https://avatars3.githubusercontent.com/u/15250308?v=4" width="100;" alt="FeelZoR"/>
-            <br />
-            <sub><b>Thomas Vincent</b></sub>
         </a>
     </td>
     <td align="center">
