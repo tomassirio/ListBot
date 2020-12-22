@@ -9,7 +9,10 @@ module.exports = async (client, message) => {
         .slice(config.prefix.length)
         .trim()
         .split(/ /)
-    let [commandName, args] = [splitMessage.shift(), splitMessage.join(' ')]
+    let [commandName, args] = [
+        splitMessage.shift().toLowerCase(),
+        splitMessage.join(' '),
+    ]
 
     if (!client.commands.has(commandName)) return
 
