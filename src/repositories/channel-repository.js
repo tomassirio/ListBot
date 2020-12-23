@@ -19,13 +19,12 @@ const ChannelRepository = {
         })
 
         try {
-            channel.save()
-            console.log('Stored', channel)
+            console.log('Storing', channel)
+            return await channel.save()
         } catch (e) {
             console.error(e)
+            return null
         }
-
-        return channel
     },
 
     findOrCreate: async (channelData) => {
